@@ -1575,7 +1575,7 @@
 		(uuid "0f829222-d920-4169-851b-54f7245de768")
 		(at 155.5 101 180)
 		(property "Reference" "J4"
-			(at -4 2 360)
+			(at -4 2 0)
 			(layer "F.SilkS")
 			(uuid "8a0184a0-2ef8-4d73-8a5a-9d3e04d5a2c8")
 			(effects
@@ -1586,7 +1586,7 @@
 			)
 		)
 		(property "Value" "*"
-			(at 0 3.85 360)
+			(at 0 3.85 0)
 			(layer "F.Fab")
 			(uuid "fc014327-e6de-4837-a29a-3c51b03b9dfe")
 			(effects
@@ -1597,7 +1597,7 @@
 			)
 		)
 		(property "Footprint" "B2B-PH-K-S_LF__SN_:JST_B2B-PH-K-S(LF)(SN)"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5c422e6c-ab54-4f9d-820c-2b0bce539136")
@@ -1609,7 +1609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e18b7541-b571-4ce7-a295-39f97c3a5c8c")
@@ -1621,7 +1621,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole 2 position 0.079 (2.00mm)"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "89f1d69c-5062-4567-ab2f-f22f91b3418b")
@@ -3300,7 +3300,7 @@
 		(uuid "1b2d3a57-1220-4d57-a063-4ad1ba20a71e")
 		(at 203.525 82.5)
 		(property "Reference" "R20"
-			(at 0.975 -1.5 360)
+			(at 0.975 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "41d382e0-641e-450e-8407-d463fb69419d")
 			(effects
@@ -3311,7 +3311,7 @@
 			)
 		)
 		(property "Value" "49.9R"
-			(at 5.2024 1.3564 360)
+			(at 5.2024 1.3564 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7ce21404-a5b7-488f-9609-ffc86689ffb3")
@@ -3323,7 +3323,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4ab9a62b-e5c4-4dca-b79c-f59484f743f6")
@@ -3335,7 +3335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2cdbf24f-9355-4ce5-98e0-3ca8399e0c16")
@@ -3347,7 +3347,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "96753854-3294-4af2-b6e7-84b8c3365f62")
@@ -3748,7 +3748,7 @@
 		(uuid "27ebb7ad-1009-4618-9a29-f6ab060fd040")
 		(at 154 104.5 180)
 		(property "Reference" "C16"
-			(at -1 -3.5 360)
+			(at -1 -3.5 0)
 			(layer "F.SilkS")
 			(uuid "4caafe70-000c-41a2-8d3e-f24677aae4c7")
 			(effects
@@ -3759,7 +3759,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 2.8448 1.4986 360)
+			(at 2.8448 1.4986 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c84c0893-2da7-431f-83bd-a2b94cdf8dc3")
@@ -3771,7 +3771,7 @@
 			)
 		)
 		(property "Footprint" "CL10B104KC8NNNC:CAPC1608X90N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6c610aa9-3c26-4ee4-acc4-43b24a42e23d")
@@ -3783,7 +3783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a95eb480-e838-4ede-9860-44e7227e6f6c")
@@ -3795,7 +3795,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fc9bdb14-1e9e-4623-ba83-7d5dd8e7884d")
@@ -4072,7 +4072,7 @@
 		(uuid "2e06c2ba-78ca-4fa3-9930-3999ea45e6ba")
 		(at 157.5 106.5 180)
 		(property "Reference" "C15"
-			(at -3.5 0 360)
+			(at -3.5 0 0)
 			(layer "F.SilkS")
 			(uuid "e79c0bbc-213f-448a-8da7-52ec805d1d1d")
 			(effects
@@ -4083,7 +4083,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 6.455 1.665 360)
+			(at 6.455 1.665 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d0c2b350-dfb4-4670-87b1-8a359189d2b8")
@@ -4095,7 +4095,7 @@
 			)
 		)
 		(property "Footprint" "CL21A475KBQNNNE:CAPC2012X140N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fbb628de-c3c1-4330-b964-9aa85c25e8fe")
@@ -4107,7 +4107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "726fc027-21e9-4c88-84f0-da0015054bc8")
@@ -4119,7 +4119,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9ff42410-fee4-4812-8435-5a6ba08052b0")
@@ -4387,7 +4387,7 @@
 			)
 		)
 		(property "Value" "ACML-0402HC-301-T"
-			(at 4.2832 1.2064 360)
+			(at 4.2832 1.2064 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eb1733db-cdea-4dbd-8faf-b3fe61eccdb7")
@@ -4399,7 +4399,7 @@
 			)
 		)
 		(property "Footprint" "ACML-0402HC-301-T:BEADC1005X65N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "00adbcd9-1db0-4062-ba04-42c501541624")
@@ -4411,7 +4411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "26f32959-def5-4bd5-ba17-2cb31dd9794e")
@@ -4423,7 +4423,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9d0d5151-6259-4704-ad2d-0c5d238bfb44")
@@ -7265,7 +7265,7 @@
 		(uuid "4a44d715-a17a-45a1-abc8-503aaadc7483")
 		(at 150.5 92 180)
 		(property "Reference" "FB3"
-			(at -2 0 360)
+			(at -2 0 0)
 			(layer "F.SilkS")
 			(uuid "517153bb-4703-4dc3-8ce3-3692dae1add7")
 			(effects
@@ -7276,7 +7276,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 4.2832 1.2064 360)
+			(at 4.2832 1.2064 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a4af1e2e-5757-4e63-b4ae-00e9bfae8134")
@@ -7288,7 +7288,7 @@
 			)
 		)
 		(property "Footprint" "ACML-0402HC-301-T:BEADC1005X65N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2860d469-fd5c-4687-adfd-963c525575f3")
@@ -7300,7 +7300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9654efe2-a624-4e19-85fa-dce4813305f2")
@@ -7312,7 +7312,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cdc20492-26cd-49af-94e1-ca576e940cb7")
@@ -7894,7 +7894,7 @@
 		(uuid "4f72d31c-c109-4c0b-99c6-0ae2f4521df1")
 		(at 143.5 97 180)
 		(property "Reference" "C11"
-			(at -0.21 -1.05 360)
+			(at -0.21 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "01430dba-449e-4296-bcf2-b412a5d5b0a8")
 			(effects
@@ -7905,7 +7905,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 1.54 1.05 360)
+			(at 1.54 1.05 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9880f803-46a0-424f-9c7c-2e1fb5afaf99")
@@ -7917,7 +7917,7 @@
 			)
 		)
 		(property "Footprint" "CL10A226MP8NUNE:CAPC1608X90N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b576a927-fbb9-4f64-85f3-573e98b7254f")
@@ -7929,7 +7929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a894184b-2d52-4dfe-a9e2-9cddaa6249f7")
@@ -7941,7 +7941,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c1e19d98-dc8b-4a80-9d00-5bbf695431c1")
@@ -8805,7 +8805,7 @@
 		(uuid "5d841c12-8acf-4558-b714-08dd5c93a77b")
 		(at 194.525 78 180)
 		(property "Reference" "C17"
-			(at 3.5 0 360)
+			(at 3.5 0 0)
 			(layer "F.SilkS")
 			(uuid "5a5b606d-09e0-41ac-9c5e-c6456edaa840")
 			(effects
@@ -8816,7 +8816,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 6.455 1.665 360)
+			(at 6.455 1.665 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "80b540c0-0b2b-45b7-b231-e99eeab9db9a")
@@ -8828,7 +8828,7 @@
 			)
 		)
 		(property "Footprint" "CL21A475KBQNNNE:CAPC2012X140N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3f4f45dc-2dcb-4433-821f-f828e71fa03f")
@@ -8840,7 +8840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ef437e62-62ef-4691-b2c5-e92805e18de2")
@@ -8852,7 +8852,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6013c9ab-04a8-4282-8e71-724c4e739d1e")
@@ -11696,7 +11696,7 @@
 		(uuid "a34128c5-90a9-4182-a638-b785fa16a7f5")
 		(at 147 92 180)
 		(property "Reference" "C18"
-			(at -2 0.5 360)
+			(at -2 0.5 0)
 			(layer "F.SilkS")
 			(uuid "cff1a6a0-00e4-48a5-9e83-41b76599626a")
 			(effects
@@ -11707,7 +11707,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 1.54 1.05 360)
+			(at 1.54 1.05 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2dedafba-5d70-42d1-926f-2ef655bc78a2")
@@ -11719,7 +11719,7 @@
 			)
 		)
 		(property "Footprint" "CL10A226MP8NUNE:CAPC1608X90N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0f4a84b8-f6eb-4e2d-8016-95773b055a4a")
@@ -11731,7 +11731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5eecf9c9-5d73-4d35-9c3b-25cbb2178f8a")
@@ -11743,7 +11743,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "27abad08-a38d-41c4-a08c-13e4cbd93612")
@@ -12244,7 +12244,7 @@
 		(uuid "a5b3700c-56e6-4ccb-84b9-dce741e0c583")
 		(at 151 104.5 180)
 		(property "Reference" "R16"
-			(at 1.5 -2 360)
+			(at 1.5 -2 0)
 			(layer "F.SilkS")
 			(uuid "01210b68-0f48-4cca-982f-02ad04bb0f1b")
 			(effects
@@ -12255,7 +12255,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 5.2024 1.3564 360)
+			(at 5.2024 1.3564 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "47a72e60-bdd5-4594-80de-de47c6e17182")
@@ -12267,7 +12267,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "abe1f54e-5bd5-4693-b1ee-0680f80612dd")
@@ -12279,7 +12279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cc61e5e5-ccb9-43a6-8f8b-3174e7c7e34a")
@@ -12291,7 +12291,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6ac7103-9c4a-4401-a149-bddb301ba4bd")
@@ -19800,7 +19800,7 @@
 			)
 		)
 		(property "Value" "*"
-			(at 0 3.85 360)
+			(at 0 3.85 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0d06b887-b1b9-4780-af46-5d9a199e6a26")
@@ -19812,7 +19812,7 @@
 			)
 		)
 		(property "Footprint" "B2B-PH-K-S_LF__SN_:JST_B2B-PH-K-S(LF)(SN)"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dee031c4-2cb3-43ee-bdc3-d4f1fccf22f9")
@@ -19824,7 +19824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2671c971-21bc-4f46-bd0c-783cd0b63c9e")
@@ -19836,7 +19836,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole 2 position 0.079 (2.00mm)"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "791abfc8-3f03-4fb3-8024-db86a6967bfd")
@@ -20677,7 +20677,7 @@
 		(uuid "eb5a3adb-e8a7-44de-8bdb-84d0dfcbd0e1")
 		(at 157.5 104.5 180)
 		(property "Reference" "C14"
-			(at -3.5 0 360)
+			(at -3.5 0 0)
 			(layer "F.SilkS")
 			(uuid "505d51ae-fd21-426b-9491-851586cc4376")
 			(effects
@@ -20688,7 +20688,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 6.455 1.665 360)
+			(at 6.455 1.665 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6cbba8e7-f58b-4ece-915d-3037badfb170")
@@ -20700,7 +20700,7 @@
 			)
 		)
 		(property "Footprint" "CL21A475KBQNNNE:CAPC2012X140N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b43ed980-c23b-43bc-8e1a-d47d6b113ec4")
@@ -20712,7 +20712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5c553e71-cf04-4e4d-b5c7-c9877f055e38")
@@ -20724,7 +20724,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "445bc7d7-9cbe-434a-8ecf-103eb8f24de5")
@@ -22944,7 +22944,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 6.455 1.665 360)
+			(at 6.455 1.665 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "907031e9-e6c6-4bf7-9721-2af5da8b4067")
@@ -22956,7 +22956,7 @@
 			)
 		)
 		(property "Footprint" "CL21A475KBQNNNE:CAPC2012X140N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8b60523f-edaa-4dc7-925b-d7f50f7b5294")
@@ -22968,7 +22968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c716000f-2c62-47a3-bf9f-de8cf8554910")
@@ -22980,7 +22980,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "10c465d9-5f83-4aca-8b0d-48401b926ebf")
@@ -23895,7 +23895,7 @@
 			)
 		)
 		(property "Value" "MICROFC-60035-SMT-TR1"
-			(at 6.7664 -4.1936 360)
+			(at 6.7664 -4.1936 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "aa73f423-571c-4491-ab5e-774c798de470")
@@ -23908,7 +23908,7 @@
 			)
 		)
 		(property "Footprint" "MICROFC-60035-SMT-TR1:XDCR_MICROFC-60035-SMT-TR1"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ccadc6a8-9d98-44d9-a30d-b9d4497862d6")
@@ -23921,7 +23921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "00f75552-6230-496c-9632-a397fc196733")
@@ -23934,7 +23934,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "83ee15cf-d61f-4931-b3e6-89c045e13ab7")

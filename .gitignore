@@ -3,3 +3,6 @@ gamma-spectrometer-backups/
 
 # Ignore all .lck files
 *.lck
+
+# Ignore autosave files
+/_autosave*
