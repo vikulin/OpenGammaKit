@@ -115,7 +115,7 @@
 			(mirror no)
 			(drillshape 1)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerber-files/")
 		)
 	)
 	(net 0 "")
@@ -1129,7 +1129,7 @@
 			(uuid "58b3ba59-8641-4aae-b986-09ecbac14530")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 360)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "28c7cd89-3b1d-41ec-9d9a-ade0c6837518")
 			(effects
@@ -1525,7 +1525,7 @@
 			(uuid "2fed91db-2c8d-4aed-9f73-b560a85e1146")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 360)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "0965a0d7-96b2-4492-ab4e-cbbc57b5786c")
 			(effects
@@ -14550,7 +14550,7 @@
 			(uuid "ceca27ee-ee8f-47fb-90f6-ad5e439088b8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 360)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "27a1ba81-6f66-45b4-9c9e-33ac4354d1eb")
 			(effects
