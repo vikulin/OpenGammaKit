@@ -6,3 +6,6 @@ gamma-spectrometer-backups/
 
 # Ignore autosave files
 /_autosave*
+
+# Ignore cache file
+fp-info-cache
