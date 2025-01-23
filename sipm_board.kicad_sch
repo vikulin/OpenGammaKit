@@ -4014,7 +4014,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7aa26de5-4092-4744-a87c-15cfb1839551")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 94.742 140.208 0)
 			(effects
 				(font
@@ -4127,7 +4127,7 @@
 		(instances
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5265,7 +5265,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff166cd6-8066-4a9d-b02a-202e7ea23013")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 93.726 122.682 0)
 			(effects
 				(font
@@ -5378,7 +5378,7 @@
 		(instances
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
