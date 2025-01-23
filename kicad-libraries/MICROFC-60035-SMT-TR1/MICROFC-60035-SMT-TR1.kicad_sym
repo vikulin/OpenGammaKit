@@ -1,0 +1,165 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MICROFC-60035-SMT-TR1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -10.16 7.874 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "MICROFC-60035-SMT-TR1" (id 1) (at -10.16 -9.144 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "MICROFC-60035-SMT-TR1:XDCR_MICROFC-60035-SMT-TR1" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "ON Semiconductor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            Photodiode 420nm 1ns - 4-SMD, No Lead\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "SMD-4 ON Semiconductor" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/MICROFC-60035-SMT-TR1/Onsemi/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "31 JUL 2018" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/MICROFC-60035-SMT-TR1/Onsemi/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "MICROFC-60035-SMT-TR1" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "ONSEMI" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "MICROFC-60035-SMT-TR1_0_0"
+      (polyline
+        (pts (xy -1.524 -1.27) (xy 0.0 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -1.27) (xy 1.524 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.524 -1.27) (xy 0.0 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 1.27) (xy -1.524 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.524 1.27) (xy 0.0 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 1.27) (xy 1.524 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -1.27) (xy 0.0 -7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.794 1.524) (xy -4.826 3.302)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.7592 1.8542) (xy -3.2766 2.413)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.2766 2.413) (xy -2.794 1.524)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.794 1.524) (xy -3.7592 1.8542)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.7592 1.8542) (xy -3.0226 1.8288)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.0226 1.8288) (xy -3.0226 1.9558)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.3528 2.2352) (xy -3.2004 2.0066)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.6924 2.7686) (xy -4.7244 4.5466)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.6576 3.0988) (xy -3.175 3.6576)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.175 3.6576) (xy -2.6924 2.7686)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.6924 2.7686) (xy -3.6576 3.0988)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.6576 3.0988) (xy -2.921 3.0734)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.921 3.0734) (xy -2.921 3.2004)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.2512 3.4798) (xy -3.0988 3.2512)) (stroke (width 0.254))
+      )
+      (circle (center 0.0 0.0) (radius 2.54)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.0 1.27)
+          (xy -1.524 -1.27)
+          (xy 1.524 -1.27)
+          (xy 0.0 1.27)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 0.0 5.08) (xy 0.0 1.27)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 0.0) (xy 7.62 0.0)) (stroke (width 0.1524))
+      )
+      (rectangle (start -10.16 -7.62) (end 10.16 7.62)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at 0.0 10.16 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -10.16 90.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 0.0 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 12.7 -5.08 180.0) (length 2.54)
+        (name "EP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

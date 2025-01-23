@@ -1,0 +1,5 @@
+# Ignore gamma-spectrometer-backups directory
+gamma-spectrometer-backups/
+
+# Ignore all .lck files
+*.lck
