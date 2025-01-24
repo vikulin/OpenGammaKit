@@ -4,7 +4,7 @@
   (lib (name "TL3305AF160QG")(type "Altium")(uri "${KIPRJMOD}/kicad-libraries/TL3305AF160QG/TL3305AF160QG.SchLib")(options "")(descr ""))
   (lib (name "OPA357AIDBVR")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/OPA357AIDBVR/OPA357AIDBVR.kicad_sym")(options "")(descr ""))
   (lib (name "TLV3201AIDBVR")(type "Altium")(uri "${KIPRJMOD}/kicad-libraries/TLV3201AIDBVR.IntLib")(options "")(descr ""))
-  (lib (name "3296W-1-503LF")(type "Altium")(uri "${KIPRJMOD}/kicad-libraries/3296W-1-503LF.IntLib")(options "")(descr ""))
+  (lib (name "3296W-1-503LF")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/3296W-1-503LF/3296W-1-503LF.kicad_sym")(options "")(descr ""))
   (lib (name "LTST-C190KGKT")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/LTST-C190KGKT/LTST-C190KGKT.kicad_sym")(options "")(descr ""))
   (lib (name "ECHU1C471JX5")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/ECHU1C471JX5/ECHU1C471JX5.kicad_sym")(options "")(descr ""))
   (lib (name "AST0760MCTRQ")(type "Altium")(uri "${KIPRJMOD}/kicad-libraries/ul_AST0760MCTRQ/AltiumDesigner/AST0760MCTRQ.SchLib")(options "")(descr ""))
