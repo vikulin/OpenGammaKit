@@ -1,4 +1,4 @@
-KiCad DIY Kit for gamma-ray spectrometer using a popular NaI(Tl) scintillator, SiPM and a Raspberry Pi Pico.
+KiCad DIY Kit for gamma-ray spectrometer using a popular NaI(Tl) scintillator, SiPM and a Raspberry Pi Pico 2.
 
 <p align="center">
   <br>
