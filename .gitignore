@@ -9,3 +9,6 @@ gamma-spectrometer-backups/
 
 # Ignore cache file
 fp-info-cache
+
+# Exclude backup files
+/*-backup*
