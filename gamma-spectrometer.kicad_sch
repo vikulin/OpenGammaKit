@@ -7582,16 +7582,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 63.5) (xy 36.83 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12573fc0-02d5-437e-957d-ffaff17046f0")
-	)
-	(wire
-		(pts
 			(xy 46.99 27.94) (xy 63.5 27.94)
 		)
 		(stroke
@@ -7799,6 +7789,16 @@
 			(type default)
 		)
 		(uuid "306197ec-7781-4ed5-9f2b-8c573e921a30")
+	)
+	(wire
+		(pts
+			(xy 52.07 64.77) (xy 52.07 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "334d716b-81ef-4949-ab7c-539a84065252")
 	)
 	(wire
 		(pts
@@ -8372,7 +8372,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 58.42) (xy 44.45 55.88)
+			(xy 44.45 59.69) (xy 44.45 55.88)
 		)
 		(stroke
 			(width 0)
@@ -8409,6 +8409,16 @@
 			(type default)
 		)
 		(uuid "80218e88-2468-4b08-b8a5-232884359d4c")
+	)
+	(wire
+		(pts
+			(xy 36.83 63.5) (xy 36.83 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80af4c7b-2b9e-4636-9cbf-32279d395fcd")
 	)
 	(wire
 		(pts
@@ -9009,16 +9019,6 @@
 			(type default)
 		)
 		(uuid "c6a5ff6e-9922-4024-a9b4-8277aaf789de")
-	)
-	(wire
-		(pts
-			(xy 52.07 59.69) (xy 52.07 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7e9aff5-3b95-4d45-9c14-65b31a796923")
 	)
 	(wire
 		(pts
@@ -12148,6 +12148,72 @@
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3eff1861-3c1e-458e-ba71-d409151faa3b")
+		(property "Reference" "#PWR020"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7459fe39-0462-4ec9-b24b-ce944a0902cd")
+		)
+		(instances
+			(project "gamma-spectrometer"
+				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -16730,6 +16796,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 36.83 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aca34d11-5ac2-4e68-8c41-e5b582a40fe6")
+		(property "Reference" "#PWR019"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 36.83 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 36.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09d79d84-eb07-4602-b77d-98133d8e0503")
+		)
+		(instances
+			(project "gamma-spectrometer"
+				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "OPA357AIDBVR:OPA357AIDBVR")
 		(at 193.04 52.07 0)
 		(unit 1)
@@ -16957,7 +17088,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BAT54S")
-		(at 44.45 63.5 180)
+		(at 44.45 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16965,7 +17096,7 @@
 		(dnp no)
 		(uuid "b1bd5275-622d-4c96-bca3-78772197c84d")
 		(property "Reference" "D1"
-			(at 42.672 68.58 0)
+			(at 42.672 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16973,7 +17104,7 @@
 			)
 		)
 		(property "Value" "BAT54S"
-			(at 44.196 66.294 0)
+			(at 44.196 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16981,7 +17112,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 42.545 66.675 0)
+			(at 42.545 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16991,7 +17122,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
-			(at 47.498 63.5 0)
+			(at 47.498 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17000,7 +17131,7 @@
 			)
 		)
 		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
-			(at 44.45 63.5 0)
+			(at 44.45 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17087,72 +17218,6 @@
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 36.83 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b517c053-ddd7-4077-a2e7-b6486449bbde")
-		(property "Reference" "#PWR019"
-			(at 36.83 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 36.83 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14f22186-da97-4015-83b9-308e2b4d06ae")
-		)
-		(instances
-			(project "gamma-spectrometer"
-				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -19001,72 +19066,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 52.07 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4d6be1e-e4e3-4575-ad4f-323b5b94e9cf")
-		(property "Reference" "#PWR020"
-			(at 52.07 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 52.07 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 52.07 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f3f806a-c70d-4300-ad1d-af828efc2915")
-		)
-		(instances
-			(project "gamma-spectrometer"
-				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "B4B-PH-K-S_LF__SN_:B4B-PH-K-S(LF)(SN)")
 		(at 260.35 156.21 180)
 		(unit 1)
@@ -20761,7 +20760,7 @@
 		(dnp no)
 		(uuid "ea7bb736-346d-4ad7-9a83-3f166c5776eb")
 		(property "Reference" "R1"
-			(at 37.084 58.166 90)
+			(at 36.83 51.562 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20769,7 +20768,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 37.084 60.96 90)
+			(at 36.83 53.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
