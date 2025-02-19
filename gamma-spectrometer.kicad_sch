@@ -7227,7 +7227,7 @@
 		(uuid "33e139f0-70f0-4cc9-bdb8-a3f3340c5b6f")
 	)
 	(junction
-		(at 151.13 120.65)
+		(at 154.94 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "367fb202-6881-4d35-bc7c-f5c2df1a5e0f")
@@ -7952,7 +7952,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 123.19) (xy 151.13 120.65)
+			(xy 154.94 120.65) (xy 154.94 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8219,6 +8219,16 @@
 			(type default)
 		)
 		(uuid "65dc6ab3-5bf3-4e28-8cda-ad782f4e5249")
+	)
+	(wire
+		(pts
+			(xy 138.43 120.65) (xy 135.89 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d41fcb-709e-4dad-90d0-5edc772d5070")
 	)
 	(wire
 		(pts
@@ -8502,7 +8512,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 130.81) (xy 151.13 132.08)
+			(xy 154.94 130.81) (xy 154.94 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8522,7 +8532,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 97.79) (xy 151.13 120.65)
+			(xy 154.94 97.79) (xy 154.94 120.65)
 		)
 		(stroke
 			(width 0)
@@ -8689,6 +8699,16 @@
 			(type default)
 		)
 		(uuid "9a0f635d-0917-4874-969b-369a998b4f32")
+	)
+	(wire
+		(pts
+			(xy 154.94 120.65) (xy 153.67 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a72ca94-f8ea-4f8b-9405-4433d7e0e4ed")
 	)
 	(wire
 		(pts
@@ -11630,7 +11650,7 @@
 	)
 	(symbol
 		(lib_id "ACML-0402HC-301-T:ACML-0402HC-301-T")
-		(at 143.51 120.65 0)
+		(at 146.05 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11638,15 +11658,15 @@
 		(dnp no)
 		(uuid "2a39274c-4662-45e1-afc0-ad0e30938be1")
 		(property "Reference" "FB3"
-			(at 145.796 113.538 0)
+			(at 145.542 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 145.796 115.824 0)
+		(property "Value" "BLM18KG102SN1D"
+			(at 145.542 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11654,7 +11674,7 @@
 			)
 		)
 		(property "Footprint" "ACML-0402HC-301-T:BEADC1005X65N"
-			(at 143.51 120.65 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11664,7 +11684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 120.65 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11673,7 +11693,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 120.65 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11682,7 +11702,7 @@
 			)
 		)
 		(property "MF" "Abracon LLC"
-			(at 143.51 120.65 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11692,7 +11712,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            300 Ohms @ 100 MHz 1 - Ferrite Bead 0402 (1005 Metric) 1A 300mOhm\n                        \n"
-			(at 143.51 120.65 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11702,7 +11722,7 @@
 			)
 		)
 		(property "PACKAGE" "0402 Abracon"
-			(at 143.51 120.65 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11712,7 +11732,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 143.51 120.65 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11722,7 +11742,7 @@
 			)
 		)
 		(property "Package" "0402 Abracon"
-			(at 143.51 120.65 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11732,7 +11752,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 143.51 120.65 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11742,7 +11762,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ACML-0402HC-301-T/Abracon/view-part/?ref=snap"
-			(at 143.51 120.65 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11752,7 +11772,7 @@
 			)
 		)
 		(property "MP" "ACML-0402HC-301-T"
-			(at 143.51 120.65 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11762,7 +11782,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 143.51 120.65 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11772,7 +11792,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ACML-0402HC-301-T/Abracon/view-part/?ref=eda"
-			(at 143.51 120.65 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12435,7 +12455,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "BLM18KG102SN1D"
 			(at 245.11 100.33 0)
 			(effects
 				(font
@@ -13292,15 +13312,15 @@
 		(dnp no)
 		(uuid "5d81b119-55f6-4cde-a274-1eeefa1d9b23")
 		(property "Reference" "FB2"
-			(at 83.566 89.662 0)
+			(at 74.422 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ACML-0402HC-301-T"
-			(at 83.566 92.202 0)
+		(property "Value" "BLM18KG102SN1D"
+			(at 81.28 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14293,7 +14313,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 132.08 0)
+		(at 154.94 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14302,7 +14322,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f37932c-9689-4cf0-b5cf-895c738ffba1")
 		(property "Reference" "#PWR062"
-			(at 151.13 138.43 0)
+			(at 154.94 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14311,7 +14331,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 137.16 0)
+			(at 154.94 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14319,7 +14339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 132.08 0)
+			(at 154.94 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14328,7 +14348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 132.08 0)
+			(at 154.94 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14337,7 +14357,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 132.08 0)
+			(at 154.94 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15463,7 +15483,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 151.13 97.79 0)
+		(at 154.94 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15472,7 +15492,7 @@
 		(fields_autoplaced yes)
 		(uuid "8417a11a-0c46-48e5-bf82-81702a742914")
 		(property "Reference" "#PWR063"
-			(at 151.13 101.6 0)
+			(at 154.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15481,7 +15501,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 151.13 92.71 0)
+			(at 154.94 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15489,7 +15509,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 97.79 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15498,7 +15518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 97.79 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15507,7 +15527,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 151.13 97.79 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19783,7 +19803,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 151.13 127 0)
+		(at 154.94 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19791,7 +19811,7 @@
 		(dnp no)
 		(uuid "dc982cf1-8206-4c29-97dc-f6f71e351619")
 		(property "Reference" "C18"
-			(at 144.272 125.73 0)
+			(at 148.082 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19800,7 +19820,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 144.272 128.27 0)
+			(at 148.082 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19809,7 +19829,7 @@
 			)
 		)
 		(property "Footprint" "CL10A226MP8NUNE:CAPC1608X90N"
-			(at 152.0952 130.81 0)
+			(at 155.9052 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19818,7 +19838,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 127 0)
+			(at 154.94 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19827,7 +19847,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 151.13 127 0)
+			(at 154.94 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
