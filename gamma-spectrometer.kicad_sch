@@ -11,6 +11,724 @@
 		(company "Vadym Vikulin")
 	)
 	(lib_symbols
+		(symbol "20449-001E-03:20449-001E-03"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -3.816 4.0704 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "20449-001E-03"
+				(at -4.3251 -5.5971 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "20449-001E-03:IPEX_20449-001E-03"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "I-PEX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            1 POS Vertical SMD Small form factor with big performance through 6 GHz connector, RF, micro-coaxial MHF 4 Receptacle\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/20449-001E-03/I-PEX/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/20449-001E-03/I-PEX/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "20449-001E-03"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDART" "Manufacturer Recomendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "20449-001E-03_0_0"
+				(circle
+					(center 0 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy 0 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -3.302) (xy -1.27 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -0.762 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -0.508 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy 0.762 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -3.302) (xy 0.254 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.6 1.7) (xy 4.3 2.5)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.6 3.4) (xy 2.6 1.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.7 -3.4) (xy 4.4 -2.6)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.7 -1.7) (xy 2.7 -3.4)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.3 2.5) (xy 2.7 3.4)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.4 -2.6) (xy 2.8 -1.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "3296W-1-502LF-1:3296W-1-502LF_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "VR1"
+				(at 0 -3.556 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+				)
+			)
+			(property "Value" "5k"
+				(at -3.048 4.064 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+				)
+			)
+			(property "Footprint" "3296W-1-502LF:TRIM_3296W-1-502LF"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "5 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 25.0 Turn Top Adjustment"
+				(at 0.762 -5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Bourns"
+				(at -4.572 -8.128 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://pricing.snapeda.com/search/part/3296W-1-502LF/?ref=eda"
+				(at -20.066 -10.668 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ALTIUM_VALUE" "*"
+				(at 2.286 3.048 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/3296W-1-502LF/Bourns/view-part/?ref=snap"
+				(at -21.082 -15.748 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOT-23-5 Bourns"
+				(at -12.192 -35.306 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at -5.334 -30.734 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at -3.302 -13.208 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/3296W-1-502LF/Bourns/view-part/?ref=eda"
+				(at -20.828 -24.384 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MP" "3296W-1-502LF"
+				(at -13.97 -19.558 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TRIM_3296W-1-503LF*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3296W-1-502LF_1_0_1"
+				(rectangle
+					(start -3.81 1.27)
+					(end 3.81 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3296W-1-502LF_1_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54) (xy 0 1.27) (xy -1.27 2.54)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "CCW"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "WIPER"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "CW"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "3296W-1-503LF:3296W-1-503LF"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7029,6 +7747,12 @@
 		)
 	)
 	(junction
+		(at 88.9 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "001cf959-9254-4b5b-b9d9-782a3860a300")
+	)
+	(junction
 		(at 275.59 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7069,6 +7793,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "272d6f8f-a241-4163-9fed-0c30014f2bb2")
+	)
+	(junction
+		(at 69.85 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f997b45-260b-44a9-aafc-efd4588d4fab")
 	)
 	(junction
 		(at 232.41 111.76)
@@ -7117,6 +7847,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "508fcde2-85b8-4775-88bc-4fa1b055c4da")
+	)
+	(junction
+		(at 46.99 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50a5ac82-bee0-4af2-8d21-ab0d10a60781")
 	)
 	(junction
 		(at 83.82 120.65)
@@ -7406,7 +8142,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 27.94) (xy 63.5 27.94)
+			(xy 46.99 30.48) (xy 72.39 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7483,6 +8219,16 @@
 			(type default)
 		)
 		(uuid "19b14032-e2b9-4d40-88d7-fd416548fd0a")
+	)
+	(wire
+		(pts
+			(xy 69.85 22.86) (xy 88.9 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19bec3bb-bc06-4ccc-9376-20d6f7e957fe")
 	)
 	(wire
 		(pts
@@ -7566,13 +8312,13 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 154.94) (xy 232.41 154.94)
+			(xy 231.14 152.4) (xy 232.41 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2785ede1-fc9b-47b7-bc4e-ee39e68c34e4")
+		(uuid "2951621e-b230-46ff-9641-4d3a20d10ffd")
 	)
 	(wire
 		(pts
@@ -7583,6 +8329,16 @@
 			(type default)
 		)
 		(uuid "2b57aa88-fb9c-4d40-8e9c-5e9224e32eb9")
+	)
+	(wire
+		(pts
+			(xy 46.99 22.86) (xy 46.99 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b60e959-4c9a-4c11-9365-55de9a2e8d0f")
 	)
 	(wire
 		(pts
@@ -7646,7 +8402,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 27.94) (xy 88.9 43.18)
+			(xy 88.9 30.48) (xy 88.9 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7743,6 +8499,16 @@
 			(type default)
 		)
 		(uuid "44923541-a97e-4d29-be24-65dda60ee815")
+	)
+	(wire
+		(pts
+			(xy 69.85 22.86) (xy 69.85 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a71912-a2fa-47a3-be9c-4c20a3a287d8")
 	)
 	(wire
 		(pts
@@ -7933,6 +8699,16 @@
 			(type default)
 		)
 		(uuid "59a02c76-afc5-43fe-98a9-d30616f1e6e3")
+	)
+	(wire
+		(pts
+			(xy 88.9 22.86) (xy 88.9 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a59531f-a711-4ce9-b4ed-631b12469b71")
 	)
 	(wire
 		(pts
@@ -8136,7 +8912,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 25.4) (xy 41.91 48.26)
+			(xy 41.91 38.1) (xy 41.91 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8163,6 +8939,26 @@
 			(type default)
 		)
 		(uuid "7319db48-51cc-4ea7-9063-4cc13e330094")
+	)
+	(wire
+		(pts
+			(xy 231.14 157.48) (xy 232.41 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73537c83-2fff-4207-872b-1d0e941516c1")
+	)
+	(wire
+		(pts
+			(xy 46.99 30.48) (xy 46.99 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b8e38f-4be5-460c-a3e0-7be31d354afb")
 	)
 	(wire
 		(pts
@@ -8276,6 +9072,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 22.86) (xy 46.99 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "837b7e26-68d7-4ae2-b654-3f05c84b8a39")
+	)
+	(wire
+		(pts
 			(xy 29.21 30.48) (xy 33.02 30.48)
 		)
 		(stroke
@@ -8293,16 +9099,6 @@
 			(type default)
 		)
 		(uuid "84150393-8464-4b59-a058-8e35c0024fd2")
-	)
-	(wire
-		(pts
-			(xy 46.99 27.94) (xy 46.99 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "880b0fb2-a0b6-4b36-adb1-41e349e17ebf")
 	)
 	(wire
 		(pts
@@ -8646,6 +9442,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 27.94) (xy 69.85 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b60fd7ff-248d-4af2-a356-8a710bdb7416")
+	)
+	(wire
+		(pts
 			(xy 29.21 55.88) (xy 29.21 58.42)
 		)
 		(stroke
@@ -8686,6 +9492,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 158.75) (xy 231.14 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe3b497-1531-41a5-a930-03a2cfa6d0b6")
+	)
+	(wire
+		(pts
 			(xy 146.05 27.94) (xy 148.59 27.94)
 		)
 		(stroke
@@ -8713,16 +9529,6 @@
 			(type default)
 		)
 		(uuid "c2ba2fce-ec6a-4031-bf0a-a194499f964d")
-	)
-	(wire
-		(pts
-			(xy 234.95 154.94) (xy 234.95 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4b186be-d5a9-4d10-a26b-844741939aab")
 	)
 	(wire
 		(pts
@@ -8956,7 +9762,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 25.4) (xy 85.09 38.1)
+			(xy 85.09 36.83) (xy 85.09 38.1)
 		)
 		(stroke
 			(width 0)
@@ -9106,17 +9912,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 157.48) (xy 232.41 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7b4123c-7538-4565-afab-759d1c6edaea")
-	)
-	(wire
-		(pts
-			(xy 71.12 27.94) (xy 88.9 27.94)
+			(xy 80.01 30.48) (xy 88.9 30.48)
 		)
 		(stroke
 			(width 0)
@@ -9306,7 +10102,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
+			(justify right top)
 		)
 		(uuid "e4a37b49-77c7-40a8-8891-e6a46fe9beee")
 	)
@@ -9488,22 +10284,22 @@
 	)
 	(global_label "ANODE_IN"
 		(shape input)
-		(at 238.76 157.48 0)
+		(at 231.14 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "54f1feed-a864-41b0-856b-6400bebf3c00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.8167 157.48 0)
+			(at 219.0833 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10530,7 +11326,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 41.91 25.4 0)
+		(at 41.91 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10539,7 +11335,7 @@
 		(fields_autoplaced yes)
 		(uuid "157460d6-288c-47e9-aed6-092ea6da0b88")
 		(property "Reference" "#PWR017"
-			(at 41.91 29.21 0)
+			(at 41.91 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10548,7 +11344,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 41.91 20.32 0)
+			(at 41.91 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10556,7 +11352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 25.4 0)
+			(at 41.91 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10565,7 +11361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 25.4 0)
+			(at 41.91 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10574,7 +11370,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 41.91 25.4 0)
+			(at 41.91 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11856,6 +12652,183 @@
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "20449-001E-03:20449-001E-03")
+		(at 234.95 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3985506e-1968-4233-8aae-7bd8e1b03c77")
+		(property "Reference" "J3"
+			(at 233.68 148.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20449-001E-03"
+			(at 241.3 156.4639 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "20449-001E-03:IPEX_20449-001E-03"
+			(at 234.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "I-PEX"
+			(at 234.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            1 POS Vertical SMD Small form factor with big performance through 6 GHz connector, RF, micro-coaxial MHF 4 Receptacle\n                        \n"
+			(at 234.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 234.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 234.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/20449-001E-03/I-PEX/view-part/?ref=eda"
+			(at 234.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "5"
+			(at 234.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/20449-001E-03/I-PEX/view-part/?ref=snap"
+			(at 234.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "20449-001E-03"
+			(at 234.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 234.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDART" "Manufacturer Recomendations"
+			(at 234.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5726d486-b2e1-4717-8eea-799385db21f8")
+		)
+		(pin "1"
+			(uuid "5c90c737-5571-46c3-99cb-3d660b7bb15e")
+		)
+		(pin "3"
+			(uuid "824e7243-ba9b-47fe-bb89-eb1b84f56855")
+		)
+		(pin "2"
+			(uuid "ef7010f4-1add-4043-af92-a39caf296741")
+		)
+		(instances
+			(project "gamma-spectrometer"
+				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -13368,7 +14341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63032ee4-a40f-4319-a954-6d6e08bcfddd")
-		(property "Reference" "VR2"
+		(property "Reference" "VR3"
 			(at 86.36 111.1249 90)
 			(effects
 				(font
@@ -13515,7 +14488,7 @@
 		(instances
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
-					(reference "VR2")
+					(reference "VR3")
 					(unit 1)
 				)
 			)
@@ -13661,7 +14634,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 158.75 0)
+		(at 231.14 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13670,7 +14643,7 @@
 		(fields_autoplaced yes)
 		(uuid "657ff9bc-caa0-4b12-a392-f54c81bf1338")
 		(property "Reference" "#PWR051"
-			(at 234.95 165.1 0)
+			(at 231.14 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13679,7 +14652,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 163.83 0)
+			(at 231.14 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13687,7 +14660,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 158.75 0)
+			(at 231.14 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13696,7 +14669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 158.75 0)
+			(at 231.14 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13705,7 +14678,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 158.75 0)
+			(at 231.14 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15948,7 +16921,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c5dd8cf-e3d1-4bdb-91da-a8023ddc9a93")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 24.892 60.706 0)
 			(effects
 				(font
@@ -16002,7 +16975,7 @@
 		(instances
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -16204,6 +17177,166 @@
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3296W-1-502LF-1:3296W-1-502LF_1")
+		(at 63.5 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a506f1c3-1597-4cee-a14e-15f1fe6fd340")
+		(property "Reference" "VR1"
+			(at 63.5 19.812 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+			)
+		)
+		(property "Value" "5k"
+			(at 59.436 26.924 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+			)
+		)
+		(property "Footprint" "3296W-1-502LF:TRIM_3296W-1-502LF"
+			(at 63.5 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 25.0 Turn Top Adjustment"
+			(at 62.738 17.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bourns"
+			(at 68.072 14.732 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/3296W-1-502LF/?ref=eda"
+			(at 83.566 12.192 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "*"
+			(at 61.214 25.908 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/3296W-1-502LF/Bourns/view-part/?ref=snap"
+			(at 84.582 7.112 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-5 Bourns"
+			(at 75.692 -12.446 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 68.834 -7.874 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 66.802 9.652 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/3296W-1-502LF/Bourns/view-part/?ref=eda"
+			(at 84.328 -1.524 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MP" "3296W-1-502LF"
+			(at 77.47 3.302 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68d518ab-4d06-403c-812b-a502508184b5")
+		)
+		(pin "2"
+			(uuid "f0900bda-bb1c-485c-877d-382c2638b560")
+		)
+		(pin "3"
+			(uuid "559d7988-b310-49a9-87b9-6d0697ace879")
+		)
+		(instances
+			(project ""
+				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
+					(reference "VR1")
 					(unit 1)
 				)
 			)
@@ -16789,7 +17922,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 85.09 25.4 0)
+		(at 85.09 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16798,7 +17931,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3c53135-ac22-4d4d-819d-57f6470ae453")
 		(property "Reference" "#PWR016"
-			(at 85.09 29.21 0)
+			(at 85.09 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16807,7 +17940,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 85.09 20.32 0)
+			(at 85.09 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16815,7 +17948,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 25.4 0)
+			(at 85.09 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16824,7 +17957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 25.4 0)
+			(at 85.09 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16833,7 +17966,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 85.09 25.4 0)
+			(at 85.09 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16983,134 +18116,6 @@
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "B2B-PH-K-S_LF__SN_:B2B-PH-K-S(LF)(SN)")
-		(at 222.25 154.94 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bbd458f4-f827-41c0-9146-54c63e3b1b9d")
-		(property "Reference" "J3"
-			(at 221.742 149.098 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-			)
-		)
-		(property "Value" "*"
-			(at 221.853 149.86 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "B2B-PH-K-S_LF__SN_:JST_B2B-PH-K-S(LF)(SN)"
-			(at 222.25 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Through Hole 2 position 0.079 (2.00mm)"
-			(at 222.25 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/B2B-PH-K-S%20(LF)(SN)/JST/view-part/?ref=snap"
-			(at 222.25 154.94 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 222.25 154.94 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "*"
-			(at 222.25 154.94 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MF" "JST"
-			(at 222.25 154.94 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MP" "B2B-PH-K-S (LF)(SN)"
-			(at 222.25 154.94 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/B2B-PH-K-S%20(LF)(SN)/JST/view-part/?ref=eda"
-			(at 222.25 154.94 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b612abb4-062e-4e90-b886-86fa5c39fce2")
-		)
-		(pin "2"
-			(uuid "4468020d-a465-4971-9ddf-ae94e17c9af9")
-		)
-		(instances
-			(project ""
-				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -20088,7 +21093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6dfe18c-f795-40ff-9f14-97238e5dbe09")
-		(property "Reference" "VR1"
+		(property "Reference" "VR2"
 			(at 119.38 20.32 0)
 			(effects
 				(font
@@ -20233,7 +21238,7 @@
 		(instances
 			(project ""
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
-					(reference "VR1")
+					(reference "VR2")
 					(unit 1)
 				)
 			)
@@ -20464,7 +21469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea7bb736-346d-4ad7-9a83-3f166c5776eb")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 36.83 51.562 90)
 			(effects
 				(font
@@ -20516,7 +21521,7 @@
 		(instances
 			(project ""
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -21012,7 +22017,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.31 27.94 90)
+		(at 76.2 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21020,7 +22025,7 @@
 		(dnp no)
 		(uuid "f281a13b-da24-4f37-8139-e7a4b8150dee")
 		(property "Reference" "R6"
-			(at 67.31 22.86 90)
+			(at 76.2 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21028,7 +22033,7 @@
 			)
 		)
 		(property "Value" "2.1k"
-			(at 67.31 24.892 90)
+			(at 76.2 27.432 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21036,7 +22041,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
-			(at 67.31 29.718 90)
+			(at 76.2 32.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21045,7 +22050,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 27.94 0)
+			(at 76.2 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21054,7 +22059,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 67.31 27.94 0)
+			(at 76.2 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

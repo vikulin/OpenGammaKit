@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.8*%
-%TF.CreationDate,2025-02-26T19:29:46+02:00*%
+%TF.CreationDate,2025-03-08T00:49:35+02:00*%
 %TF.ProjectId,gamma-spectrometer,67616d6d-612d-4737-9065-6374726f6d65,v0.0.4*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Paste,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.8) date 2025-02-26 19:29:46*
+G04 Created by KiCad (PCBNEW 8.0.8) date 2025-03-08 00:49:35*
 %MOMM*%
 %LPD*%
 G01*
@@ -34,7 +34,7 @@ G04 Aperture macros list end*
 %ADD12RoundRect,0.150000X-0.400000X-0.150000X0.400000X-0.150000X0.400000X0.150000X-0.400000X0.150000X0*%
 G04 APERTURE END LIST*
 D10*
-%TO.C,U9*%
+%TO.C,U10*%
 X198750000Y-84825000D02*
 X196700000Y-84825000D01*
 X196700000Y-83625000D01*
@@ -102,7 +102,7 @@ X203350000Y-84825000D01*
 G37*
 %TD*%
 D11*
-%TO.C,U9*%
+%TO.C,U10*%
 X197175000Y-81225000D03*
 D12*
 X203025000Y-81375000D03*
