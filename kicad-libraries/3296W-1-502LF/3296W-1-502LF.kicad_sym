@@ -1,0 +1,127 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "3296W-1-502LF" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "VR" (id 0) (at -5.08711 10.1742 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "3296W-1-502LF" (id 1) (at -5.09259 -5.09259 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "3296W-1-502LF:TRIM_3296W-1-502LF" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Bourns" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            Trimmer,Cermet,Rest 5 Kilohms,PCB,Pwr-Rtg 0.5W,Dim 0.375InLx0.19InWx0.395InH | Bourns 3296W-1-502LF\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "NON STANDARD-3 Bourns" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/3296W-1-502LF/Bourns/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendation" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "05/16" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/3296W-1-502LF/Bourns/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "3296W-1-502LF" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Bourns" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "3296W-1-502LF_0_0"
+      (polyline
+        (pts (xy -6.35 0.0) (xy -5.842 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.842 0.0) (xy -5.08 1.016)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 1.016) (xy -3.81 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.81 -1.27) (xy -2.54 1.016)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 1.016) (xy -1.27 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -1.27) (xy 0.0 1.016)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 1.016) (xy 1.27 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 -1.27) (xy 2.54 1.016)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 1.016) (xy 3.81 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.81 -1.27) (xy 5.08 1.016)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.842 0.0) (xy 5.08 1.016)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.842 0.0) (xy 6.35 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 1.27) (xy -1.27 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 2.54) (xy 1.27 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 2.54) (xy 0.0 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
+          (xy 0.0 1.27)
+          (xy -1.27 2.54)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (pin passive line (at -8.89 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 8.89 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 5.08 270.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

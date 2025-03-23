@@ -31,4 +31,6 @@
   (lib (name "TPS7B6950DBVR")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/TPS7B6950DBVR")(options "")(descr ""))
   (lib (name "MMBT5088LT1G")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/MMBT5088LT1G")(options "")(descr ""))
   (lib (name "MICROFC-60035-SMT-TR1")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/MICROFC-60035-SMT-TR1")(options "")(descr ""))
+  (lib (name "20449-001E-03")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/20449-001E-03")(options "")(descr ""))
+  (lib (name "3296W-1-502LF")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/3296W-1-502LF")(options "")(descr ""))
 )

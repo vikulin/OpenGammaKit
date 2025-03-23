@@ -24,4 +24,6 @@
   (lib (name "TPS7B6950QDCYRQ1")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/TPS7B6950QDCYRQ1/TPS7B6950QDCYRQ1.kicad_sym")(options "")(descr ""))
   (lib (name "MICROFC-60035-SMT-TR1")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/MICROFC-60035-SMT-TR1/MICROFC-60035-SMT-TR1.kicad_sym")(options "")(descr ""))
   (lib (name "MCU_RaspberryPi_and_Boards")(type "Legacy")(uri "${KIPRJMOD}/kicad-libraries/RP_Silicon_KiCad/KiCadLibraries/MCU_RaspberryPi_and_Boards.lib")(options "")(descr ""))
+  (lib (name "20449-001E-03")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/20449-001E-03/20449-001E-03.kicad_sym")(options "")(descr ""))
+  (lib (name "3296W-1-502LF-1")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/3296W-1-502LF/3296W-1-502LF-1.kicad_sym")(options "")(descr ""))
 )
