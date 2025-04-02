@@ -7,7 +7,7 @@
 	(title_block
 		(title "SiPM Board")
 		(date "2025-01-22")
-		(rev "0.1.0")
+		(rev "0.1.1")
 		(company "Vadym Vikulin")
 		(comment 7 "Temperature Correction (~21 mV/K)")
 	)

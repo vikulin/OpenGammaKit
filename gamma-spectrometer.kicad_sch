@@ -7,7 +7,7 @@
 	(title_block
 		(title "Gamma Spectrometer")
 		(date "2025-01-17")
-		(rev "0.1.0")
+		(rev "0.1.1")
 		(company "Vadym Vikulin")
 	)
 	(lib_symbols
@@ -6361,6 +6361,12 @@
 		(uuid "bd512ea0-7445-45df-917f-352ce12f894c")
 	)
 	(junction
+		(at 200.66 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfcfa947-b976-4e9f-9f9a-2c21f21c718e")
+	)
+	(junction
 		(at 130.81 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6610,7 +6616,17 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 100.33) (xy 199.39 119.38)
+			(xy 200.66 105.41) (xy 200.66 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e28ce92-31d5-4b9f-a04a-54758b1c7ef7")
+	)
+	(wire
+		(pts
+			(xy 200.66 100.33) (xy 200.66 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6670,7 +6686,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 105.41) (xy 187.96 105.41)
+			(xy 181.61 105.41) (xy 186.69 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6710,7 +6726,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 119.38) (xy 194.31 119.38)
+			(xy 200.66 119.38) (xy 194.31 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7160,7 +7176,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 100.33) (xy 194.31 100.33)
+			(xy 200.66 100.33) (xy 193.04 100.33)
 		)
 		(stroke
 			(width 0)
@@ -7430,6 +7446,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 105.41) (xy 200.66 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996b6eb4-1d1b-44f9-96b0-b724de36e8be")
+	)
+	(wire
+		(pts
 			(xy 157.48 172.72) (xy 156.21 172.72)
 		)
 		(stroke
@@ -7467,6 +7493,16 @@
 			(type default)
 		)
 		(uuid "a1142841-dba8-4ce9-afc1-a57b118fa3a1")
+	)
+	(wire
+		(pts
+			(xy 200.66 105.41) (xy 203.2 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1161a31-af06-4e95-b9c9-3a67ebd08822")
 	)
 	(wire
 		(pts
@@ -7517,16 +7553,6 @@
 			(type default)
 		)
 		(uuid "afbb3902-8897-4a08-ad16-b7e6424515e7")
-	)
-	(wire
-		(pts
-			(xy 200.66 105.41) (xy 203.2 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b00dee0e-8061-4ea5-bf79-483b76451082")
 	)
 	(wire
 		(pts
@@ -10342,16 +10368,15 @@
 	(symbol
 		(lib_name "3296W-1-503LF_1")
 		(lib_id "3296W-1-503LF:3296W-1-503LF")
-		(at 194.31 105.41 0)
+		(at 193.04 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "34fe9535-d759-47a0-acc4-6263ba683d56")
 		(property "Reference" "VR1"
-			(at 194.31 109.22 0)
+			(at 193.04 108.204 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -10359,7 +10384,7 @@
 			)
 		)
 		(property "Value" "50k"
-			(at 194.31 113.03 0)
+			(at 193.04 111.252 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -10367,7 +10392,7 @@
 			)
 		)
 		(property "Footprint" "3296W-1-503LF:TRIM_3296W-1-503LF"
-			(at 194.31 91.44 0)
+			(at 193.04 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10376,7 +10401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 105.41 0)
+			(at 193.04 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10385,7 +10410,7 @@
 			)
 		)
 		(property "Description" "50 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 25.0 Turn Top Adjustment"
-			(at 195.072 111.252 0)
+			(at 193.802 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10394,7 +10419,7 @@
 			)
 		)
 		(property "MF" "Bourns"
-			(at 189.738 113.538 0)
+			(at 188.468 113.538 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -10404,7 +10429,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/3296W-1-503LF/?ref=eda"
-			(at 174.244 116.078 0)
+			(at 172.974 116.078 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -10414,7 +10439,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "*"
-			(at 196.596 102.362 0)
+			(at 195.326 102.362 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -10424,7 +10449,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/3296W-1-503LF/Bourns/view-part/?ref=snap"
-			(at 173.228 121.158 0)
+			(at 171.958 121.158 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -10434,7 +10459,7 @@
 			)
 		)
 		(property "Package" "SOT-23-5 Bourns"
-			(at 182.118 140.716 0)
+			(at 180.848 140.716 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -10444,7 +10469,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 188.976 136.144 0)
+			(at 187.706 136.144 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -10454,7 +10479,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 191.008 118.618 0)
+			(at 189.738 118.618 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -10464,7 +10489,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/3296W-1-503LF/Bourns/view-part/?ref=eda"
-			(at 173.482 129.794 0)
+			(at 172.212 129.794 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -10474,7 +10499,7 @@
 			)
 		)
 		(property "MP" "3296W-1-503LF"
-			(at 180.34 124.968 0)
+			(at 179.07 124.968 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
