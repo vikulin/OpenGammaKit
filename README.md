@@ -11,7 +11,7 @@ OpenGammaKit is designed to be affordable, reliable, and easy to integrate with 
 - ✅ Based on the **Open-Gamma-Detector** schematic  
 - ✅ Complete redesign in **KiCad** with improved layout and routing  
 - ✅ USB serial communication (compatible with Android 7.0+ and PCs)  
-- ✅ Compatible with [OGK Inspector](https://github.com/vikulin/OGK-Inspector) Android app and firmware  
+- ✅ Compatible with [OGK Inspector](https://github.com/vikulin/OGK-Inspector) Android app and [OGK Firmware](https://github.com/vikulin/OGK-Firmware) 
 - ✅ Real-time gamma spectrum output and spectrometer integration  
 - ✅ Works with scintillation detectors (e.g., CsI(Tl), NaI(Tl), etc.)  
 - ✅ Open and editable source files for schematics and PCB
