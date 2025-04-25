@@ -7,7 +7,7 @@
 	(title_block
 		(title "Gamma Spectrometer")
 		(date "2025-01-17")
-		(rev "0.1.1")
+		(rev "0.1.2")
 		(company "Vadym Vikulin")
 	)
 	(lib_symbols
@@ -9261,7 +9261,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
+		(property "Footprint" "ERJ3EKF1001V:RES_ERJ3EKF1001V"
 			(at 35.56 103.632 90)
 			(effects
 				(font
@@ -9935,7 +9935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
+		(property "Footprint" "ERJ3EKF1000V:RES_ERJ3EKF1000V"
 			(at 55.88 149.098 90)
 			(effects
 				(font
@@ -10836,7 +10836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
+		(property "Footprint" "ERJ3EKF1001V:RES_ERJ3EKF1001V"
 			(at 196.088 31.75 90)
 			(effects
 				(font
@@ -11120,7 +11120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
+		(property "Footprint" "ERJ3EKF1001V:RES_ERJ3EKF1001V"
 			(at 216.408 134.62 90)
 			(effects
 				(font
@@ -11139,6 +11139,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 214.63 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 214.63 134.62 0)
 			(effects
 				(font
@@ -14931,7 +14940,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
+		(property "Footprint" "ERJ3EKF1002V:RES_ERJ3EKF1002V"
 			(at 227.33 76.708 90)
 			(effects
 				(font
@@ -16052,7 +16061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
+		(property "Footprint" "ERJ3EKF1000V:RES_ERJ3EKF1000V"
 			(at 227.33 48.768 90)
 			(effects
 				(font
@@ -16792,7 +16801,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
+		(property "Footprint" "ERJ3EKF1002V:RES_ERJ3EKF1002V"
 			(at 88.138 179.07 90)
 			(effects
 				(font

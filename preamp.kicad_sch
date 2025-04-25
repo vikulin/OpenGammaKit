@@ -7,7 +7,7 @@
 	(title_block
 		(title "Amplifier")
 		(date "2025-03-23")
-		(rev "0.1.1")
+		(rev "0.1.2")
 		(company "Vadym Vikulin")
 	)
 	(lib_symbols
@@ -2592,7 +2592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
+		(property "Footprint" "ERJ3EKF1001V:RES_ERJ3EKF1001V"
 			(at 80.01 85.598 90)
 			(effects
 				(font
@@ -2925,7 +2925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
+		(property "Footprint" "ERJ3EKF2101V:RES_ERJ3EKF2101V"
 			(at 119.38 70.358 90)
 			(effects
 				(font
@@ -3751,7 +3751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
+		(property "Footprint" "ERJ3EKF1000V:RES_ERJ3EKF1000V"
 			(at 80.01 95.758 90)
 			(effects
 				(font
@@ -4384,7 +4384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
+		(property "Footprint" "ERJ3EKF1001V:RES_ERJ3EKF1001V"
 			(at 74.168 100.33 90)
 			(effects
 				(font

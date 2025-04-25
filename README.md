@@ -20,8 +20,9 @@ OpenGammaKit is designed to be affordable, reliable, and easy to integrate with 
 
 ## 📂 Repository Contents
 
-- `/docs/` – 3D render previews of the board, Bill of Materials(BOM), KiCad schematic and PCB files  
-- `/kicad-libraries/` – KiCad libraries including a custom footprints
+- `/docs/` – 3D render previews of the board, Bill of Materials (BOM), KiCad schematic, and PCB files  
+- `/fabrication-outputs/` – Gerber files for PCB manufacturing  
+- `/kicad-libraries/` – KiCad libraries, including custom footprints  
 
 ---
 

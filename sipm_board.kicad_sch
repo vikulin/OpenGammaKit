@@ -7,7 +7,7 @@
 	(title_block
 		(title "SiPM Board")
 		(date "2025-01-22")
-		(rev "0.1.1")
+		(rev "0.1.2")
 		(company "Vadym Vikulin")
 		(comment 7 "Temperature Correction (~21 mV/K)")
 	)
@@ -523,261 +523,6 @@
 				)
 			)
 			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:Thermistor_PTC"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TH"
-				(at -4.064 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Thermistor_PTC"
-				(at 3.048 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Temperature dependent resistor, positive temperature coefficient"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor PTC thermistor sensor RTD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*PTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Thermistor_PTC_0_1"
-				(arc
-					(start -3.048 2.159)
-					(mid -3.0495 2.3143)
-					(end -3.175 2.413)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.048 2.159)
-					(mid -2.9736 1.9794)
-					(end -2.794 1.905)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.048 2.794)
-					(mid -2.9736 2.6144)
-					(end -2.794 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 1.905)
-					(mid -2.6144 1.9794)
-					(end -2.54 2.159)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 2.54)
-					(mid -2.4393 2.5587)
-					(end -2.159 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 3.048)
-					(mid -2.9736 2.9736)
-					(end -3.048 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 2.794)
-					(mid -2.6144 2.9736)
-					(end -2.794 3.048)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.159) (xy -2.54 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.683) (xy -2.54 -1.397) (xy -2.794 -2.159) (xy -2.286 -2.159) (xy -2.54 -1.397) (xy -2.54 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -3.683) (xy -1.778 -1.397) (xy -2.032 -2.159) (xy -1.524 -2.159) (xy -1.778 -1.397)
-						(xy -1.778 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Thermistor_PTC_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1358,6 +1103,219 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NTCS0603E3103FLT:NTCS0603E3103FLT"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 17.78 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "NTCS0603E3103FLT"
+				(at 17.78 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "NTCS0603_VIS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "NTCS0603E3103FLT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NTCS0603E3103FLT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "NTCS0603_VIS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NTCS0603E3103FLT_0_1"
+				(polyline
+					(pts
+						(xy 13.97 -1.27) (xy 21.59 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 1.27) (xy 13.97 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -2.54) (xy 13.97 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -2.54) (xy 21.59 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.59 -1.27) (xy 21.59 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.59 1.27) (xy 13.97 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 27.94 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 1.27) (xy 21.59 1.27) (xy 21.59 -1.27) (xy 13.97 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 35.56 0 180)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1992,28 +1950,28 @@
 		(uuid "2ec5b2e7-f1d8-42a7-9fb6-fbfa0d652bec")
 	)
 	(junction
+		(at 154.94 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "375fb9eb-fcb1-433c-a35f-430d75708160")
+	)
+	(junction
 		(at 154.94 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3979dd41-9977-4206-a796-136936bb98fa")
 	)
 	(junction
-		(at 154.94 73.66)
+		(at 100.33 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "735d961f-ab08-4a2b-b6c1-7d5a1feebb24")
+		(uuid "a853f168-7ad5-4cda-a690-8c3b073726b9")
 	)
 	(junction
 		(at 170.18 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9482620-3fcd-496e-80fb-a513176a37f4")
-	)
-	(junction
-		(at 100.33 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd09ca46-b0b5-4b01-9707-b44271dfff6c")
 	)
 	(junction
 		(at 121.92 109.22)
@@ -2042,6 +2000,16 @@
 	(no_connect
 		(at 104.14 96.52)
 		(uuid "9a3b571a-d410-423d-84bc-e686afa06742")
+	)
+	(wire
+		(pts
+			(xy 144.78 73.66) (xy 154.94 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04ee1b2f-d870-4be3-a212-3ebf4a10feec")
 	)
 	(wire
 		(pts
@@ -2105,6 +2073,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 73.66) (xy 109.22 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22657941-8a14-483b-9a15-1682041ee280")
+	)
+	(wire
+		(pts
 			(xy 100.33 92.71) (xy 104.14 92.71)
 		)
 		(stroke
@@ -2162,16 +2140,6 @@
 			(type default)
 		)
 		(uuid "435d5a88-2c6e-4314-9b91-85432fdbfef4")
-	)
-	(wire
-		(pts
-			(xy 130.81 73.66) (xy 154.94 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47146ad8-8532-4672-a80d-a89a33c49735")
 	)
 	(wire
 		(pts
@@ -2235,13 +2203,23 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 73.66) (xy 154.94 76.2)
+			(xy 154.94 68.58) (xy 154.94 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "835884ba-1dab-41da-857f-3a77f1b60a1b")
+	)
+	(wire
+		(pts
+			(xy 154.94 73.66) (xy 154.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c60103d-5662-425b-a962-7f964932c655")
 	)
 	(wire
 		(pts
@@ -2275,33 +2253,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 68.58) (xy 154.94 73.66)
+			(xy 100.33 73.66) (xy 100.33 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b72dda01-7ab9-4716-afdb-6a2c6c381bfd")
-	)
-	(wire
-		(pts
-			(xy 100.33 73.66) (xy 100.33 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c013686d-ba10-445b-a730-d42020d7fd38")
-	)
-	(wire
-		(pts
-			(xy 100.33 73.66) (xy 123.19 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c62ee13f-2269-4945-84f5-02879da9e635")
+		(uuid "bcf0b7b3-dc21-48fa-bcc9-b1e0a4204dae")
 	)
 	(wire
 		(pts
@@ -2355,7 +2313,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 92.71) (xy 100.33 73.66)
+			(xy 100.33 68.58) (xy 100.33 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2823,8 +2781,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Thermistor_PTC")
-		(at 127 73.66 90)
+		(lib_id "NTCS0603E3103FLT:NTCS0603E3103FLT")
+		(at 144.78 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2832,7 +2790,7 @@
 		(dnp no)
 		(uuid "15fa1b08-bce0-4025-bf80-60a90e8e3725")
 		(property "Reference" "TH1"
-			(at 127.254 78.74 90)
+			(at 127.254 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,7 +2798,7 @@
 			)
 		)
 		(property "Value" "Thermistor_PTC"
-			(at 127.3175 69.85 90)
+			(at 140.97 73.3425 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,27 +2806,28 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
-			(at 132.08 72.39 0)
+		(property "Footprint" "NTCS0603E3103FLT:NTCS0603E3103FLT"
+			(at 144.78 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 127 73.66 0)
+		(property "Datasheet" "NTCS0603E3103FLT"
+			(at 144.78 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "Temperature dependent resistor, positive temperature coefficient"
-			(at 127 73.66 0)
+			(at 144.78 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,7 +3231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
+		(property "Footprint" "ERJ3EKF4992V:RES_ERJ3EKF4992V"
 			(at 156.718 80.01 90)
 			(effects
 				(font
@@ -3555,7 +3514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
+		(property "Footprint" "ERJ3EKF49R9V:RES_ERJ3EKF49R9V"
 			(at 193.04 89.408 90)
 			(effects
 				(font
@@ -3622,7 +3581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
+		(property "Footprint" "ERJ3EKF4992V:RES_ERJ3EKF4992V"
 			(at 156.718 102.87 90)
 			(effects
 				(font
@@ -3875,7 +3834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
+		(property "Footprint" "ERJ3EKF49R9V:RES_ERJ3EKF49R9V"
 			(at 177.8 89.408 90)
 			(effects
 				(font
@@ -4612,7 +4571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
+		(property "Footprint" "ERJ3EKF4992V:RES_ERJ3EKF4992V"
 			(at 127 70.358 90)
 			(effects
 				(font

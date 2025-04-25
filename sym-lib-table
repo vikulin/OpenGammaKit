@@ -26,4 +26,5 @@
   (lib (name "MCU_RaspberryPi_and_Boards")(type "Legacy")(uri "${KIPRJMOD}/kicad-libraries/RP_Silicon_KiCad/KiCadLibraries/MCU_RaspberryPi_and_Boards.lib")(options "")(descr ""))
   (lib (name "20449-001E-03")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/20449-001E-03/20449-001E-03.kicad_sym")(options "")(descr ""))
   (lib (name "3296W-1-502LF-1")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/3296W-1-502LF/3296W-1-502LF-1.kicad_sym")(options "")(descr ""))
+  (lib (name "NTCS0603E3103FLT")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/NTCS0603E3103FLT/NTCS0603E3103FLT.kicad_sym")(options "")(descr ""))
 )
