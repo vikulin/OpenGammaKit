@@ -466,11 +466,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber-files/",
+      "plot": "fabrication-outputs/gerber-files/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "solder-mask/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
