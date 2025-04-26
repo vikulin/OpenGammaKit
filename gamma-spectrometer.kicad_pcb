@@ -3674,12 +3674,12 @@
 		(uuid "4ca5c0af-2e54-46db-93c3-3f14738ca4e9")
 		(at 152.75 80.75 -90)
 		(property "Reference" "R1"
-			(at 0.732 -1.3564 -90)
+			(at -1.75 0 0)
 			(layer "F.SilkS")
 			(uuid "e2569989-defc-4364-8467-0b379ffe9355")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -3860,12 +3860,12 @@
 		(uuid "4e61fc84-4cba-4969-8384-5086e1c7786f")
 		(at 156 80.75 90)
 		(property "Reference" "R2"
-			(at -2 0 180)
+			(at 1.75 0 180)
 			(layer "F.SilkS")
 			(uuid "540c520b-64b1-4059-ae42-d898239ec2ad")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -5017,12 +5017,12 @@
 		(uuid "73757f52-f691-4b7d-b8d6-abba9d0eed41")
 		(at 151.25 80.75 -90)
 		(property "Reference" "R5"
-			(at -1.75 0 0)
+			(at 2 0 0)
 			(layer "F.SilkS")
 			(uuid "faf0b653-3608-48a3-93d7-218297ed8a0e")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -6093,12 +6093,12 @@
 		(uuid "7dd6ab28-928d-44b9-b200-ee176fa203c4")
 		(at 154.25 80.75 -90)
 		(property "Reference" "R3"
-			(at 0.732 -1.3564 -90)
+			(at 2 -0.25 0)
 			(layer "F.SilkS")
 			(uuid "51f534cb-804a-42e2-a0ad-ab5f7a2cd1e4")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -6466,7 +6466,7 @@
 		(uuid "8db3c1da-8be4-42aa-b778-eeb71675ae03")
 		(at 130 70)
 		(property "Reference" "R8"
-			(at 0.732 -1.3564 0)
+			(at -0.75 1.25 0)
 			(layer "F.SilkS")
 			(uuid "94f8fa0e-56af-454f-af94-269d9a8070a6")
 			(effects
@@ -6479,6 +6479,7 @@
 		(property "Value" "1k"
 			(at 5.2024 1.3564 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e14ff3ef-75ad-4dc0-9955-3b6ae767b4b0")
 			(effects
 				(font
@@ -6665,12 +6666,12 @@
 		(uuid "9387bb2b-129c-4600-a6bf-e5c1e25c9391")
 		(at 130 68.5 180)
 		(property "Reference" "C7"
-			(at 0 1.5 0)
+			(at 0 1.25 0)
 			(layer "F.SilkS")
 			(uuid "316834b7-253c-4390-8943-030145d39d2f")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -11426,7 +11427,7 @@
 		(uuid "ce9b6b4a-fde3-4ad0-b2e5-b315f9e84168")
 		(at 126 70)
 		(property "Reference" "D2"
-			(at -1 -1.5 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "c15b24b5-1b07-4d95-8234-dc07b09a3ebd")
 			(effects

@@ -42,7 +42,7 @@ OpenGammaKit is designed to be affordable, reliable, and easy to integrate with 
 
 <p align="center">
   <br>
-  <img alt="3d View of the detector board" title="3d View of the detector board" width="500px" src="docs/pcb-3dview-v0.1.1.png">
+  <img alt="3d View of the detector board" title="3d View of the detector board" width="500px" src="docs/pcb-3dview-v0.1.2.png">
 </p>
 
 ---
