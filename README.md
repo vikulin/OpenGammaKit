@@ -47,6 +47,25 @@ OpenGammaKit is designed to be affordable, reliable, and easy to integrate with 
 
 ---
 
+## Spectrum of ²⁴¹Am Source Measured with NaI(Tl) Detector
+| Element | Symbol | Atomic Number | Mass Number |
+|---------|--------|----------------|--------------|
+| Americium | Am     | 95             | 241          |
+
+The spectrum clearly shows two gamma peaks at **59.54 keV** and **26.35 keV**, both corresponding to emissions from ²⁴¹Am:
+
+- The **59.54 keV** peak is the most intense and commonly used for energy calibration.
+- The **26.35 keV** peak is weaker but still visible, depending on detector resolution and shielding conditions.
+
+<p align="center">
+  <br>
+  <img alt="Am-241" title="Am-241 10 minutes spectrum" width="500px" src="docs/Am-241-10m-h.png">
+</p>
+
+> 📌 These lines are useful for calibration and spectral identification in low-energy gamma spectroscopy using NaI(Tl) detectors.
+
+---
+
 ## 📜 License
 
 This project is licensed under the **GNU General Public License v3.0**.  
