@@ -11,270 +11,6 @@
 		(company "Vadym Vikulin")
 	)
 	(lib_symbols
-		(symbol "3296W-1-502LF-1:3296W-1-502LF_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "VR1"
-				(at 0 -3.556 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-				)
-			)
-			(property "Value" "5k"
-				(at -3.048 4.064 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-				)
-			)
-			(property "Footprint" "3296W-1-502LF:TRIM_3296W-1-502LF"
-				(at 0 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "5 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 25.0 Turn Top Adjustment"
-				(at 0.762 -5.842 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Bourns"
-				(at -4.572 -8.128 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Purchase-URL" "https://pricing.snapeda.com/search/part/3296W-1-502LF/?ref=eda"
-				(at -20.066 -10.668 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ALTIUM_VALUE" "*"
-				(at 2.286 3.048 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/3296W-1-502LF/Bourns/view-part/?ref=snap"
-				(at -21.082 -15.748 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Package" "SOT-23-5 Bourns"
-				(at -12.192 -35.306 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at -5.334 -30.734 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at -3.302 -13.208 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/3296W-1-502LF/Bourns/view-part/?ref=eda"
-				(at -20.828 -24.384 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "MP" "3296W-1-502LF"
-				(at -13.97 -19.558 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*TRIM_3296W-1-503LF*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "3296W-1-502LF_1_0_1"
-				(rectangle
-					(start -3.81 1.27)
-					(end 3.81 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "3296W-1-502LF_1_1_0"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 1.27 2.54) (xy 0 1.27) (xy -1.27 2.54)
-					)
-					(stroke
-						(width -0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "CCW"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "WIPER"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "CW"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "CL10B104KC8NNNC:CL10B104KC8NNNC"
 			(pin_names
 				(offset 1.016)
@@ -1833,12 +1569,6 @@
 		(uuid "85f70a1d-875b-401e-a069-7bac1664a020")
 	)
 	(junction
-		(at 113.03 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1d87d5d-a81f-4f8e-bd03-5bc8c8acd4a5")
-	)
-	(junction
 		(at 72.39 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1849,18 +1579,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf9d7522-a0b2-4272-a9b5-32214a1e5ac8")
-	)
-	(junction
-		(at 90.17 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d233c773-f6e0-4141-a9fb-91f73764a9f2")
-	)
-	(junction
-		(at 132.08 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df241b17-ceea-4598-9272-7e2556be0bf1")
 	)
 	(junction
 		(at 72.39 76.2)
@@ -1884,7 +1602,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 68.58) (xy 132.08 68.58)
+			(xy 114.3 68.58) (xy 132.08 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1931,16 +1649,6 @@
 			(type default)
 		)
 		(uuid "364733c3-deac-4e44-b48e-78d4a653cc99")
-	)
-	(wire
-		(pts
-			(xy 90.17 60.96) (xy 90.17 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38305604-f7a0-40db-8806-e5c6f639401a")
 	)
 	(wire
 		(pts
@@ -2024,33 +1732,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 60.96) (xy 132.08 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79a5a7b5-61cc-4faf-aad3-d385abf2a808")
-	)
-	(wire
-		(pts
-			(xy 90.17 68.58) (xy 115.57 68.58)
+			(xy 90.17 68.58) (xy 106.68 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "79c7f37b-7a3a-4594-b46a-11215467f5ee")
-	)
-	(wire
-		(pts
-			(xy 113.03 60.96) (xy 132.08 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f80aec9-bb82-43eb-aace-306adbd6e8cb")
 	)
 	(wire
 		(pts
@@ -2144,16 +1832,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 60.96) (xy 113.03 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b86c6b6d-71b3-4681-a690-c097b8e559f2")
-	)
-	(wire
-		(pts
 			(xy 69.85 93.98) (xy 72.39 93.98)
 		)
 		(stroke
@@ -2171,16 +1849,6 @@
 			(type default)
 		)
 		(uuid "bc566d08-95e4-4842-abb9-61f859dfaed4")
-	)
-	(wire
-		(pts
-			(xy 106.68 66.04) (xy 113.03 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caa1b4ae-0cdc-457e-ad2c-877eb50f5209")
 	)
 	(wire
 		(pts
@@ -2234,16 +1902,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 60.96) (xy 90.17 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f489ae46-d6db-4852-8f01-2ab4d2cd5da3")
-	)
-	(wire
-		(pts
 			(xy 83.82 93.98) (xy 87.63 93.98)
 		)
 		(stroke
@@ -2280,6 +1938,16 @@
 			(justify right top)
 		)
 		(uuid "126c465b-6584-4f4e-9bfb-5c7ae042e3a0")
+	)
+	(label "+0.0284V"
+		(at 62.23 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a7fe5ae-c9e9-4c04-952c-13d05e0192ff")
 	)
 	(global_label "SIG"
 		(shape input)
@@ -2902,7 +2570,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 119.38 68.58 90)
+		(at 110.49 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2910,23 +2578,23 @@
 		(dnp no)
 		(uuid "570a63e0-9b93-4f47-ae98-10f53e93f00e")
 		(property "Reference" "R6"
-			(at 119.38 63.5 90)
+			(at 110.49 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2.1k"
-			(at 119.38 65.532 90)
+		(property "Value" "1k"
+			(at 110.49 65.532 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ERJ3EKF2101V:RES_ERJ3EKF2101V"
-			(at 119.38 70.358 90)
+		(property "Footprint" "ERJ3EKF1001V:RES_ERJ3EKF1001V"
+			(at 110.49 70.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2935,7 +2603,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 68.58 0)
+			(at 110.49 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,7 +2612,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 119.38 68.58 0)
+			(at 110.49 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3424,166 +3092,6 @@
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/f45e2600-fd46-4572-9db4-e0963eca1b87"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "3296W-1-502LF-1:3296W-1-502LF_1")
-		(at 106.68 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a590b0cd-d704-4494-b41a-b858d4b72963")
-		(property "Reference" "VR2"
-			(at 106.68 57.912 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-			)
-		)
-		(property "Value" "5k"
-			(at 102.616 65.024 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-			)
-		)
-		(property "Footprint" "3296W-1-502LF:TRIM_3296W-1-502LF"
-			(at 106.68 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 25.0 Turn Top Adjustment"
-			(at 105.918 55.118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Bourns"
-			(at 111.252 52.832 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/3296W-1-502LF/?ref=eda"
-			(at 126.746 50.292 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "*"
-			(at 104.394 64.008 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/3296W-1-502LF/Bourns/view-part/?ref=snap"
-			(at 127.762 45.212 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-23-5 Bourns"
-			(at 118.872 25.654 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 112.014 30.226 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 109.982 47.752 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/3296W-1-502LF/Bourns/view-part/?ref=eda"
-			(at 127.508 36.576 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MP" "3296W-1-502LF"
-			(at 120.65 41.402 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b46708f0-c120-4e08-851c-c085af0fafd2")
-		)
-		(pin "2"
-			(uuid "8a82cb51-0e23-4b3d-af14-5beceae2816b")
-		)
-		(pin "3"
-			(uuid "a75b4cea-e1cc-4303-adf0-069948f8d3de")
-		)
-		(instances
-			(project "gamma-spectrometer"
-				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/f45e2600-fd46-4572-9db4-e0963eca1b87"
-					(reference "VR2")
 					(unit 1)
 				)
 			)
