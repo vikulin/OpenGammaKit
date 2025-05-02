@@ -1,0 +1,64 @@
+on:
+  push:
+    tags:
+      - '*'
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Archive Gerber Files
+        if: github.ref_type == 'tag'
+        run: |
+          mkdir -p build
+          cd fabrication-outputs
+          zip -r ../build/open-gamma-kit-gerber-files-${{ github.ref_name }}.zip gerber-files
+
+      - name: Archive Documentation Files
+        if: github.ref_type == 'tag'
+        run: |
+          mkdir -p build
+          zip -j build/README.zip docs/BOM.csv docs/gamma-spectrometer.pdf README.md
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ogk-release-${{ github.ref_name }}
+          path: |
+            build/open-gamma-kit-gerber-files-${{ github.ref_name }}.zip
+            build/README.zip
+
+      - name: Generate Changelog Since Last Tag
+        if: github.ref_type == 'tag'
+        run: |
+          echo "" > RELEASE_BODY.md
+          echo "## What's Changed" >> RELEASE_BODY.md
+          PREV_TAG=$(git describe --tags --abbrev=0 HEAD^)
+          git log ${PREV_TAG}..HEAD --pretty=format:"- %s" >> RELEASE_BODY.md
+          echo "" >> RELEASE_BODY.md
+          echo "---" >> RELEASE_BODY.md
+          echo "**Full Changelog**: https://github.com/${{ github.repository }}/compare/${PREV_TAG}...${{ github.ref_name }}" >> RELEASE_BODY.md
+          echo "" >> RELEASE_BODY.md
+          echo "---" >> RELEASE_BODY.md
+          echo "🔧 Thanks for supporting OpenGammaKit! If you find any issues or have suggestions, feel free to [open an issue](https://github.com/${{ github.repository }}/issues)." >> RELEASE_BODY.md
+
+      - name: Create GitHub Release
+        if: github.ref_type == 'tag'
+        uses: softprops/action-gh-release@v2
+        with:
+          name: OpenGammaKit v${{ github.ref_name }}
+          tag_name: ${{ github.ref_name }}
+          body_path: RELEASE_BODY.md
+          files: |
+            build/open-gamma-kit-gerber-files-${{ github.ref_name }}.zip
+            build/README.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
