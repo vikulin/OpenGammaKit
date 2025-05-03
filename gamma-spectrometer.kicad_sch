@@ -7,7 +7,7 @@
 	(title_block
 		(title "Gamma Spectrometer")
 		(date "2025-01-17")
-		(rev "0.1.2")
+		(rev "0.1.4")
 		(company "Vadym Vikulin")
 	)
 	(lib_symbols
@@ -10375,7 +10375,7 @@
 				)
 			)
 		)
-		(property "Footprint" "3296W-1-503LF:TRIM_3296W-1-503LF"
+		(property "Footprint" "3266W-1-503:TRIM_3266W-1-503"
 			(at 193.04 91.44 0)
 			(effects
 				(font
@@ -10384,7 +10384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.snapeda.com/parts/3266W-1-503/Bourns/datasheet/"
 			(at 193.04 105.41 0)
 			(effects
 				(font
@@ -10393,7 +10393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 25.0 Turn Top Adjustment"
+		(property "Description" "50 kOhms 0.5W"
 			(at 193.802 111.252 0)
 			(effects
 				(font
@@ -10412,7 +10412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/3296W-1-503LF/?ref=eda"
+		(property "Purchase-URL" ""
 			(at 172.974 116.078 0)
 			(effects
 				(font
@@ -10432,7 +10432,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/3296W-1-503LF/Bourns/view-part/?ref=snap"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/3266W-1-503/Bourns/datasheet/"
 			(at 171.958 121.158 0)
 			(effects
 				(font
@@ -10442,7 +10442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "SOT-23-5 Bourns"
+		(property "Package" ""
 			(at 180.848 140.716 0)
 			(effects
 				(font
@@ -10452,7 +10452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" "In Stock"
+		(property "Availability" ""
 			(at 187.706 136.144 0)
 			(effects
 				(font
@@ -10462,7 +10462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
+		(property "Price" ""
 			(at 189.738 118.618 0)
 			(effects
 				(font
@@ -10472,7 +10472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/3296W-1-503LF/Bourns/view-part/?ref=eda"
+		(property "Check_prices" ""
 			(at 172.212 129.794 0)
 			(effects
 				(font
@@ -10482,7 +10482,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "3296W-1-503LF"
+		(property "MP" "3266W-1-503"
 			(at 179.07 124.968 0)
 			(effects
 				(font
@@ -11756,7 +11756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63032ee4-a40f-4319-a954-6d6e08bcfddd")
-		(property "Reference" "VR3"
+		(property "Reference" "VR2"
 			(at 88.9 163.1949 90)
 			(effects
 				(font
@@ -11774,7 +11774,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "3296W-1-503LF:TRIM_3296W-1-503LF"
+		(property "Footprint" "3266W-1-503:TRIM_3266W-1-503"
 			(at 72.39 165.1 0)
 			(effects
 				(font
@@ -11783,7 +11783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.snapeda.com/parts/3266W-1-503/Bourns/datasheet/"
 			(at 86.36 165.1 0)
 			(effects
 				(font
@@ -11792,7 +11792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 25.0 Turn Top Adjustment"
+		(property "Description" "50 kOhms 0.5W"
 			(at 92.202 164.338 0)
 			(effects
 				(font
@@ -11811,7 +11811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/3296W-1-503LF/?ref=eda"
+		(property "Purchase-URL" ""
 			(at 97.028 185.166 0)
 			(effects
 				(font
@@ -11831,7 +11831,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/3296W-1-503LF/Bourns/view-part/?ref=snap"
+		(property "SnapEDA_Link" ""
 			(at 102.108 186.182 0)
 			(effects
 				(font
@@ -11841,7 +11841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "SOT-23-5 Bourns"
+		(property "Package" ""
 			(at 121.666 177.292 0)
 			(effects
 				(font
@@ -11851,7 +11851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" "In Stock"
+		(property "Availability" ""
 			(at 117.094 170.434 0)
 			(effects
 				(font
@@ -11861,7 +11861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
+		(property "Price" ""
 			(at 99.568 168.402 0)
 			(effects
 				(font
@@ -11871,7 +11871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/3296W-1-503LF/Bourns/view-part/?ref=eda"
+		(property "Check_prices" ""
 			(at 110.744 185.928 0)
 			(effects
 				(font
@@ -11881,7 +11881,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "3296W-1-503LF"
+		(property "MP" "3266W-1-503"
 			(at 105.918 179.07 0)
 			(effects
 				(font
@@ -11903,7 +11903,7 @@
 		(instances
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
-					(reference "VR3")
+					(reference "VR2")
 					(unit 1)
 				)
 			)

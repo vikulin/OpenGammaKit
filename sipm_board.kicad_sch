@@ -7,7 +7,7 @@
 	(title_block
 		(title "SiPM Board")
 		(date "2025-01-22")
-		(rev "0.1.2")
+		(rev "0.1.4")
 		(company "Vadym Vikulin")
 		(comment 7 "Temperature Correction (~21 mV/K)")
 	)
@@ -2083,6 +2083,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 85.09) (xy 200.66 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "229ccfa3-aad7-4493-a761-88225956a9e4")
+	)
+	(wire
+		(pts
 			(xy 100.33 92.71) (xy 104.14 92.71)
 		)
 		(stroke
@@ -2438,6 +2448,19 @@
 			(justify left top)
 		)
 		(uuid "ea772c82-6132-4660-bfad-eddc76425459")
+	)
+	(label "+29.6V"
+		(at 200.66 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 179 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab4150e1-816e-409b-a9d0-7ecbc33e40ad")
 	)
 	(global_label "PS_IN"
 		(shape input)

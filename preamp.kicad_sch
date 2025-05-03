@@ -7,7 +7,7 @@
 	(title_block
 		(title "Amplifier")
 		(date "2025-03-23")
-		(rev "0.1.2")
+		(rev "0.1.4")
 		(company "Vadym Vikulin")
 	)
 	(lib_symbols

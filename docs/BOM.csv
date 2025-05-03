@@ -1,5 +1,5 @@
 "Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
-1;"VR1,VR3";"TRIM_3296W-1-503LF";2;"50k";;;
+1;"VR2,VR1";"TRIM_3266W-1-503";2;"50k";;;
 2;"J1";"JST_B4B-PH-K-S(LF)(SN)";1;"*";;;
 3;"U7,U6";"SOT95P237X112-3N";2;"LM4040AIM3-3.0+T";;;
 4;"JP2,JP1";"SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm";2;"~";;;

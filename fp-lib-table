@@ -38,4 +38,5 @@
   (lib (name "ERJ3EKF1001V")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/ERJ3EKF1001V")(options "")(descr ""))
   (lib (name "NTCS0603E3103FLT")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/NTCS0603E3103FLT")(options "")(descr ""))
   (lib (name "ERJ3EKF4992V")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/ERJ3EKF4992V")(options "")(descr ""))
+  (lib (name "3266W-1-503")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/3266W-1-503")(options "")(descr ""))
 )
