@@ -47,7 +47,7 @@ OpenGammaKit is designed to be affordable, reliable, and easy to integrate with 
 
 ---
 
-## Spectrum of ²⁴¹Am Source Measured with NaI(Tl) Detector
+## Spectrum of ²⁴¹Am source measured with NaI(Tl) detector
 | Element | Symbol | Atomic Number | Mass Number |
 |---------|--------|----------------|--------------|
 | Americium | Am     | 95             | 241          |
