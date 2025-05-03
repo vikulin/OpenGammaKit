@@ -41,11 +41,7 @@ jobs:
         run: |
           echo "" > RELEASE_BODY.md
           echo "## What's Changed" >> RELEASE_BODY.md
-          PREV_TAG=$(git describe --tags --abbrev=0 HEAD^)
-          git log ${PREV_TAG}..HEAD --pretty=format:"- %s" >> RELEASE_BODY.md
-          echo "" >> RELEASE_BODY.md
-          echo "---" >> RELEASE_BODY.md
-          echo "**Full Changelog**: https://github.com/${{ github.repository }}/compare/${PREV_TAG}...${{ github.ref_name }}" >> RELEASE_BODY.md
+          git log -n 10 --pretty=format:"- %s" >> RELEASE_BODY.md
           echo "" >> RELEASE_BODY.md
           echo "---" >> RELEASE_BODY.md
           echo "🔧 Thanks for supporting OpenGammaKit! If you find any issues or have suggestions, feel free to [open an issue](https://github.com/${{ github.repository }}/issues)." >> RELEASE_BODY.md
