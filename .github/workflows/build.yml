@@ -41,16 +41,18 @@ jobs:
         run: |
           echo "" > RELEASE_BODY.md
           echo "## What's Changed" >> RELEASE_BODY.md
+          echo "" >> RELEASE_BODY.md
           git log -n 10 --pretty=format:"- %s" >> RELEASE_BODY.md
           echo "" >> RELEASE_BODY.md
           echo "---" >> RELEASE_BODY.md
+          echo "" >> RELEASE_BODY.md
           echo "🔧 Thanks for supporting OpenGammaKit! If you find any issues or have suggestions, feel free to [open an issue](https://github.com/${{ github.repository }}/issues)." >> RELEASE_BODY.md
 
       - name: Create GitHub Release
         if: github.ref_type == 'tag'
         uses: softprops/action-gh-release@v2
         with:
-          name: OpenGammaKit v${{ github.ref_name }}
+          name: OpenGammaKit ${{ github.ref_name }}
           tag_name: ${{ github.ref_name }}
           body_path: RELEASE_BODY.md
           files: |
