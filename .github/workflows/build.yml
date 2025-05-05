@@ -26,7 +26,7 @@ jobs:
         if: github.ref_type == 'tag'
         run: |
           mkdir -p build
-          zip -j build/README.zip docs/BOM.csv docs/gamma-spectrometer.pdf README.md
+          zip -j build/README.zip docs/gamma-spectrometer.pdf README.md
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
@@ -34,6 +34,7 @@ jobs:
           name: ogk-release-${{ github.ref_name }}
           path: |
             build/open-gamma-kit-gerber-files-${{ github.ref_name }}.zip
+            docs/BOM.csv
             build/README.zip
 
       - name: Generate Changelog Since Last Tag
