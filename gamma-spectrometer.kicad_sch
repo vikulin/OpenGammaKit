@@ -8956,7 +8956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
+		(property "Package" "Custom"
 			(at 127 95.25 0)
 			(effects
 				(font
@@ -9219,6 +9219,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "ERJ3EKF2103V"
+			(at 217.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 217.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c571044a-3d1a-4cbd-b9af-06ac3feaac12")
 		)
@@ -9280,6 +9298,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 35.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERJ3EKF1001V"
+			(at 35.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 35.56 105.41 0)
 			(effects
 				(font
@@ -9679,6 +9715,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "CL10A226MP8NUNE"
+			(at 130.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 Samsung"
+			(at 130.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc348938-2f6d-4889-8a72-02f1c36d293e")
 		)
@@ -9954,6 +10008,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 55.88 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERJ3EKF1000V"
+			(at 55.88 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 55.88 147.32 0)
 			(effects
 				(font
@@ -10331,6 +10403,24 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "SOT-23"
+			(at 217.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "933976380215"
+			(at 217.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fcc3582d-1d94-4f1d-8598-7c08786f1ee6")
 		)
@@ -10442,7 +10532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "TO-218"
 			(at 180.848 140.716 0)
 			(effects
 				(font
@@ -10863,6 +10953,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "ERJ3EKF1001V"
+			(at 194.31 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 194.31 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ffd13afc-0334-4e41-9fae-c15f2010fd5c")
 		)
@@ -11148,6 +11256,24 @@
 			)
 		)
 		(property "Field5" ""
+			(at 214.63 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERJ3EKF1001V"
+			(at 214.63 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 214.63 134.62 0)
 			(effects
 				(font
@@ -11528,6 +11654,24 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "SOT-23"
+			(at 185.42 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "934003470215"
+			(at 185.42 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9eb4c77e-9e32-41a7-a899-e3b5bd967a93")
 		)
@@ -11658,6 +11802,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 119.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CL10A226MP8NUNE"
+			(at 119.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 Samsung"
 			(at 119.38 40.64 0)
 			(effects
 				(font
@@ -11841,7 +12003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "TO-218"
 			(at 121.666 177.292 0)
 			(effects
 				(font
@@ -12001,7 +12163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
+		(property "Package" "SOT95P280X145-5N"
 			(at 204.47 136.35 0)
 			(effects
 				(font
@@ -12514,6 +12676,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "ERJ3EKF2103V"
+			(at 207.01 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 207.01 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ab4a3d94-ee32-4513-b816-cc911dee407b")
 		)
@@ -12970,7 +13150,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG4010BEA.115"
+		(property "Value" "PMEG4010BEA"
 			(at 113.284 151.13 0)
 			(effects
 				(font
@@ -13015,6 +13195,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "PMEG4010BEA,115"
+			(at 113.03 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD323"
 			(at 113.03 147.32 0)
 			(effects
 				(font
@@ -13084,6 +13282,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 186.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CL10A226MP8NUNE"
+			(at 186.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 Samsung"
 			(at 186.69 74.93 0)
 			(effects
 				(font
@@ -13869,6 +14085,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 86.36 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERJ3EKF2103V"
+			(at 86.36 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 86.36 153.67 0)
 			(effects
 				(font
@@ -14967,6 +15201,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "ERJ3EKF1002V"
+			(at 227.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 227.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dbb18f3b-1172-4914-89c9-30026b518975")
 		)
@@ -15620,7 +15872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector Header Through Hole 4 position 0.079 (2.00mm)"
+		(property "Description" ""
 			(at 128.27 113.03 0)
 			(effects
 				(font
@@ -15639,7 +15891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
+		(property "Package" "Custom"
 			(at 128.27 113.03 0)
 			(effects
 				(font
@@ -15755,6 +16007,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SC1631"
+			(at 63.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Custom"
 			(at 63.5 48.26 0)
 			(effects
 				(font
@@ -15955,6 +16225,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "CL10A226MP8NUNE"
+			(at 157.48 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 Samsung"
+			(at 157.48 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1aa18456-de0c-46c3-b674-8301a6f7c2c3")
 		)
@@ -16080,6 +16368,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERJ3EKF1000V"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 227.33 46.99 0)
 			(effects
 				(font
@@ -16505,6 +16811,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "CL10A226MP8NUNE"
+			(at 138.43 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 Samsung"
+			(at 138.43 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eeec7348-5e9f-4b4b-8f93-785e65f75e75")
 		)
@@ -16820,6 +17144,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 86.36 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERJ3EKF1002V"
+			(at 86.36 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 86.36 179.07 0)
 			(effects
 				(font

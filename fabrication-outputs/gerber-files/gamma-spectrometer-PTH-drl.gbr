@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.8*%
-%TF.CreationDate,2025-05-03T22:44:42+03:00*%
+%TF.CreationDate,2025-05-05T18:32:52+03:00*%
 %TF.ProjectId,gamma-spectrometer,67616d6d-612d-4737-9065-6374726f6d65,v0.0.4*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Plated,1,2,PTH,Drill*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.8) date 2025-05-03 22:44:42*
+G04 Created by KiCad (PCBNEW 8.0.8) date 2025-05-05 18:32:52*
 %MOMM*%
 %LPD*%
 G01*

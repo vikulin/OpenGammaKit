@@ -2653,6 +2653,24 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "SOT95P237X111-3N"
+			(at 152.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "MMBT5088LT1G"
+			(at 152.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c09cb747-e9aa-4263-8e87-9840cbdb3393")
 		)
@@ -2850,6 +2868,24 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, positive temperature coefficient"
+			(at 144.78 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "NTCS0603E3103FLT"
+			(at 144.78 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 144.78 73.66 0)
 			(effects
 				(font
@@ -3145,6 +3181,24 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "SOT95P237X111-3N"
+			(at 160.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "MMBT5088LT1G"
+			(at 160.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4dfa7bf4-58ec-4044-b706-6b3a5713af12")
 		)
@@ -3273,6 +3327,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 154.94 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERJ3EKF4992V"
+			(at 154.94 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 154.94 80.01 0)
 			(effects
 				(font
@@ -3564,6 +3636,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "ERJ3EKF49R9V"
+			(at 193.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 193.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a42b4185-fda3-41df-862c-ef9871813134")
 		)
@@ -3623,6 +3713,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 154.94 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERJ3EKF4992V"
+			(at 154.94 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 154.94 102.87 0)
 			(effects
 				(font
@@ -3876,6 +3984,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 177.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERJ3EKF49R9V"
+			(at 177.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 177.8 87.63 0)
 			(effects
 				(font
@@ -4613,6 +4739,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 127 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERJ3EKF4992V"
+			(at 127 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 127 68.58 0)
 			(effects
 				(font

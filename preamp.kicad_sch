@@ -2287,6 +2287,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "ERJ3EKF1001V"
+			(at 80.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 80.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "354b52fd-44a4-4b05-b6d8-b553b26822b8")
 		)
@@ -2620,6 +2638,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "ERJ3EKF1001V"
+			(at 110.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 110.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "84ba68a6-da6e-4d10-b06c-a1d3ffa8adc2")
 		)
@@ -2747,6 +2783,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 68.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERJ3EKF2103V"
+			(at 68.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 68.58 72.39 0)
 			(effects
 				(font
@@ -3015,6 +3069,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "CL10A226MP8NUNE"
+			(at 104.14 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 Samsung"
+			(at 104.14 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7d34d0d5-a2b8-4237-8af0-728d8a12d26c")
 		)
@@ -3216,6 +3288,24 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "SOT-23"
+			(at 87.63 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "933976380215"
+			(at 87.63 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c14f6682-21c2-48f1-923e-e07bf432838e")
 		)
@@ -3278,6 +3368,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 80.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERJ3EKF1000V"
+			(at 80.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 80.01 93.98 0)
 			(effects
 				(font
@@ -3783,6 +3891,24 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "ERJ3EKF2103V"
+			(at 76.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 76.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e1792c8f-1e26-4217-971e-8692c16817a3")
 		)
@@ -3911,6 +4037,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERJ3EKF1001V"
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 72.39 100.33 0)
 			(effects
 				(font
