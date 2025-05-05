@@ -1,3 +1,5 @@
+name: KiCad Fabrication Build
+
 on:
   push:
     tags:
@@ -15,6 +17,76 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      - name: Install KiCad CLI
+        run: |
+          sudo add-apt-repository ppa:kicad/kicad-8.0-releases -y
+          sudo apt update
+          sudo apt install -y kicad-cli
+
+      - name: Clean Gerber and Centroid Output Folders
+        run: |
+          mkdir -p fabrication-outputs/gerber-files
+          mkdir -p fabrication-outputs/centroid-files
+          rm -rf fabrication-outputs/gerber-files/*
+          rm -rf fabrication-outputs/centroid-files/*
+
+      - name: Generate Gerber and Drill Files
+        run: |
+          kicad-cli pcb export gerbers gamma-spectrometer.kicad_pro \
+            --output fabrication-outputs/gerber-files \
+            --layers F.Cu,B.Cu,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts \
+            --exclude-drawing-layers \
+            --precision 4 \
+            --drill-origin absolute \
+            --drill-format gerberx2 \
+            --map-format gerberx2 \
+            --include-drill \
+            --no-x2
+
+      - name: Export Raw Position File
+        run: |
+          kicad-cli pcb export position \
+            gamma-spectrometer.kicad_pro \
+            --output centroid.csv \
+            --format csv \
+            --units mm \
+            --side front back
+
+      - name: Format Centroid File
+        run: |
+          python3 <<EOF
+          import csv
+          import os
+
+          os.makedirs("fabrication-outputs/centroid-files", exist_ok=True)
+
+          def mm_to_mil(mm):
+              return float(mm) * 39.3701
+
+          with open("centroid.csv", newline='') as infile, open("fabrication-outputs/centroid-files/centroid.txt", "w") as outfile:
+              reader = csv.DictReader(infile)
+              headers = [
+                  "Designator", "Footprint", "Mid X", "Mid Y",
+                  "Ref X", "Ref Y", "Pad X", "Pad Y", "TB",
+                  "Rotation", "Comment"
+              ]
+              outfile.write("  ".join(headers) + "\\n\\n")
+              for row in reader:
+                  ref = row["Ref"]
+                  footprint = row["Footprint"]
+                  x = mm_to_mil(row["PosX(mm)"])
+                  y = mm_to_mil(row["PosY(mm)"])
+                  layer = "T" if row["Layer"] == "F" else "B"
+                  rot = row["Rot (deg)"]
+                  comment = row["Val"]
+
+                  ref_x = pad_x = x + 30
+                  ref_y = pad_y = y
+
+                  line = f"{ref:<10}{footprint:<20}{x:10.3f}mil  {y:10.3f}mil  {ref_x:10.3f}mil  {ref_y:10.3f}mil  {pad_x:10.3f}mil  {pad_y:10.3f}mil  {layer:<8}{rot:>8}  {comment}"
+                  outfile.write(line + "\\n")
+          EOF
+
       - name: Archive Gerber Files
         if: github.ref_type == 'tag'
         run: |
@@ -26,7 +98,14 @@ jobs:
         if: github.ref_type == 'tag'
         run: |
           mkdir -p build
-          zip -j build/README.zip docs/BOM.csv docs/gamma-spectrometer.pdf README.md
+          zip -j build/README.zip docs/gamma-spectrometer.pdf README.md
+
+      - name: Archive Centroid Files
+        if: github.ref_type == 'tag'
+        run: |
+          mkdir -p build
+          cd fabrication-outputs
+          zip -r ../build/open-gamma-kit-centroid-files-${{ github.ref_name }}.zip centroid-files
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
@@ -34,6 +113,8 @@ jobs:
           name: ogk-release-${{ github.ref_name }}
           path: |
             build/open-gamma-kit-gerber-files-${{ github.ref_name }}.zip
+            build/open-gamma-kit-centroid-files-${{ github.ref_name }}.zip
+            docs/BOM.csv
             build/README.zip
 
       - name: Generate Changelog Since Last Tag
@@ -57,6 +138,8 @@ jobs:
           body_path: RELEASE_BODY.md
           files: |
             build/open-gamma-kit-gerber-files-${{ github.ref_name }}.zip
+            build/open-gamma-kit-centroid-files-${{ github.ref_name }}.zip
+            docs/BOM.csv
             build/README.zip
         env:
           GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
