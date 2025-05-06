@@ -1,5 +1,3 @@
-name: Generate Gerbers and Centroid
-
 on:
   push:
     tags:
@@ -16,45 +14,22 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
-
-      - name: Generate Gerber and Centroid Files using KiCad Docker
+      - name: Generate Gerber and Drill Files (Docker)
         run: |
           mkdir -p fabrication-outputs/gerber-files
           mkdir -p fabrication-outputs/centroid-files
-          rm -rf fabrication-outputs/gerber-files/*
-
-          docker run --rm -v ${{ github.workspace }}:/work -w /work \
-            kicad/kicad:8.0 \
-            kicad-cli pcb export gerbers gamma-spectrometer.kicad_pro \
-            -o fabrication-outputs/gerber-files \
-            --layers F.Cu,B.Cu,F.Paste,B.Paste,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts \
-            --exclude-value --use-drill-file-extensions --format gerberx2
-
-          docker run --rm -v ${{ github.workspace }}:/work -w /work \
-            kicad/kicad:8.0 \
-            kicad-cli pcb export drill gamma-spectrometer.kicad_pro \
-            -o fabrication-outputs/gerber-files \
-            --format gerberx2 --drill-origin absolute --generate-map --map-format gerberx2
-
-          docker run --rm -v ${{ github.workspace }}:/work -w /work \
-            kicad/kicad:8.0 \
-            kicad-cli pcb export pos gamma-spectrometer.kicad_pro \
-            -o fabrication-outputs/centroid-files \
-            --format csv --units in --side top
-
-      - name: Archive Gerber Files
-        if: github.ref_type == 'tag'
-        run: |
-          mkdir -p build
-          cd fabrication-outputs
-          zip -r ../build/open-gamma-kit-gerber-files-${{ github.ref_name }}.zip gerber-files
-
-      - name: Archive Centroid Files
-        if: github.ref_type == 'tag'
-        run: |
-          cd fabrication-outputs
-          zip -r ../build/open-gamma-kit-centroid-files-${{ github.ref_name }}.zip centroid-files
-
+      - name: Run KiCad export
+        uses: sparkengineering/kicad-action@v4
+        with:
+          kicad_sch: gamma-spectrometer.kicad_sch
+          sch_pdf: true # Generate PDF
+          sch_pdf_file: doc/gamma-spectrometer.pdf
+          sch_bom: true # Generate BOM
+          sch_bom_file: doc/BOM.csv
+          kicad_pcb: gamma-spectrometer.kicad_pcb
+          pcb_gerbers: true # Generate Gerbers
+          pcb_gerbers_file: open-gamma-kit-centroid-files-${{ github.ref_name }}.zip
+        
       - name: Archive Documentation Files
         if: github.ref_type == 'tag'
         run: |
@@ -62,12 +37,12 @@ jobs:
           zip -j build/README.zip docs/gamma-spectrometer.pdf README.md
 
       - name: Upload Artifacts
+        if: github.ref_type == 'tag'
         uses: actions/upload-artifact@v4
         with:
           name: ogk-release-${{ github.ref_name }}
           path: |
-            build/open-gamma-kit-gerber-files-${{ github.ref_name }}.zip
-            build/open-gamma-kit-centroid-files-${{ github.ref_name }}.zip
+            open-gamma-kit-gerber-files-${{ github.ref_name }}.zip
             docs/BOM.csv
             build/README.zip
 
@@ -89,7 +64,6 @@ jobs:
           echo "| File Name                                                   | Description                                                                 |" >> RELEASE_BODY.md
           echo "|-------------------------------------------------------------|-----------------------------------------------------------------------------|" >> RELEASE_BODY.md
           echo "| \`open-gamma-kit-gerber-files-${{ github.ref_name }}.zip\`                 | 🟢 Complete Gerber and Drill files (Gerber X2 format) for PCB fabrication. |" >> RELEASE_BODY.md
-          echo "| \`open-gamma-kit-centroid-files-${{ github.ref_name }}.zip\`               | 📍 Centroid (Pick-and-Place) file in mils for automated assembly.          |" >> RELEASE_BODY.md
           echo "| \`README.zip\`                                                | 📄 PDF documentation + README.md.                                           |" >> RELEASE_BODY.md
           echo "| \`BOM.csv\`                                                   | 📋 Bill of Materials (not archived — listed separately).                    |" >> RELEASE_BODY.md
           echo "" >> RELEASE_BODY.md
