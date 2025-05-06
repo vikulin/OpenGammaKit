@@ -1,3 +1,5 @@
+name: Generate Gerbers and Centroid
+
 on:
   push:
     tags:
@@ -15,31 +17,28 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Add KiCad 8 PPA and Install KiCad
-        run: |
-          sudo add-apt-repository --yes ppa:kicad/kicad-8.0-releases
-          sudo apt-get update
-          sudo apt-get install --yes kicad
-
-      - name: Generate Gerber and Drill Files
+      - name: Generate Gerber and Centroid Files using KiCad Docker
         run: |
           mkdir -p fabrication-outputs/gerber-files
           mkdir -p fabrication-outputs/centroid-files
           rm -rf fabrication-outputs/gerber-files/*
 
-          kicad-cli pcb export gerbers \
-            gamma-spectrometer.kicad_pro \
+          docker run --rm -v ${{ github.workspace }}:/work -w /work \
+            kicad/kicad:8.0 \
+            kicad-cli pcb export gerbers gamma-spectrometer.kicad_pro \
             -o fabrication-outputs/gerber-files \
             --layers F.Cu,B.Cu,F.Paste,B.Paste,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts \
             --exclude-value --use-drill-file-extensions --format gerberx2
 
-          kicad-cli pcb export drill \
-            gamma-spectrometer.kicad_pro \
+          docker run --rm -v ${{ github.workspace }}:/work -w /work \
+            kicad/kicad:8.0 \
+            kicad-cli pcb export drill gamma-spectrometer.kicad_pro \
             -o fabrication-outputs/gerber-files \
             --format gerberx2 --drill-origin absolute --generate-map --map-format gerberx2
 
-          kicad-cli pcb export pos \
-            gamma-spectrometer.kicad_pro \
+          docker run --rm -v ${{ github.workspace }}:/work -w /work \
+            kicad/kicad:8.0 \
+            kicad-cli pcb export pos gamma-spectrometer.kicad_pro \
             -o fabrication-outputs/centroid-files \
             --format csv --units in --side top
 
@@ -89,10 +88,10 @@ jobs:
           echo "" >> RELEASE_BODY.md
           echo "| File Name                                                   | Description                                                                 |" >> RELEASE_BODY.md
           echo "|-------------------------------------------------------------|-----------------------------------------------------------------------------|" >> RELEASE_BODY.md
-          echo "| \\`open-gamma-kit-gerber-files-${{ github.ref_name }}.zip\\`                 | 🟢 Complete Gerber and Drill files (Gerber X2 format) for PCB fabrication. |" >> RELEASE_BODY.md
-          echo "| \\`open-gamma-kit-centroid-files-${{ github.ref_name }}.zip\\`               | 📍 Centroid (Pick-and-Place) file in mils for automated assembly.          |" >> RELEASE_BODY.md
-          echo "| \\`README.zip\\`                                                | 📄 PDF documentation + README.md.                                           |" >> RELEASE_BODY.md
-          echo "| \\`BOM.csv\\`                                                   | 📋 Bill of Materials (not archived — listed separately).                    |" >> RELEASE_BODY.md
+          echo "| \`open-gamma-kit-gerber-files-${{ github.ref_name }}.zip\`                 | 🟢 Complete Gerber and Drill files (Gerber X2 format) for PCB fabrication. |" >> RELEASE_BODY.md
+          echo "| \`open-gamma-kit-centroid-files-${{ github.ref_name }}.zip\`               | 📍 Centroid (Pick-and-Place) file in mils for automated assembly.          |" >> RELEASE_BODY.md
+          echo "| \`README.zip\`                                                | 📄 PDF documentation + README.md.                                           |" >> RELEASE_BODY.md
+          echo "| \`BOM.csv\`                                                   | 📋 Bill of Materials (not archived — listed separately).                    |" >> RELEASE_BODY.md
           echo "" >> RELEASE_BODY.md
           echo "📁 **Location**: All files are available in the [Assets](#assets) section at the bottom of this release page." >> RELEASE_BODY.md
 
