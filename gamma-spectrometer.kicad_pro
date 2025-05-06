@@ -467,7 +467,7 @@
       "idf": "",
       "netlist": "",
       "plot": "fabrication-outputs/gerber-files/",
-      "pos_files": "",
+      "pos_files": "fabrication-outputs/centroid-files/",
       "specctra_dsn": "",
       "step": "",
       "svg": "solder-mask/",
