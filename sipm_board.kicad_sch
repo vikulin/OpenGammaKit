@@ -3473,7 +3473,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CL21A475KBQNNNE"
+		(property "MP" "CL10A225KB8NNNC"
 			(at 100.33 101.6 0)
 			(effects
 				(font
@@ -4130,7 +4130,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CL21A475KBQNNNE"
+		(property "MP" "CL10A225KB8NNNC"
 			(at 146.05 101.6 0)
 			(effects
 				(font
