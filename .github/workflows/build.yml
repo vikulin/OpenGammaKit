@@ -1,5 +1,3 @@
-name: KiCad Fabrication Build
-
 on:
   push:
     tags:
@@ -17,75 +15,33 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Install KiCad CLI
+      - name: Add KiCad 8 PPA and Install KiCad
         run: |
-          sudo add-apt-repository ppa:kicad/kicad-8.0-releases -y
-          sudo apt update
-          sudo apt install -y kicad-cli
+          sudo add-apt-repository --yes ppa:kicad/kicad-8.0-releases
+          sudo apt-get update
+          sudo apt-get install --yes kicad
 
-      - name: Clean Gerber and Centroid Output Folders
+      - name: Generate Gerber and Drill Files
         run: |
           mkdir -p fabrication-outputs/gerber-files
           mkdir -p fabrication-outputs/centroid-files
           rm -rf fabrication-outputs/gerber-files/*
-          rm -rf fabrication-outputs/centroid-files/*
 
-      - name: Generate Gerber and Drill Files
-        run: |
-          kicad-cli pcb export gerbers gamma-spectrometer.kicad_pro \
-            --output fabrication-outputs/gerber-files \
-            --layers F.Cu,B.Cu,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts \
-            --exclude-drawing-layers \
-            --precision 4 \
-            --drill-origin absolute \
-            --drill-format gerberx2 \
-            --map-format gerberx2 \
-            --include-drill \
-            --no-x2
-
-      - name: Export Raw Position File
-        run: |
-          kicad-cli pcb export position \
+          kicad-cli pcb export gerbers \
             gamma-spectrometer.kicad_pro \
-            --output centroid.csv \
-            --format csv \
-            --units mm \
-            --side front back
+            -o fabrication-outputs/gerber-files \
+            --layers F.Cu,B.Cu,F.Paste,B.Paste,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts \
+            --exclude-value --use-drill-file-extensions --format gerberx2
 
-      - name: Format Centroid File
-        run: |
-          python3 <<EOF
-          import csv
-          import os
+          kicad-cli pcb export drill \
+            gamma-spectrometer.kicad_pro \
+            -o fabrication-outputs/gerber-files \
+            --format gerberx2 --drill-origin absolute --generate-map --map-format gerberx2
 
-          os.makedirs("fabrication-outputs/centroid-files", exist_ok=True)
-
-          def mm_to_mil(mm):
-              return float(mm) * 39.3701
-
-          with open("centroid.csv", newline='') as infile, open("fabrication-outputs/centroid-files/centroid.txt", "w") as outfile:
-              reader = csv.DictReader(infile)
-              headers = [
-                  "Designator", "Footprint", "Mid X", "Mid Y",
-                  "Ref X", "Ref Y", "Pad X", "Pad Y", "TB",
-                  "Rotation", "Comment"
-              ]
-              outfile.write("  ".join(headers) + "\\n\\n")
-              for row in reader:
-                  ref = row["Ref"]
-                  footprint = row["Footprint"]
-                  x = mm_to_mil(row["PosX(mm)"])
-                  y = mm_to_mil(row["PosY(mm)"])
-                  layer = "T" if row["Layer"] == "F" else "B"
-                  rot = row["Rot (deg)"]
-                  comment = row["Val"]
-
-                  ref_x = pad_x = x + 30
-                  ref_y = pad_y = y
-
-                  line = f"{ref:<10}{footprint:<20}{x:10.3f}mil  {y:10.3f}mil  {ref_x:10.3f}mil  {ref_y:10.3f}mil  {pad_x:10.3f}mil  {pad_y:10.3f}mil  {layer:<8}{rot:>8}  {comment}"
-                  outfile.write(line + "\\n")
-          EOF
+          kicad-cli pcb export pos \
+            gamma-spectrometer.kicad_pro \
+            -o fabrication-outputs/centroid-files \
+            --format csv --units in --side top
 
       - name: Archive Gerber Files
         if: github.ref_type == 'tag'
@@ -94,18 +50,17 @@ jobs:
           cd fabrication-outputs
           zip -r ../build/open-gamma-kit-gerber-files-${{ github.ref_name }}.zip gerber-files
 
+      - name: Archive Centroid Files
+        if: github.ref_type == 'tag'
+        run: |
+          cd fabrication-outputs
+          zip -r ../build/open-gamma-kit-centroid-files-${{ github.ref_name }}.zip centroid-files
+
       - name: Archive Documentation Files
         if: github.ref_type == 'tag'
         run: |
           mkdir -p build
           zip -j build/README.zip docs/gamma-spectrometer.pdf README.md
-
-      - name: Archive Centroid Files
-        if: github.ref_type == 'tag'
-        run: |
-          mkdir -p build
-          cd fabrication-outputs
-          zip -r ../build/open-gamma-kit-centroid-files-${{ github.ref_name }}.zip centroid-files
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
@@ -129,6 +84,18 @@ jobs:
           echo "" >> RELEASE_BODY.md
           echo "🔧 Thanks for supporting OpenGammaKit! If you find any issues or have suggestions, feel free to [open an issue](https://github.com/${{ github.repository }}/issues)." >> RELEASE_BODY.md
 
+          echo "" >> RELEASE_BODY.md
+          echo "### 📦 Release Contents" >> RELEASE_BODY.md
+          echo "" >> RELEASE_BODY.md
+          echo "| File Name                                                   | Description                                                                 |" >> RELEASE_BODY.md
+          echo "|-------------------------------------------------------------|-----------------------------------------------------------------------------|" >> RELEASE_BODY.md
+          echo "| \\`open-gamma-kit-gerber-files-${{ github.ref_name }}.zip\\`                 | 🟢 Complete Gerber and Drill files (Gerber X2 format) for PCB fabrication. |" >> RELEASE_BODY.md
+          echo "| \\`open-gamma-kit-centroid-files-${{ github.ref_name }}.zip\\`               | 📍 Centroid (Pick-and-Place) file in mils for automated assembly.          |" >> RELEASE_BODY.md
+          echo "| \\`README.zip\\`                                                | 📄 PDF documentation + README.md.                                           |" >> RELEASE_BODY.md
+          echo "| \\`BOM.csv\\`                                                   | 📋 Bill of Materials (not archived — listed separately).                    |" >> RELEASE_BODY.md
+          echo "" >> RELEASE_BODY.md
+          echo "📁 **Location**: All files are available in the [Assets](#assets) section at the bottom of this release page." >> RELEASE_BODY.md
+
       - name: Create GitHub Release
         if: github.ref_type == 'tag'
         uses: softprops/action-gh-release@v2
@@ -139,7 +106,6 @@ jobs:
           files: |
             build/open-gamma-kit-gerber-files-${{ github.ref_name }}.zip
             build/open-gamma-kit-centroid-files-${{ github.ref_name }}.zip
-            docs/BOM.csv
             build/README.zip
         env:
           GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
