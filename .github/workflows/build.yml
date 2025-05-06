@@ -16,19 +16,16 @@ jobs:
         uses: actions/checkout@v3
       - name: Generate Gerber, Drill Files and Documentation
         run: |
-          mkdir -p fabrication-outputs/gerber-files
-          mkdir -p fabrication-outputs/centroid-files
           mkdir -p build
-          zip -j build/README.zip docs/gamma-spectrometer.pdf README.md
           
       - name: Run KiCad export
         uses: vikulin/kicad-action@main
         with:
           kicad_sch: gamma-spectrometer.kicad_sch
           sch_pdf: true # Generate PDF
-          sch_pdf_file: doc/gamma-spectrometer.pdf
+          sch_pdf_file: docs/open-gamma-kit-${{ github.ref_name }}.pdf
           sch_bom: true # Generate BOM
-          sch_bom_file: doc/BOM.csv
+          sch_bom_file: docs/BOM.csv
           kicad_pcb: gamma-spectrometer.kicad_pcb
           pcb_gerbers: true # Generate Gerbers
           pcb_gerbers_file: build/open-gamma-kit-gerber-files-${{ github.ref_name }}.zip
@@ -42,7 +39,7 @@ jobs:
           path: |
             build/open-gamma-kit-gerber-files-${{ github.ref_name }}.zip
             docs/BOM.csv
-            build/README.zip
+            docs/open-gamma-kit-${{ github.ref_name }}.pdf
 
       - name: Generate Changelog Since Last Tag
         if: github.ref_type == 'tag'
@@ -61,9 +58,9 @@ jobs:
           echo "" >> RELEASE_BODY.md
           echo "| File Name                                                   | Description                                                                 |" >> RELEASE_BODY.md
           echo "|-------------------------------------------------------------|-----------------------------------------------------------------------------|" >> RELEASE_BODY.md
-          echo "| \`open-gamma-kit-gerber-files-${{ github.ref_name }}.zip\`                 | 🟢 Complete Gerber and Drill files (Gerber X2 format) for PCB fabrication. |" >> RELEASE_BODY.md
-          echo "| \`README.zip\`                                                | 📄 PDF documentation + README.md.                                           |" >> RELEASE_BODY.md
-          echo "| \`BOM.csv\`                                                   | 📋 Bill of Materials (not archived — listed separately).                    |" >> RELEASE_BODY.md
+          echo "| \`open-gamma-kit-gerber-files-${{ github.ref_name }}.zip\`  | 🟢 Complete Gerber and Drill files (Gerber X2 format) for PCB fabrication.  |" >> RELEASE_BODY.md
+          echo "| \`open-gamma-kit-${{ github.ref_name }}.pdf\`               | 📄 PDF documentation                                                        |" >> RELEASE_BODY.md
+          echo "| \`BOM.csv\`                                                 | 📋 Bill of Materials (not archived — listed separately).                    |" >> RELEASE_BODY.md
           echo "" >> RELEASE_BODY.md
           echo "📁 **Location**: All files are available in the [Assets](#assets) section at the bottom of this release page." >> RELEASE_BODY.md
 
@@ -77,6 +74,6 @@ jobs:
           files: |
             build/open-gamma-kit-gerber-files-${{ github.ref_name }}.zip
             docs/BOM.csv
-            build/README.zip
+            docs/open-gamma-kit-${{ github.ref_name }}.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
