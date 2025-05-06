@@ -20,20 +20,19 @@ OpenGammaKit is designed to be affordable, reliable, and easy to integrate with 
 
 ## 📂 Repository Contents
 
-- `/docs/` – 3D render previews of the board, Bill of Materials (BOM), KiCad schematic 
+- `/docs/` – 3D render previews of the board, Bill of Materials (BOM)
 - `/kicad-libraries/` – KiCad libraries, including custom footprints
 
 ---
 
 ## 📦 Release Contents
 
-OpenGammaKit releases version **0.1.4.5** and later include all the fabrication files required to manufacture and assemble the OpenGammaKit gamma spectrometer hardware:
+OpenGammaKit releases version **0.1.5.1** and later include all the fabrication files required to manufacture and assemble the OpenGammaKit gamma spectrometer hardware:
 
 | File Name                                     | Description                                                                |
 | --------------------------------------------- | -------------------------------------------------------------------------- |
-| `open-gamma-kit-gerber-files-<version>.zip`   | 🟢 Complete Gerber and Drill files (Gerber X2 format) for PCB fabrication. |
-| `open-gamma-kit-centroid-files-<version>.zip` | 📍 Centroid (Pick-and-Place) file in mils for automated assembly.          |
-| `README.zip`                                  | 📄 PDF documentation + README.md.                                          |
+| `open-gamma-kit-gerber-files-<version>.zip`   | 🟢 Complete Gerber and Drill files for PCB fabrication.                    |
+| `open-gamma-kit-<version>.pdf`                | 📄 PDF documentation                                                       |
 | `BOM.csv`                                     | 📋 Bill of Materials (not archived — listed separately).                   |
 
 📁 **Location**: All files are available in the [Assets](https://github.com/vikulin/OpenGammaKit/releases) release section.

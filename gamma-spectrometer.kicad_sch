@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Gamma Spectrometer")
-		(date "2025-01-17")
-		(rev "0.1.4")
+		(date "2025-05-06")
+		(rev "0.1.5")
 		(company "Vadym Vikulin")
 	)
 	(lib_symbols
@@ -10172,7 +10172,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ACML-0402HC-301-T"
+		(property "MP" "490-17349-1-ND"
 			(at 148.59 172.72 0)
 			(effects
 				(font
@@ -10856,7 +10856,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ACML-0402HC-301-T"
+		(property "MP" "490-17349-1-ND"
 			(at 111.76 34.29 0)
 			(effects
 				(font
@@ -11552,7 +11552,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ACML-0402HC-301-T"
+		(property "MP" "490-17349-1-ND"
 			(at 71.12 147.32 0)
 			(effects
 				(font

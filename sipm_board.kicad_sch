@@ -7,7 +7,7 @@
 	(title_block
 		(title "SiPM Board")
 		(date "2025-01-22")
-		(rev "0.1.4")
+		(rev "0.1.5")
 		(company "Vadym Vikulin")
 		(comment 7 "Temperature Correction (~21 mV/K)")
 	)
@@ -3473,7 +3473,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CL21A475KBQNNNE"
+		(property "MP" "CL10A225KB8NNNC"
 			(at 100.33 101.6 0)
 			(effects
 				(font
@@ -4130,7 +4130,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CL21A475KBQNNNE"
+		(property "MP" "CL10A225KB8NNNC"
 			(at 146.05 101.6 0)
 			(effects
 				(font
