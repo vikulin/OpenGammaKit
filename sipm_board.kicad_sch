@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "0dc1b1d8-2551-4cbf-9f60-95861558c962")
 	(paper "A4")
 	(title_block
@@ -245,6 +245,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "CL21A475KBQNNNE:CL21A475KBQNNNE"
 			(pin_names
@@ -403,24 +404,6 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name "~"
@@ -438,10 +421,31 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -560,6 +564,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "MICROFC-60035-SMT-TR1:MICROFC-60035-SMT-TR1"
 			(pin_names
@@ -906,6 +911,18 @@
 				)
 				(polyline
 					(pts
+						(xy -1.524 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -1.524 -1.27) (xy 0 -1.27)
 					)
 					(stroke
@@ -918,8 +935,55 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 1.27) (xy 0 1.27)
+						(xy 0 5.08) (xy 0 1.27)
 					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.524 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.524 -1.27) (xy 1.524 -1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -954,42 +1018,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy -1.524 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 1.524 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 1.524 -1.27) (xy 0 1.27)
 					)
 					(stroke
@@ -1012,27 +1040,22 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -1.524 -1.27) (xy 1.524 -1.27) (xy 0 1.27)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
 					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
 					)
 				)
 				(pin passive line
@@ -1071,24 +1094,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 10.16 270)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 12.7 -5.08 180)
 					(length 2.54)
@@ -1108,6 +1113,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "NTCS0603E3103FLT:NTCS0603E3103FLT"
 			(pin_names
@@ -1190,7 +1196,7 @@
 			(symbol "NTCS0603E3103FLT_0_1"
 				(polyline
 					(pts
-						(xy 13.97 -1.27) (xy 21.59 -1.27)
+						(xy 13.97 1.27) (xy 13.97 -1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -1202,7 +1208,19 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 1.27) (xy 13.97 -1.27)
+						(xy 13.97 1.27) (xy 21.59 1.27) (xy 21.59 -1.27) (xy 13.97 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 -1.27) (xy 21.59 -1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -1238,7 +1256,7 @@
 				)
 				(polyline
 					(pts
-						(xy 21.59 -1.27) (xy 21.59 1.27)
+						(xy 21.59 1.27) (xy 13.97 1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -1250,7 +1268,7 @@
 				)
 				(polyline
 					(pts
-						(xy 21.59 1.27) (xy 13.97 1.27)
+						(xy 21.59 -1.27) (xy 21.59 1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -1270,18 +1288,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 1.27) (xy 21.59 1.27) (xy 21.59 -1.27) (xy 13.97 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(pin unspecified line
@@ -1321,9 +1327,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Simulation_SPICE:NPN"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1424,34 +1433,22 @@
 				)
 				(polyline
 					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
-					)
-					(stroke
-						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1470,12 +1467,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1494,11 +1490,24 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1507,24 +1516,6 @@
 				)
 			)
 			(symbol "NPN_1_1"
-				(pin open_collector line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1536,6 +1527,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1562,6 +1571,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TPS7B6950QDCYRQ1:TPS7B6950QDCYRQ1"
 			(pin_names
@@ -1802,24 +1812,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 17.78 2.54 180)
 					(length 5.08)
@@ -1838,13 +1830,36 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1935,7 +1950,48 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text_box "Bias Filtering"
+		(exclude_from_sim no)
+		(at 166.37 50.8 0)
+		(size 43.18 68.58)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c813fc92-614a-40a1-84c0-2796664b69e8")
+	)
+	(text_box "Temperature Correction (~21 mV/K)"
+		(exclude_from_sim no)
+		(at 83.82 50.8 0)
+		(size 81.28 68.58)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ea772c82-6132-4660-bfad-eddc76425459")
 	)
 	(junction
 		(at 200.66 87.63)
@@ -2410,44 +2466,6 @@
 			(type default)
 		)
 		(uuid "ffaa4f0d-eb54-4f21-a518-671dfd33460e")
-	)
-	(text_box "Bias Filtering"
-		(exclude_from_sim no)
-		(at 166.37 50.8 0)
-		(size 43.18 68.58)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "c813fc92-614a-40a1-84c0-2796664b69e8")
-	)
-	(text_box "Temperature Correction (~21 mV/K)"
-		(exclude_from_sim no)
-		(at 83.82 50.8 0)
-		(size 81.28 68.58)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "ea772c82-6132-4660-bfad-eddc76425459")
 	)
 	(label "+29.6V"
 		(at 200.66 85.09 0)
