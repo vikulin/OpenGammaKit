@@ -6390,6 +6390,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:Vdrive"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Vdrive"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"Vdrive\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Vdrive_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Vdrive_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text_box "Pulse Discriminator (~0 - 320 mV)"
 		(exclude_from_sim no)
@@ -6522,6 +6647,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "508fcde2-85b8-4775-88bc-4fa1b055c4da")
+	)
+	(junction
+		(at 127 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bcdf7a7-5c2f-4201-900e-2648435e63e0")
 	)
 	(junction
 		(at 86.36 172.72)
@@ -7007,7 +7138,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 156.21) (xy 130.81 156.21)
+			(xy 95.25 156.21) (xy 127 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7384,6 +7515,16 @@
 			(type default)
 		)
 		(uuid "7319db48-51cc-4ea7-9063-4cc13e330094")
+	)
+	(wire
+		(pts
+			(xy 127 156.21) (xy 130.81 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731ebaed-1b76-4005-b145-b23b418e29be")
 	)
 	(wire
 		(pts
@@ -10611,7 +10752,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 67.31 0)
+		(at 146.05 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10620,7 +10761,7 @@
 		(fields_autoplaced yes)
 		(uuid "3098a5c5-f6ce-4875-8e37-fcfca7366a58")
 		(property "Reference" "#PWR051"
-			(at 133.35 73.66 0)
+			(at 146.05 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10629,7 +10770,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 72.39 0)
+			(at 146.05 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10637,7 +10778,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 67.31 0)
+			(at 146.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10646,7 +10787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 67.31 0)
+			(at 146.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10655,7 +10796,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 67.31 0)
+			(at 146.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11132,6 +11273,72 @@
 			(project ""
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Vdrive")
+		(at 134.62 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "476399f8-06e4-4b84-8399-c2c5b2f118f3")
+		(property "Reference" "#PWR072"
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vdrive"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
+			(at 134.62 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33370f0e-dc68-4ba8-afea-51d6a3c9f725")
+		)
+		(instances
+			(project "gamma-spectrometer"
+				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -13692,6 +13899,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Vdrive")
+		(at 127 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85c86587-8a7a-4c03-9ad6-2673d4386228")
+		(property "Reference" "#PWR061"
+			(at 127 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vdrive"
+			(at 127 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33e50fa9-082b-45d7-aca8-246e2b46f981")
+		)
+		(instances
+			(project ""
+				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CL10B104KC8NNNC:CL10B104KC8NNNC")
 		(at 142.24 41.91 90)
 		(unit 1)
@@ -15004,7 +15277,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 133.35 67.31 0)
+		(at 146.05 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15013,7 +15286,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0e4b61f-1cbd-4a2a-8ef9-cbc8761ad84a")
 		(property "Reference" "#FLG08"
-			(at 133.35 65.405 0)
+			(at 146.05 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15022,7 +15295,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 133.35 62.23 0)
+			(at 146.05 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15030,7 +15303,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 67.31 0)
+			(at 146.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15039,7 +15312,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 67.31 0)
+			(at 146.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15048,7 +15321,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 133.35 67.31 0)
+			(at 146.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17877,6 +18150,72 @@
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 134.62 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3e90af1-9213-4bbd-b831-41c6f8a61361")
+		(property "Reference" "#FLG09"
+			(at 134.62 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 134.62 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 134.62 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ad00538-c8e7-4b05-a7bf-ae35dfa5abf6")
+		)
+		(instances
+			(project "gamma-spectrometer"
+				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
