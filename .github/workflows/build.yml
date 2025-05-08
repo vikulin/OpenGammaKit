@@ -83,6 +83,7 @@ jobs:
           echo "| \`BOM.csv\`                                                 | 📋 Bill of Materials (not archived — listed separately).                    |" >> RELEASE_BODY.md
           echo "" >> RELEASE_BODY.md
           echo "📁 **Location**: All files are available in the [Assets](#assets) section at the bottom of this release page." >> RELEASE_BODY.md
+          echo "" >> RELEASE_BODY.md
           echo "---" >> RELEASE_BODY.md
           echo "" >> RELEASE_BODY.md
           echo "🔧 Thanks for supporting OpenGammaKit! If you find any issues or have suggestions, feel free to [open an issue](https://github.com/${{ github.repository }}/issues)." >> RELEASE_BODY.md
