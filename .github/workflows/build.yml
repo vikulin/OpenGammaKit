@@ -54,19 +54,19 @@ jobs:
           echo "" >> RELEASE_BODY.md
           echo "---" >> RELEASE_BODY.md
           echo "" >> RELEASE_BODY.md
-          echo "🔧 Thanks for supporting OpenGammaKit! If you find any issues or have suggestions, feel free to [open an issue](https://github.com/${{ github.repository }}/issues)." >> RELEASE_BODY.md
-
-          echo "" >> RELEASE_BODY.md
           echo "### 📦 Release Contents" >> RELEASE_BODY.md
           echo "" >> RELEASE_BODY.md
           echo "| File Name                                                   | Description                                                                 |" >> RELEASE_BODY.md
           echo "|-------------------------------------------------------------|-----------------------------------------------------------------------------|" >> RELEASE_BODY.md
           echo "| \`open-gamma-kit-gerber-files-${{ github.ref_name }}.zip\`  | 🟢 Complete Gerber and Drill files (Gerber X2 format) for PCB fabrication.  |" >> RELEASE_BODY.md
-          echo "| \`open-gamma-kit-centroid-file-<version>.csv\`              | 📍 Centroid (Pick-and-Place) file in mils for automated assembly.           |" >> RELEASE_BODY.md
+          echo "| \`open-gamma-kit-centroid-file-${{ github.ref_name }}.csv\` | 📍 Centroid (Pick-and-Place) file in mils for automated assembly.           |" >> RELEASE_BODY.md
           echo "| \`open-gamma-kit-${{ github.ref_name }}.pdf\`               | 📄 PDF documentation                                                        |" >> RELEASE_BODY.md
           echo "| \`BOM.csv\`                                                 | 📋 Bill of Materials (not archived — listed separately).                    |" >> RELEASE_BODY.md
           echo "" >> RELEASE_BODY.md
           echo "📁 **Location**: All files are available in the [Assets](#assets) section at the bottom of this release page." >> RELEASE_BODY.md
+          echo "---" >> RELEASE_BODY.md
+          echo "" >> RELEASE_BODY.md
+          echo "🔧 Thanks for supporting OpenGammaKit! If you find any issues or have suggestions, feel free to [open an issue](https://github.com/${{ github.repository }}/issues)." >> RELEASE_BODY.md
 
       - name: Create GitHub Release
         if: github.ref_type == 'tag'
