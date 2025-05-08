@@ -27,11 +27,12 @@ OpenGammaKit is designed to be affordable, reliable, and easy to integrate with 
 
 ## 📦 Release Contents
 
-OpenGammaKit releases version **0.1.5.1** and later include all the fabrication files required to manufacture and assemble the OpenGammaKit gamma spectrometer hardware:
+OpenGammaKit releases version **0.1.5.5** and later include all the fabrication files required to manufacture and assemble the OpenGammaKit gamma spectrometer hardware:
 
 | File Name                                     | Description                                                                |
 | --------------------------------------------- | -------------------------------------------------------------------------- |
 | `open-gamma-kit-gerber-files-<version>.zip`   | 🟢 Complete Gerber and Drill files for PCB fabrication.                    |
+| `open-gamma-kit-centroid-file-<version>.csv`  | 📍 Centroid (Pick-and-Place) file in mils for automated assembly.          |
 | `open-gamma-kit-<version>.pdf`                | 📄 PDF documentation                                                       |
 | `BOM.csv`                                     | 📋 Bill of Materials (not archived — listed separately).                   |
 

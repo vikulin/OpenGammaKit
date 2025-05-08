@@ -14,12 +14,12 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
-      - name: Generate Gerber, Drill Files and Documentation
+      - name: Generate Gerber, Drill, Component Placement files and Documentation
         run: |
           mkdir -p build
           
       - name: Run KiCad export
-        uses: vikulin/kicad-action@main
+        uses: vikulin/kicad-action@centroid_files
         with:
           kicad_sch: gamma-spectrometer.kicad_sch
           sch_pdf: true # Generate PDF
@@ -28,7 +28,10 @@ jobs:
           kicad_pcb: gamma-spectrometer.kicad_pcb
           pcb_gerbers: true # Generate Gerbers
           pcb_gerbers_file: build/open-gamma-kit-gerber-files-${{ github.ref_name }}.zip
-          pcb_gerbers_layers: F.Cu,B.Cu,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts 
+          pcb_gerbers_layers: F.Cu,B.Cu,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts
+          pcb_centroids: true # Generate centroid files
+          pcb_centroids_file: build/open-gamma-kit-centroid-file-${{ github.ref_name }}.csv
+          pcb_centroids_format: csv
 
       - name: Upload Artifacts
         if: github.ref_type == 'tag'
@@ -37,6 +40,7 @@ jobs:
           name: ogk-release-${{ github.ref_name }}
           path: |
             build/open-gamma-kit-gerber-files-${{ github.ref_name }}.zip
+            build/open-gamma-kit-centroid-file-${{ github.ref_name }}.csv
             docs/BOM.csv
             docs/open-gamma-kit-${{ github.ref_name }}.pdf
 
@@ -58,6 +62,7 @@ jobs:
           echo "| File Name                                                   | Description                                                                 |" >> RELEASE_BODY.md
           echo "|-------------------------------------------------------------|-----------------------------------------------------------------------------|" >> RELEASE_BODY.md
           echo "| \`open-gamma-kit-gerber-files-${{ github.ref_name }}.zip\`  | 🟢 Complete Gerber and Drill files (Gerber X2 format) for PCB fabrication.  |" >> RELEASE_BODY.md
+          echo "| \`open-gamma-kit-centroid-file-<version>.csv\`              | 📍 Centroid (Pick-and-Place) file in mils for automated assembly.           |" >> RELEASE_BODY.md
           echo "| \`open-gamma-kit-${{ github.ref_name }}.pdf\`               | 📄 PDF documentation                                                        |" >> RELEASE_BODY.md
           echo "| \`BOM.csv\`                                                 | 📋 Bill of Materials (not archived — listed separately).                    |" >> RELEASE_BODY.md
           echo "" >> RELEASE_BODY.md
@@ -72,6 +77,7 @@ jobs:
           body_path: RELEASE_BODY.md
           files: |
             build/open-gamma-kit-gerber-files-${{ github.ref_name }}.zip
+            build/open-gamma-kit-centroid-file-${{ github.ref_name }}.csv
             docs/BOM.csv
             docs/open-gamma-kit-${{ github.ref_name }}.pdf
         env:
