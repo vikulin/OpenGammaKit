@@ -24,7 +24,9 @@ jobs:
           kicad_sch: gamma-spectrometer.kicad_sch
           sch_pdf: true # Generate PDF
           sch_pdf_file: docs/open-gamma-kit-${{ github.ref_name }}.pdf
-          sch_bom: false
+          sch_bom: true
+          sch_bom_file: build/BOM.csv
+          sch_bom_preset: PCBWay
           kicad_pcb: gamma-spectrometer.kicad_pcb
           pcb_gerbers: true # Generate Gerbers
           pcb_gerbers_file: build/open-gamma-kit-gerber-files-${{ github.ref_name }}.zip
@@ -41,7 +43,7 @@ jobs:
           path: |
             build/open-gamma-kit-gerber-files-${{ github.ref_name }}.zip
             build/open-gamma-kit-centroid-file-${{ github.ref_name }}.csv
-            docs/BOM.csv
+            build/BOM.csv
             docs/open-gamma-kit-${{ github.ref_name }}.pdf
 
       - name: Generate Changelog Since Last Tag
@@ -78,7 +80,7 @@ jobs:
           files: |
             build/open-gamma-kit-gerber-files-${{ github.ref_name }}.zip
             build/open-gamma-kit-centroid-file-${{ github.ref_name }}.csv
-            docs/BOM.csv
+            build/BOM.csv
             docs/open-gamma-kit-${{ github.ref_name }}.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
