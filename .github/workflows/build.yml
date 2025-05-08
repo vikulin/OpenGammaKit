@@ -14,7 +14,24 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
-      - name: Generate Gerber, Drill, Component Placement files and Documentation
+
+      - name: Run KiCad ERC
+        id: erc
+        uses: vikulin/kicad-action@centroid_files
+        if: '!cancelled()'
+        with:
+          kicad_sch: gamma-spectrometer.kicad_sch
+          sch_erc: true
+
+      - name: Run KiCad DRC
+        id: drc
+        uses: vikulin/kicad-action@centroid_files
+        if: '!cancelled()'
+        with:
+          kicad_pcb: gamma-spectrometer.kicad_pcb
+          pcb_drc: true
+        
+      - name: Generate Gerber, Drill, Component Placement, BOM files and Documentation
         run: |
           mkdir -p build
           
