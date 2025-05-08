@@ -3497,16 +3497,16 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 121.92 109.22 0)
+		(at 121.92 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "513dfeb4-976d-4db2-885a-baa6c656adf8")
-		(property "Reference" "#FLG05"
-			(at 121.92 107.315 0)
+		(uuid "49f748a4-29e3-472e-8cd1-6b9e20c07873")
+		(property "Reference" "#FLG02"
+			(at 121.92 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +3515,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 121.92 104.14 0)
+			(at 121.92 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3523,7 +3523,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 109.22 0)
+			(at 121.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,7 +3532,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 109.22 0)
+			(at 121.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,7 +3541,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 121.92 109.22 0)
+			(at 121.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3550,12 +3550,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b90bf33-6bf4-4ec6-b505-31e64500534c")
+			(uuid "8d852e86-d876-45de-84ec-e416b29122d6")
 		)
 		(instances
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
-					(reference "#FLG05")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -4213,6 +4213,72 @@
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ace2b7fb-6979-40c8-b54b-a7cf0be7a2b0")
+		(property "Reference" "#PWR071"
+			(at 121.92 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 121.92 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abd922c1-a5a5-4ef4-81c4-50c419300786")
+		)
+		(instances
+			(project "gamma-spectrometer"
+				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)

@@ -6458,12 +6458,6 @@
 		(uuid "0331ecd5-ba89-4d69-a493-378d4865f55b")
 	)
 	(junction
-		(at 101.6 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "03e8101d-49a9-4be6-bc6b-61edfe5f3383")
-	)
-	(junction
 		(at 40.64 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6480,12 +6474,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11ee55a7-9c22-49f4-a35f-6c22775604fc")
-	)
-	(junction
-		(at 127 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "135efc4b-0f7d-4099-bb4c-4ff097fdffcf")
 	)
 	(junction
 		(at 194.31 38.1)
@@ -6516,12 +6504,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "367fb202-6881-4d35-bc7c-f5c2df1a5e0f")
-	)
-	(junction
-		(at 133.35 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b372dae-9665-4f2d-b1f8-a1766eadf587")
 	)
 	(junction
 		(at 45.72 54.61)
@@ -6570,12 +6552,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "914bb997-e101-4e1b-89c6-5b4ba6768125")
-	)
-	(junction
-		(at 95.25 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92c37f8d-b3df-4300-8041-8aba5cd4ccbf")
 	)
 	(junction
 		(at 138.43 172.72)
@@ -6881,7 +6857,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 26.67) (xy 102.87 24.13)
+			(xy 101.6 26.67) (xy 101.6 24.13)
 		)
 		(stroke
 			(width 0)
@@ -7031,7 +7007,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 156.21) (xy 127 156.21)
+			(xy 95.25 156.21) (xy 130.81 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7181,16 +7157,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 30.48) (xy 133.35 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "567bed56-e687-4efa-a183-2c437e1b0bc3")
-	)
-	(wire
-		(pts
 			(xy 220.98 105.41) (xy 223.52 105.41)
 		)
 		(stroke
@@ -7228,16 +7194,6 @@
 			(type default)
 		)
 		(uuid "5dca1fd4-491d-442f-ac6b-b7f56a4022ee")
-	)
-	(wire
-		(pts
-			(xy 127 156.21) (xy 130.81 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5de84afc-affc-4c7b-a3e2-a4af0bb3a809")
 	)
 	(wire
 		(pts
@@ -7311,7 +7267,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 26.67) (xy 102.87 26.67)
+			(xy 81.28 26.67) (xy 101.6 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7478,16 +7434,6 @@
 			(type default)
 		)
 		(uuid "7c0818c0-c8c2-4b4a-ad06-5c87ad73a113")
-	)
-	(wire
-		(pts
-			(xy 95.25 24.13) (xy 95.25 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c359a1a-fb33-4b55-b078-56bc81234b2e")
 	)
 	(wire
 		(pts
@@ -7741,7 +7687,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 34.29) (xy 142.24 34.29)
+			(xy 130.81 34.29) (xy 142.24 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7928,26 +7874,6 @@
 			(type default)
 		)
 		(uuid "c6582d0b-7d58-4261-bc9a-7408cc68b05b")
-	)
-	(wire
-		(pts
-			(xy 130.81 34.29) (xy 133.35 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce5da83c-fa59-4ec3-b6c5-86f519ee786b")
-	)
-	(wire
-		(pts
-			(xy 81.28 26.67) (xy 95.25 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce86090e-66c8-4886-ae9f-9d0a449ba321")
 	)
 	(wire
 		(pts
@@ -9905,72 +9831,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 127 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f242afd-febc-45f9-937b-424f02a383fe")
-		(property "Reference" "#FLG04"
-			(at 127 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 127 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 127 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52625110-3fc1-4111-8bd6-32e5bbcd73cf")
-		)
-		(instances
-			(project "gamma-spectrometer"
-				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 130.81 40.64 0)
 		(unit 1)
@@ -10750,6 +10610,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 133.35 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3098a5c5-f6ce-4875-8e37-fcfca7366a58")
+		(property "Reference" "#PWR051"
+			(at 133.35 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0adad2c-079c-4d2d-8c30-00dd43995ea2")
+		)
+		(instances
+			(project "gamma-spectrometer"
+				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "3296W-1-503LF_1")
 		(lib_id "3296W-1-503LF:3296W-1-503LF")
 		(at 193.04 105.41 0)
@@ -11291,6 +11217,72 @@
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 111.76 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c4297de-4d0b-4882-ac19-47df8a09bc67")
+		(property "Reference" "#PWR015"
+			(at 111.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 111.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 111.76 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e99863b6-bf1d-44b3-bddf-87f93aa5e5dd")
+		)
+		(instances
+			(project "gamma-spectrometer"
+				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12213,72 +12205,6 @@
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 101.6 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62961cc0-fca3-453e-8b4b-e81a8167659d")
-		(property "Reference" "#FLG03"
-			(at 101.6 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 101.6 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 101.6 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f4df2da-3edb-48b7-b165-a68e4f61de9e")
-		)
-		(instances
-			(project "gamma-spectrometer"
-				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -13219,7 +13145,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 102.87 24.13 0)
+		(at 101.6 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13228,7 +13154,7 @@
 		(fields_autoplaced yes)
 		(uuid "75d4f251-4608-4331-8498-93dd0124530c")
 		(property "Reference" "#PWR09"
-			(at 102.87 27.94 0)
+			(at 101.6 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13237,7 +13163,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 102.87 19.05 0)
+			(at 101.6 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13245,7 +13171,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 24.13 0)
+			(at 101.6 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13254,7 +13180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 24.13 0)
+			(at 101.6 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13263,7 +13189,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 102.87 24.13 0)
+			(at 101.6 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14851,6 +14777,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 123.19 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac09c0d1-3629-4541-919e-e2d7344d92ab")
+		(property "Reference" "#PWR050"
+			(at 123.19 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 123.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84fa3239-2ff1-41f2-a53e-b88a449f1fc6")
+		)
+		(instances
+			(project "gamma-spectrometer"
+				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "OPA357AIDBVR:OPA357AIDBVR")
 		(at 193.04 52.07 0)
 		(unit 1)
@@ -15005,6 +14997,72 @@
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 133.35 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0e4b61f-1cbd-4a2a-8ef9-cbc8761ad84a")
+		(property "Reference" "#FLG08"
+			(at 133.35 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 133.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 133.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b0abf8f-e36b-4f4d-bd3d-66fbfa5afdc4")
+		)
+		(instances
+			(project "gamma-spectrometer"
+				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -16548,6 +16606,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 123.19 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d789ccc6-0d3f-4ce0-906f-d4e8917acfec")
+		(property "Reference" "#FLG07"
+			(at 123.19 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 123.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccda6fec-4011-4430-a139-94a864315cb7")
+		)
+		(instances
+			(project "gamma-spectrometer"
+				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 157.48 179.07 0)
 		(unit 1)
@@ -16636,7 +16760,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 95.25 24.13 0)
+		(at 111.76 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16645,7 +16769,7 @@
 		(fields_autoplaced yes)
 		(uuid "e298f8b8-708e-42ce-9ca3-8124c348861d")
 		(property "Reference" "#FLG01"
-			(at 95.25 22.225 0)
+			(at 111.76 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16654,7 +16778,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 95.25 19.05 0)
+			(at 111.76 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16662,7 +16786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 24.13 0)
+			(at 111.76 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16671,7 +16795,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 24.13 0)
+			(at 111.76 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16680,7 +16804,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 95.25 24.13 0)
+			(at 111.76 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16692,7 +16816,7 @@
 			(uuid "b2bc16e6-f562-4165-ac73-e8ec8291264f")
 		)
 		(instances
-			(project ""
+			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
 					(reference "#FLG01")
 					(unit 1)
@@ -18237,72 +18361,6 @@
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 133.35 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd7fb419-5153-4675-93c2-148b0443f18d")
-		(property "Reference" "#FLG02"
-			(at 133.35 28.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 133.35 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 133.35 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66ef7c4d-7f31-4534-a98b-c12c628fc6e6")
-		)
-		(instances
-			(project "gamma-spectrometer"
-				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)

@@ -691,6 +691,7 @@
 		(path "/d5350ef8-8ec1-4daa-abf0-d5864083677e")
 		(sheetname "/")
 		(sheetfile "gamma-spectrometer.kicad_sch")
+		(attr exclude_from_bom)
 		(fp_line
 			(start 4.95 2.25)
 			(end 4.95 -2.25)
@@ -1420,7 +1421,7 @@
 		(sheetname "/")
 		(sheetfile "gamma-spectrometer.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.4 1)
 			(end -1.4 1)
@@ -4647,7 +4648,7 @@
 		(sheetname "/")
 		(sheetfile "gamma-spectrometer.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.4 1)
 			(end -1.4 1)
@@ -5497,6 +5498,7 @@
 		(path "/08024361-5805-4125-9884-f5e078b6d4fe")
 		(sheetname "/")
 		(sheetfile "gamma-spectrometer.kicad_sch")
+		(attr exclude_from_bom)
 		(fp_line
 			(start 6.95 2.25)
 			(end 6.95 -2.25)
@@ -15035,7 +15037,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net 76 "unconnected-(U10-Pad2)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "2072b1dc-6267-4939-b77f-bc855fe9e490")
 		)
@@ -15063,7 +15065,7 @@
 			(layers "B.Cu")
 			(net 75 "unconnected-(U10-EP-Pad5)")
 			(pinfunction "EP")
-			(pintype "power_in")
+			(pintype "power_in+no_connect")
 			(options
 				(clearance outline)
 				(anchor rect)
