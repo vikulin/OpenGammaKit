@@ -25,6 +25,17 @@ OpenGammaKit is designed to be affordable, reliable, and easy to integrate with 
 
 ---
 
+## 📷 3D render previews of the boards
+
+<p align="center">
+  <br>
+  <img alt="3d Front View of the detector board" title="3d Front View of the detector board" width="500px" src="docs/pcb-3dview-v0.1.4-f.png">
+  <br>
+  <img alt="3d Back View of the detector board" title="3d Back View of the detector board" width="500px" src="docs/pcb-3dview-v0.1.4-b.png">
+</p>
+
+---
+
 ## 📦 Release Contents
 
 OpenGammaKit releases version **0.1.5.5** and later include all the fabrication files required to manufacture and assemble the OpenGammaKit gamma spectrometer hardware:
@@ -49,17 +60,6 @@ OpenGammaKit releases version **0.1.5.5** and later include all the fabrication 
 - **OGK Firmware**  
   USB serial interface firmware for supported microcontrollers  
   👉 [OGK Firmware Repository](https://github.com/vikulin/OGK-Firmware)
-
----
-
-## 📷 3D render previews of the boards
-
-<p align="center">
-  <br>
-  <img alt="3d Front View of the detector board" title="3d Front View of the detector board" width="500px" src="docs/pcb-3dview-v0.1.4-f.png">
-  <br>
-  <img alt="3d Back View of the detector board" title="3d Back View of the detector board" width="500px" src="docs/pcb-3dview-v0.1.4-b.png">
-</p>
 
 ---
 
