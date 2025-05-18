@@ -48,9 +48,14 @@ jobs:
           pcb_centroids_file: build/open-gamma-kit-centroid-file-${{ github.ref_name }}.csv
           pcb_centroids_format: csv
           pcb_top_image_file: build/pcb-3dview-latest-f.png
-          pcb_top_image_zoom: 1.8
+          pcb_top_image_zoom: 2.5
+          pcb_top_image_width: 1600
+          pcb_top_image_height: 600
           pcb_bottom_image_file: build/pcb-3dview-latest-b.png
-          pcb_bottom_image_zoom: 1.8
+          pcb_bottom_image_zoom: 2.5
+          pcb_bottom_image_width: 1600
+          pcb_bottom_image_height: 600
+
 
       - name: Upload Artifacts
         if: github.ref_type == 'tag'
