@@ -17,7 +17,7 @@ jobs:
 
       - name: Run KiCad ERC
         id: erc
-        uses: vikulin/kicad-action@simplified_version
+        uses: vikulin/kicad-action@main
         if: '!cancelled()'
         with:
           kicad_sch: gamma-spectrometer.kicad_sch
@@ -25,7 +25,7 @@ jobs:
 
       - name: Run KiCad DRC
         id: drc
-        uses: vikulin/kicad-action@simplified_version
+        uses: vikulin/kicad-action@main
         if: '!cancelled()'
         with:
           kicad_pcb: gamma-spectrometer.kicad_pcb
@@ -36,7 +36,7 @@ jobs:
           mkdir -p build
           
       - name: Run KiCad export
-        uses: vikulin/kicad-action@simplified_version
+        uses: vikulin/kicad-action@main
         with:
           kicad_sch: gamma-spectrometer.kicad_sch
           kicad_pcb: gamma-spectrometer.kicad_pcb
@@ -47,6 +47,10 @@ jobs:
           pcb_gerbers_layers: F.Cu,B.Cu,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts
           pcb_centroids_file: build/open-gamma-kit-centroid-file-${{ github.ref_name }}.csv
           pcb_centroids_format: csv
+          pcb_top_image_file: build/pcb-3dview-latest-f.png
+          pcb_top_image_zoom: 1.8
+          pcb_bottom_image_file: build/pcb-3dview-latest-b.png
+          pcb_bottom_image_zoom: 1.8
 
       - name: Upload Artifacts
         if: github.ref_type == 'tag'
@@ -58,6 +62,8 @@ jobs:
             build/open-gamma-kit-centroid-file-${{ github.ref_name }}.csv
             build/BOM.csv
             docs/open-gamma-kit-${{ github.ref_name }}.pdf
+            build/pcb-3dview-latest-f.png
+            build/pcb-3dview-latest-b.png
 
       - name: Generate Changelog Since Last Tag
         if: github.ref_type == 'tag'
@@ -96,5 +102,7 @@ jobs:
             build/open-gamma-kit-centroid-file-${{ github.ref_name }}.csv
             build/BOM.csv
             docs/open-gamma-kit-${{ github.ref_name }}.pdf
+            build/pcb-3dview-latest-f.png
+            build/pcb-3dview-latest-b.png
         env:
           GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
