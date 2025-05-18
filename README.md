@@ -30,10 +30,10 @@ OpenGammaKit is designed to be affordable, reliable, and easy to integrate with 
 <p align="center">
   <br>
   <img alt="3d Front View of the detector board" title="3d Front View of the detector board" width="800px" 
-    src="https://github.com/vikulin/OpenGammaKit/releases/download/0.1.5.11/pcb-3dview-latest-f.png">
+    src="https://github.com/vikulin/OpenGammaKit/releases/latest/download/pcb-3dview-latest-f.png">
   <br>
   <img alt="3d Back View of the detector board" title="3d Back View of the detector board" width="800px" 
-  src="https://github.com/vikulin/OpenGammaKit/releases/download/0.1.5.11/pcb-3dview-latest-b.png">
+  src="https://github.com/vikulin/OpenGammaKit/releases/latest/download/pcb-3dview-latest-b.png">
 </p>
 
 ---
