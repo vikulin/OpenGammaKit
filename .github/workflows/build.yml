@@ -17,38 +17,34 @@ jobs:
 
       - name: Run KiCad ERC
         id: erc
-        uses: vikulin/kicad-action@centroid_files
+        uses: vikulin/kicad-action@simplified_version
         if: '!cancelled()'
         with:
           kicad_sch: gamma-spectrometer.kicad_sch
-          sch_erc: true
+          sch_erc_file: erc.rpt
 
       - name: Run KiCad DRC
         id: drc
-        uses: vikulin/kicad-action@centroid_files
+        uses: vikulin/kicad-action@simplified_version
         if: '!cancelled()'
         with:
           kicad_pcb: gamma-spectrometer.kicad_pcb
-          pcb_drc: true
+          pcb_drc_file: drc.rpt
         
       - name: Generate Gerber, Drill, Component Placement, BOM files and Documentation
         run: |
           mkdir -p build
           
       - name: Run KiCad export
-        uses: vikulin/kicad-action@centroid_files
+        uses: vikulin/kicad-action@simplified_version
         with:
           kicad_sch: gamma-spectrometer.kicad_sch
-          sch_pdf: true # Generate PDF
+          kicad_pcb: gamma-spectrometer.kicad_pcb
           sch_pdf_file: docs/open-gamma-kit-${{ github.ref_name }}.pdf
-          sch_bom: true
           sch_bom_file: build/BOM.csv
           sch_bom_preset: PCBWay
-          kicad_pcb: gamma-spectrometer.kicad_pcb
-          pcb_gerbers: true # Generate Gerbers
           pcb_gerbers_file: build/open-gamma-kit-gerber-files-${{ github.ref_name }}.zip
           pcb_gerbers_layers: F.Cu,B.Cu,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts
-          pcb_centroids: true # Generate centroid files
           pcb_centroids_file: build/open-gamma-kit-centroid-file-${{ github.ref_name }}.csv
           pcb_centroids_format: csv
 
