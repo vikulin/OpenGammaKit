@@ -6595,6 +6595,12 @@
 		(uuid "08549964-95a7-46f6-84c5-6d1d6f979787")
 	)
 	(junction
+		(at 78.74 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09aa7e03-a340-405a-8fa4-b691b7e2a200")
+	)
+	(junction
 		(at 232.41 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6637,6 +6643,12 @@
 		(uuid "449ab0f0-0dd4-442b-8955-357b6fc36447")
 	)
 	(junction
+		(at 63.5 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f165b45-aa97-47e1-bbe0-a50e0904dbc8")
+	)
+	(junction
 		(at 49.53 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6665,18 +6677,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a748a82-4ab0-42e7-8e51-162e1dfbc734")
-	)
-	(junction
-		(at 78.74 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7da7addb-ff70-45c1-9150-b7515e904033")
-	)
-	(junction
-		(at 63.5 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "822aacd1-3491-4fb5-bd72-c528e6ea7491")
 	)
 	(junction
 		(at 86.36 147.32)
@@ -10361,174 +10361,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ACML-0402HC-301-T:ACML-0402HC-301-T")
-		(at 148.59 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a39274c-4662-45e1-afc0-ad0e30938be1")
-		(property "Reference" "FB3"
-			(at 148.082 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BLM18KG102SN1D"
-			(at 148.082 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ACML-0402HC-301-T:BEADC1005X65N"
-			(at 148.59 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Abracon LLC"
-			(at 148.59 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            300 Ohms @ 100 MHz 1 - Ferrite Bead 0402 (1005 Metric) 1A 300mOhm\n                        \n"
-			(at 148.59 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "0402 Abracon"
-			(at 148.59 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 148.59 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402 Abracon"
-			(at 148.59 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 148.59 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ACML-0402HC-301-T/Abracon/view-part/?ref=snap"
-			(at 148.59 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "490-17349-1-ND"
-			(at 148.59 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 148.59 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ACML-0402HC-301-T/Abracon/view-part/?ref=eda"
-			(at 148.59 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2775e5a6-aeef-48a1-982d-cc469e130d08")
-		)
-		(pin "2"
-			(uuid "032750cc-1645-4c38-89f6-300e8725f80f")
-		)
-		(instances
-			(project "gamma-spectrometer"
-				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
-					(reference "FB3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 223.52 151.13 0)
 		(unit 1)
@@ -11135,7 +10967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACML-0402HC-301-T:BEADC1005X65N"
+		(property "Footprint" "BLM18KG102SN1D:BEADC1608X95N"
 			(at 111.76 34.29 0)
 			(effects
 				(font
@@ -11145,7 +10977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.snapeda.com/parts/BLM18KG102SN1D/Murata/datasheet/"
 			(at 111.76 34.29 0)
 			(effects
 				(font
@@ -11163,7 +10995,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Abracon LLC"
+		(property "MF" ""
 			(at 111.76 34.29 0)
 			(effects
 				(font
@@ -11173,7 +11005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n                        \n                            300 Ohms @ 100 MHz 1 - Ferrite Bead 0402 (1005 Metric) 1A 300mOhm\n                        \n"
+		(property "Description_1" "1 kOhms @ 100 MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 1A 200mOhm "
 			(at 111.76 34.29 0)
 			(effects
 				(font
@@ -11183,7 +11015,7 @@
 				(hide yes)
 			)
 		)
-		(property "PACKAGE" "0402 Abracon"
+		(property "PACKAGE" "0603"
 			(at 111.76 34.29 0)
 			(effects
 				(font
@@ -11203,7 +11035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0402 Abracon"
+		(property "Package" "0603"
 			(at 111.76 34.29 0)
 			(effects
 				(font
@@ -11223,7 +11055,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ACML-0402HC-301-T/Abracon/view-part/?ref=snap"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BLM18KG102SN1D/Murata/datasheet/"
 			(at 111.76 34.29 0)
 			(effects
 				(font
@@ -11233,7 +11065,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "490-17349-1-ND"
+		(property "MP" "BLM18KG102SN1D"
 			(at 111.76 34.29 0)
 			(effects
 				(font
@@ -11253,7 +11085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ACML-0402HC-301-T/Abracon/view-part/?ref=eda"
+		(property "Check_prices" "https://www.snapeda.com/parts/BLM18KG102SN1D/Murata/datasheet/"
 			(at 111.76 34.29 0)
 			(effects
 				(font
@@ -11933,174 +11765,6 @@
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
 					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ACML-0402HC-301-T:ACML-0402HC-301-T")
-		(at 71.12 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d81b119-55f6-4cde-a274-1eeefa1d9b23")
-		(property "Reference" "FB2"
-			(at 76.962 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BLM18KG102SN1D"
-			(at 83.82 144.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ACML-0402HC-301-T:BEADC1005X65N"
-			(at 71.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Abracon LLC"
-			(at 71.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            300 Ohms @ 100 MHz 1 - Ferrite Bead 0402 (1005 Metric) 1A 300mOhm\n                        \n"
-			(at 71.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "0402 Abracon"
-			(at 71.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 71.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402 Abracon"
-			(at 71.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 71.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ACML-0402HC-301-T/Abracon/view-part/?ref=snap"
-			(at 71.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "490-17349-1-ND"
-			(at 71.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 71.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ACML-0402HC-301-T/Abracon/view-part/?ref=eda"
-			(at 71.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ce6677b-9fe2-465f-86b1-8df491ba2cc8")
-		)
-		(pin "2"
-			(uuid "89415cdf-c925-4024-bd9b-d826cb28a8e5")
-		)
-		(instances
-			(project "gamma-spectrometer"
-				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
-					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -13833,6 +13497,174 @@
 		)
 	)
 	(symbol
+		(lib_id "ACML-0402HC-301-T:ACML-0402HC-301-T")
+		(at 71.12 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "830614bc-118b-4d75-a339-81cf121028c4")
+		(property "Reference" "FB2"
+			(at 72.39 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLM18KG102SN1D"
+			(at 85.852 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BLM18KG102SN1D:BEADC1608X95N"
+			(at 71.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.snapeda.com/parts/BLM18KG102SN1D/Murata/datasheet/"
+			(at 71.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 71.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "1 kOhms @ 100 MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 1A 200mOhm "
+			(at 71.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "0603"
+			(at 71.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 71.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 71.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 71.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BLM18KG102SN1D/Murata/datasheet/"
+			(at 71.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BLM18KG102SN1D"
+			(at 71.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 71.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BLM18KG102SN1D/Murata/datasheet/"
+			(at 71.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c32fa2cf-9585-4ba6-b42b-fe6c39483bf9")
+		)
+		(pin "2"
+			(uuid "11e7ea84-77d8-4d8f-a636-d2b008cc97d9")
+		)
+		(instances
+			(project "gamma-spectrometer"
+				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
+					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 157.48 149.86 0)
 		(unit 1)
@@ -14407,6 +14239,174 @@
 			(project ""
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ACML-0402HC-301-T:ACML-0402HC-301-T")
+		(at 148.59 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96f683c1-343f-4643-b5f5-5021c9e4bfd2")
+		(property "Reference" "FB3"
+			(at 148.59 164.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLM18KG102SN1D"
+			(at 148.336 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BLM18KG102SN1D:BEADC1608X95N"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.snapeda.com/parts/BLM18KG102SN1D/Murata/datasheet/"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "1 kOhms @ 100 MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 1A 200mOhm "
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "0603"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BLM18KG102SN1D/Murata/datasheet/"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BLM18KG102SN1D"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BLM18KG102SN1D/Murata/datasheet/"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0decb85-9757-431f-b785-19711da81ffc")
+		)
+		(pin "2"
+			(uuid "299e06da-643d-465f-8cc4-4e3646c6dd1a")
+		)
+		(instances
+			(project "gamma-spectrometer"
+				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
+					(reference "FB3")
 					(unit 1)
 				)
 			)

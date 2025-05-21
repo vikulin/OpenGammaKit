@@ -2704,6 +2704,156 @@
 		)
 	)
 	(symbol
+		(lib_id "CL21A475KBQNNNE:CL21A475KBQNNNE")
+		(at 146.05 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "071bf889-8cd6-436f-83d6-9692dd1a7d75")
+		(property "Reference" "C19"
+			(at 139.7 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 139.7 101.092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samsung Electro-Mechanics"
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 2.2uF+/-10% 50V X5R 1608 "
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL10A225KB8NNNC/Samsung%20Electro-Mechanics/datasheet/"
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CL10A225KB8NNNC"
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CL10A225KB8NNNC/Samsung%20Electro-Mechanics/datasheet/"
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d7714e2-1807-46f5-bcb5-82f4313dc73c")
+		)
+		(pin "2"
+			(uuid "4a67e9f2-abac-4590-9f1f-f4fa30e2cb33")
+		)
+		(instances
+			(project "gamma-spectrometer"
+				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NPN")
 		(at 152.4 92.71 0)
 		(unit 1)
@@ -3592,7 +3742,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CL21A475KBQNNNE:CAPC2012X140N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.33 101.6 0)
 			(effects
 				(font
@@ -3630,7 +3780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n                        \n                            CL21 Series 4.7 uF 50 V ±10 % Tolerance X5R SMT Multilayer Ceramic Capacitor\n                        \n"
+		(property "Description_1" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 2.2uF+/-10% 50V X5R 1608 "
 			(at 100.33 101.6 0)
 			(effects
 				(font
@@ -3640,7 +3790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0805 Samsung"
+		(property "Package" "0603"
 			(at 100.33 101.6 0)
 			(effects
 				(font
@@ -3660,7 +3810,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL21A475KBQNNNE/Samsung/view-part/?ref=snap"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL10A225KB8NNNC/Samsung%20Electro-Mechanics/datasheet/"
 			(at 100.33 101.6 0)
 			(effects
 				(font
@@ -3680,7 +3830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" "In Stock"
+		(property "Availability" ""
 			(at 100.33 101.6 0)
 			(effects
 				(font
@@ -3690,7 +3840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CL21A475KBQNNNE/Samsung/view-part/?ref=eda"
+		(property "Check_prices" "https://www.snapeda.com/parts/CL10A225KB8NNNC/Samsung%20Electro-Mechanics/datasheet/"
 			(at 100.33 101.6 0)
 			(effects
 				(font
@@ -4283,156 +4433,6 @@
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CL21A475KBQNNNE:CL21A475KBQNNNE")
-		(at 146.05 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b03c21b7-af98-48ab-8765-4e21fb0e657d")
-		(property "Reference" "C19"
-			(at 139.7 98.552 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 139.7 101.092 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "CL21A475KBQNNNE:CAPC2012X140N"
-			(at 146.05 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Samsung Electro-Mechanics"
-			(at 146.05 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            CL21 Series 4.7 uF 50 V ±10 % Tolerance X5R SMT Multilayer Ceramic Capacitor\n                        \n"
-			(at 146.05 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805 Samsung"
-			(at 146.05 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 146.05 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL21A475KBQNNNE/Samsung/view-part/?ref=snap"
-			(at 146.05 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "CL10A225KB8NNNC"
-			(at 146.05 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 146.05 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CL21A475KBQNNNE/Samsung/view-part/?ref=eda"
-			(at 146.05 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5866933c-a841-447c-bc62-683f2266e36f")
-		)
-		(pin "2"
-			(uuid "17d4bdcb-4292-46ed-b55d-a8ef88a4e7bb")
-		)
-		(instances
-			(project "gamma-spectrometer"
-				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
-					(reference "C19")
 					(unit 1)
 				)
 			)
