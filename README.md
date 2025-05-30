@@ -1,5 +1,20 @@
 # OpenGammaKit
 
+## PCB front and back side
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="docs/pcb-view-f.jpg" alt="Front View of the detector board" title="Front View" width="500px">
+      <br><b>Front view</b>
+    </td>
+    <td align="center">
+      <img src="docs/pcb-view-b.jpg" alt="Back View of the detector board" title="Back View" width="500px">
+      <br><b>Back view</b>
+    </td>
+  </tr>
+</table>
+
 **OpenGammaKit** is an open-source gamma spectrometer hardware platform, inspired by the excellent [Open-Gamma-Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector). It takes the original schematic and redesigns the PCB using **KiCad** (originally designed in EasyEDA), making the project more accessible and modifiable for open hardware enthusiasts.
 
 OpenGammaKit is designed to be affordable, reliable, and easy to integrate with embedded systems, mobile devices, or PCs—ideal for DIY nuclear instrumentation, educational labs, or citizen science.
