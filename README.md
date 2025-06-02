@@ -92,7 +92,7 @@ The spectrum clearly shows two gamma peaks at **59.54 keV** and **26.35 keV**, b
 
 <p align="center">
   <br>
-  <img alt="Am-241" title="Am-241 10 minutes spectrum" width="500px" src="docs/Am-241-10m-h.png">
+  <img alt="Am-241" title="Am-241 10 minutes spectrum" width="500px" src="docs/Am-241-5m-h.png">
 </p>
 
 > 📌 These lines are useful for calibration and spectral identification in low-energy gamma spectroscopy using NaI(Tl) detectors.
