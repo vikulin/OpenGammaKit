@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "SiPM Board")
-		(date "2025-01-22")
-		(rev "0.1.5")
+		(date "2025-06-04")
+		(rev "0.2.0")
 		(company "Vadym Vikulin")
 		(comment 7 "Temperature Correction (~21 mV/K)")
 	)

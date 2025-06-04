@@ -40,4 +40,8 @@
   (lib (name "ERJ3EKF4992V")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/ERJ3EKF4992V")(options "")(descr ""))
   (lib (name "3266W-1-503")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/3266W-1-503")(options "")(descr ""))
   (lib (name "BLM18KG102SN1D")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/BLM18KG102SN1D")(options "")(descr ""))
+  (lib (name "MAX1422ECM-D")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/MAX1422ECM-D")(options "")(descr ""))
+  (lib (name "ERJ3EKF25R5V")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/ERJ3EKF25R5V")(options "")(descr ""))
+  (lib (name "ECJ-1VC1H220J")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/ECJ-1VC1H220J")(options "")(descr ""))
+  (lib (name "T1-1T-KK81")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/T1-1T-KK81")(options "")(descr ""))
 )
