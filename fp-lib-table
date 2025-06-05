@@ -8,7 +8,6 @@
   (lib (name "ECHU1C471JX5")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/ECHU1C471JX5")(options "")(descr ""))
   (lib (name "LTST-C190KGKT")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/LTST-C190KGKT")(options "")(descr ""))
   (lib (name "OPA357AIDBVR")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/OPA357AIDBVR")(options "")(descr ""))
-  (lib (name "TLV3201AIDBVR")(type "Altium Designer")(uri "${KIPRJMOD}/kicad-libraries/TLV3201AIDBVR.IntLib")(options "")(descr ""))
   (lib (name "B4B-PH-K-S_LF__SN_")(type "Altium Designer")(uri "${KIPRJMOD}/kicad-libraries/B4B-PH-K-S_LF__SN_.IntLib")(options "")(descr ""))
   (lib (name "B6B-PH-K-S_LF__SN_")(type "Altium Designer")(uri "${KIPRJMOD}/kicad-libraries/B6B-PH-K-S_LF__SN_.IntLib")(options "")(descr ""))
   (lib (name "B2B-PH-K-S_LF__SN_")(type "Altium Designer")(uri "${KIPRJMOD}/kicad-libraries/B2B-PH-K-S_LF__SN_.IntLib")(options "")(descr ""))
@@ -44,4 +43,5 @@
   (lib (name "ERJ3EKF25R5V")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/ERJ3EKF25R5V")(options "")(descr ""))
   (lib (name "ECJ-1VC1H220J")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/ECJ-1VC1H220J")(options "")(descr ""))
   (lib (name "T1-1T-KK81")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/T1-1T-KK81")(options "")(descr ""))
+  (lib (name "TLV3201AIDBVR")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/TLV3201AIDBVR")(options "")(descr ""))
 )

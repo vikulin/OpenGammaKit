@@ -3,7 +3,6 @@
   (lib (name "ACML-0402HC-301-T")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/ACML-0402HC-301-T/ACML-0402HC-301-T.kicad_sym")(options "")(descr ""))
   (lib (name "TL3305AF160QG")(type "Altium")(uri "${KIPRJMOD}/kicad-libraries/TL3305AF160QG/TL3305AF160QG.SchLib")(options "")(descr ""))
   (lib (name "OPA357AIDBVR")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/OPA357AIDBVR/OPA357AIDBVR.kicad_sym")(options "")(descr ""))
-  (lib (name "TLV3201AIDBVR")(type "Altium")(uri "${KIPRJMOD}/kicad-libraries/TLV3201AIDBVR.IntLib")(options "")(descr ""))
   (lib (name "3296W-1-503LF")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/3296W-1-503LF/3296W-1-503LF.kicad_sym")(options "")(descr ""))
   (lib (name "LTST-C190KGKT")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/LTST-C190KGKT/LTST-C190KGKT.kicad_sym")(options "")(descr ""))
   (lib (name "ECHU1C471JX5")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/ECHU1C471JX5/ECHU1C471JX5.kicad_sym")(options "")(descr ""))
@@ -29,4 +28,5 @@
   (lib (name "NTCS0603E3103FLT")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/NTCS0603E3103FLT/NTCS0603E3103FLT.kicad_sym")(options "")(descr ""))
   (lib (name "MAX1422")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/MAX1422ECM-D/2025-06-03_17-05-34.kicad_sym")(options "")(descr ""))
   (lib (name "T1-1T-KK81")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/T1-1T-KK81/T1-1T-KK81_.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV3201AIDBVR")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/TLV3201AIDBVR/TLV3201AIDBVR.kicad_sym")(options "")(descr ""))
 )

@@ -4110,7 +4110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "836bf2a8-ddf3-41e2-a6e6-7053d3886a0f")
-		(property "Reference" "U10"
+		(property "Reference" "U6"
 			(at 210.566 72.136 90)
 			(effects
 				(font
@@ -4281,7 +4281,7 @@
 		(instances
 			(project ""
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
-					(reference "U10")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -4638,7 +4638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de577036-7dd5-4ff9-9ccb-bb2e84118092")
-		(property "Reference" "U9"
+		(property "Reference" "U5"
 			(at 121.92 85.852 0)
 			(effects
 				(font
@@ -4820,7 +4820,7 @@
 		(instances
 			(project ""
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
-					(reference "U9")
+					(reference "U5")
 					(unit 1)
 				)
 			)

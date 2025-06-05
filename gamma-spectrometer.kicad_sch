@@ -14379,7 +14379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1814d39-4490-49f2-90ea-0ac4e63aff1f")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 63.5 13.97 0)
 			(effects
 				(font
@@ -14571,7 +14571,7 @@
 		(instances
 			(project ""
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -17822,7 +17822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f94c0d0c-91d5-4ca4-971e-044304e55770")
-		(property "Reference" "U8"
+		(property "Reference" "U4"
 			(at 113.03 161.29 0)
 			(effects
 				(font
@@ -17967,7 +17967,7 @@
 		(instances
 			(project ""
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be"
-					(reference "U8")
+					(reference "U4")
 					(unit 1)
 				)
 			)
