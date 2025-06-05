@@ -44,4 +44,5 @@
   (lib (name "ECJ-1VC1H220J")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/ECJ-1VC1H220J")(options "")(descr ""))
   (lib (name "T1-1T-KK81")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/T1-1T-KK81")(options "")(descr ""))
   (lib (name "TLV3201AIDBVR")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/TLV3201AIDBVR")(options "")(descr ""))
+  (lib (name "MCP41050-I_SN")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/MCP41050-I_SN")(options "")(descr ""))
 )
