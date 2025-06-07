@@ -726,32 +726,8 @@
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "Item #",
-          "name": "${ITEM_NUMBER}",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Designator",
           "name": "Reference",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mfg Part #",
-          "name": "MP",
           "show": true
         },
         {
@@ -762,38 +738,38 @@
         },
         {
           "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Item #",
+          "name": "${ITEM_NUMBER}",
+          "show": true
         },
         {
           "group_by": false,
           "label": "ALTIUM_VALUE",
           "name": "ALTIUM_VALUE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow_Asia-Purchase-URL",
-          "name": "Arrow_Asia-Purchase-URL",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow_Electronics-Purchase-URL",
-          "name": "Arrow_Electronics-Purchase-URL",
           "show": false
         },
         {
@@ -812,12 +788,6 @@
           "group_by": false,
           "label": "Description_1",
           "name": "Description_1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DigiKey-Purchase-URL",
-          "name": "DigiKey-Purchase-URL",
           "show": false
         },
         {
@@ -846,9 +816,9 @@
         },
         {
           "group_by": false,
-          "label": "Mouser-Purchase-URL",
-          "name": "Mouser-Purchase-URL",
-          "show": false
+          "label": "Mfg Part #",
+          "name": "MP",
+          "show": true
         },
         {
           "group_by": false,
@@ -870,14 +840,20 @@
         },
         {
           "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Price",
           "name": "Price",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Purchase-URL",
-          "name": "Purchase-URL",
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
           "show": false
         },
         {
@@ -911,15 +887,45 @@
           "show": false
         },
         {
-          "group_by": false,
-          "label": "Texas_Instruments-Purchase-URL",
-          "name": "Texas_Instruments-Purchase-URL",
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
+          "label": "Arrow_Asia-Purchase-URL",
+          "name": "Arrow_Asia-Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow_Electronics-Purchase-URL",
+          "name": "Arrow_Electronics-Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey-Purchase-URL",
+          "name": "DigiKey-Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser-Purchase-URL",
+          "name": "Mouser-Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Texas_Instruments-Purchase-URL",
+          "name": "Texas_Instruments-Purchase-URL",
           "show": false
         }
       ],

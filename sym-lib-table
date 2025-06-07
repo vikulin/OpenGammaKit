@@ -30,4 +30,5 @@
   (lib (name "T1-1T-KK81")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/T1-1T-KK81/T1-1T-KK81_.kicad_sym")(options "")(descr ""))
   (lib (name "TLV3201AIDBVR")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/TLV3201AIDBVR/TLV3201AIDBVR.kicad_sym")(options "")(descr ""))
   (lib (name "MCP41050-I_SN")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/MCP41050-I_SN/MCP41050-I_SN.kicad_sym")(options "")(descr ""))
+  (lib (name "C1608JB1H224K080AB")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/C1608JB1H224K080AB/C1608JB1H224K080AB.kicad_sym")(options "")(descr ""))
 )
