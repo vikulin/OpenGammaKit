@@ -18366,6 +18366,24 @@
 				)
 			)
 		)
+		(property "MP" "MAX1422ECM+D"
+			(at 39.37 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LQFP-48"
+			(at 39.37 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "17"
 			(uuid "282e101f-c02e-443b-b781-62c405e0c0b7")
 		)
