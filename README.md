@@ -21,6 +21,18 @@ OpenGammaKit is designed to be affordable, reliable, and easy to integrate with 
 
 ---
 
+## Order the PCB or PCB + Assembly
+
+You can order the **Open Gamma Kit** PCB or a fully assembled board directly from PCBWay using the link below:
+
+[![Order from PCBWay](https://www.pcbway.com/img/logo.png)](https://www.pcbway.com/project/shareproject/W808316ASG1_open_gamma_kit_gerber_files_v0_1_4_2_90620442.html)
+
+👉 [Order PCB or PCB + Assembly from PCBWay](https://www.pcbway.com/project/shareproject/W808316ASG1_open_gamma_kit_gerber_files_v0_1_4_2_90620442.html)
+
+This helps support the project and ensures high-quality manufacturing.
+
+---
+
 ## 🔧 Features
 
 - ✅ Based on the **Open-Gamma-Detector** schematic  
