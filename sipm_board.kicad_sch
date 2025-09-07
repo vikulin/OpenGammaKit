@@ -6,13 +6,16 @@
 	(paper "A4")
 	(title_block
 		(title "SiPM Board")
-		(date "2025-06-04")
-		(rev "0.2.0")
+		(date "2025-09-06")
+		(rev "0.2.1")
 		(company "Vadym Vikulin")
 		(comment 7 "Temperature Correction (~21 mV/K)")
 	)
 	(lib_symbols
 		(symbol "CL10B104KC8NNNC:CL10B104KC8NNNC"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 			)
@@ -247,7 +250,486 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CL10B104KC8NNNC_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CL10B104KC8NNNC"
+				(at 0 -5.0885 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CL10B104KC8NNNC:CAPC1608X90N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Samsung"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.9 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603 Samsung"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CL10B104KC8NNNC/Samsung/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "NA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL10B104KC8NNNC/Samsung/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "CL10B104KC8NNNC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Samsung"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CL10B104KC8NNNC_1_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CL10B104KC8NNNC_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CL10B104KC8NNNC"
+				(at 0 -5.0885 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CL10B104KC8NNNC:CAPC1608X90N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Samsung"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.9 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603 Samsung"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CL10B104KC8NNNC/Samsung/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "NA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL10B104KC8NNNC/Samsung/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "CL10B104KC8NNNC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Samsung"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CL10B104KC8NNNC_2_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CL21A475KBQNNNE:CL21A475KBQNNNE"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 			)
@@ -381,6 +863,204 @@
 				)
 			)
 			(symbol "CL21A475KBQNNNE_0_0"
+				(rectangle
+					(start 0 -1.905)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 -1.905)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CL21A475KBQNNNE_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CL21A475KBQNNNE"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CL21A475KBQNNNE:CAPC2012X140N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            CL21 Series 4.7 uF 50 V ±10 % Tolerance X5R SMT Multilayer Ceramic Capacitor\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "0805 Samsung"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL21A475KBQNNNE/Samsung/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "CL21A475KBQNNNE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CL21A475KBQNNNE/Samsung/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CL21A475KBQNNNE_1_0_0"
 				(rectangle
 					(start 0 -1.905)
 					(end 0.635 1.905)
@@ -1115,6 +1795,251 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "NPN_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at -2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NPN"
+				(at -2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 63.5 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+				(at 63.5 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "GUMMELPOON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=C 2=B 3=E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NPN_1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NPN_1_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "NTCS0603E3103FLT:NTCS0603E3103FLT"
 			(pin_numbers
 				(hide yes)
@@ -1339,6 +2264,7 @@
 			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2692,7 +3618,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7a148ec3-d4bf-4d38-a4e2-538bcf0c1529")
+			(uuid "f7daf110-a9a9-4574-b558-30bc4a058cfe")
 		)
 		(instances
 			(project "gamma-spectrometer"
@@ -2704,6 +3630,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CL21A475KBQNNNE_1")
 		(lib_id "CL21A475KBQNNNE:CL21A475KBQNNNE")
 		(at 146.05 101.6 90)
 		(unit 1)
@@ -2887,10 +3814,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2d7714e2-1807-46f5-bcb5-82f4313dc73c")
+			(uuid "988abd9d-d2a7-4b75-b7d0-16d6260ea915")
 		)
 		(pin "2"
-			(uuid "4a67e9f2-abac-4590-9f1f-f4fa30e2cb33")
+			(uuid "4df0af99-e7c1-4642-b315-1b85843276d7")
 		)
 		(instances
 			(project "gamma-spectrometer"
@@ -2902,6 +3829,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NPN_1")
 		(lib_id "Simulation_SPICE:NPN")
 		(at 152.4 92.71 0)
 		(unit 1)
@@ -2910,7 +3838,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08ccc99a-8517-4e41-909c-e29a4f166495")
-		(property "Reference" "Q1"
+		(property "Reference" "Q3"
 			(at 149.352 86.36 0)
 			(effects
 				(font
@@ -3049,18 +3977,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "c09cb747-e9aa-4263-8e87-9840cbdb3393")
+			(uuid "a85d0145-94a8-4d60-858a-0f0c854c4cc3")
 		)
 		(pin "1"
-			(uuid "62a5bedc-4dbd-4dc8-a390-f416dbebca5c")
+			(uuid "2650c32c-46cd-4149-8001-9c1b30568c3c")
 		)
 		(pin "3"
-			(uuid "81a87959-0a94-43f9-a92e-2407e4b8c644")
+			(uuid "6a22c5e0-dc2d-4856-8bdb-779d742c0bb1")
 		)
 		(instances
 			(project ""
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
-					(reference "Q1")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -3076,7 +4004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12809ade-962b-4ba8-a671-a745d317ca50")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR025"
 			(at 121.92 118.11 0)
 			(effects
 				(font
@@ -3121,12 +4049,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "90607735-3621-48c1-9991-8844f972196a")
+			(uuid "cdd714a0-0a2e-4f6f-b3ce-9801763770ef")
 		)
 		(instances
 			(project ""
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
-					(reference "#PWR064")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3187,7 +4115,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "88d16d8a-b05d-49ef-ab83-3e06068f3f7d")
+			(uuid "23ad5e1d-5af9-4c57-8d25-7426e9ce8463")
 		)
 		(instances
 			(project "gamma-spectrometer"
@@ -3207,7 +4135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15fa1b08-bce0-4025-bf80-60a90e8e3725")
-		(property "Reference" "TH1"
+		(property "Reference" "TH2"
 			(at 127.254 76.962 0)
 			(effects
 				(font
@@ -3320,18 +4248,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c6f8e52a-2965-4631-99b9-c23d9d1d8d08")
+			(uuid "53224162-fe6f-4647-8218-df12dbdabb64")
 		)
 		(pin "2"
-			(uuid "5ce69a67-ea4f-49dd-ad90-95d47452c186")
-		)
-		(instances
-			(project ""
-				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
-					(reference "TH1")
-					(unit 1)
-				)
-			)
+			(uuid "85c57d08-602b-4e3d-90c8-4c1343791379")
 		)
 	)
 	(symbol
@@ -3559,10 +4479,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4ecf7ec8-bad0-4897-b65d-5695f378d7dc")
+			(uuid "f5d5572a-c20f-4ef6-b840-da4652943eb9")
 		)
 		(pin "1"
-			(uuid "1bd79fa7-eef6-4edd-b519-fdc157f61872")
+			(uuid "78951200-cf1b-4b03-a63c-7636ffd5ce7d")
 		)
 		(instances
 			(project "gamma-spectrometer"
@@ -3721,13 +4641,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "4dfa7bf4-58ec-4044-b706-6b3a5713af12")
+			(uuid "6247f966-3c0f-4a51-9a6c-171b9de2412d")
 		)
 		(pin "1"
-			(uuid "b6c2717d-83cd-40e8-80a1-3eed7c777a64")
+			(uuid "4562a859-532f-4330-84e0-1bc7fd7de55d")
 		)
 		(pin "3"
-			(uuid "f40744a7-afde-48af-98a4-547e87c06ee4")
+			(uuid "4b845a26-7661-459c-b030-49dd0733e709")
 		)
 		(instances
 			(project "gamma-spectrometer"
@@ -3793,7 +4713,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee40eef1-9492-4734-9223-6a1e6c26c561")
+			(uuid "79c537e0-1883-48ab-8772-bff2cc610f88")
 		)
 		(instances
 			(project "gamma-spectrometer"
@@ -3923,10 +4843,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "44f0539c-d0b7-46b7-9941-70cbb7df8b7d")
+			(uuid "43d795c1-fbd2-4da8-a4e1-40e8ca28f5c4")
 		)
 		(pin "1"
-			(uuid "900d25be-493a-4e79-b71a-de06af77b3b6")
+			(uuid "76eaf3ad-c185-4644-b327-0f062429eefe")
 		)
 		(instances
 			(project "gamma-spectrometer"
@@ -3992,7 +4912,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d852e86-d876-45de-84ec-e416b29122d6")
+			(uuid "304d18fe-1c0f-44a0-9428-18ea60090d34")
 		)
 		(instances
 			(project "gamma-spectrometer"
@@ -4187,10 +5107,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b2db1ee0-ca5d-45e0-aead-2c3cd006509a")
+			(uuid "21922538-1c36-4d76-942b-2e8a108d4746")
 		)
 		(pin "2"
-			(uuid "57100f95-b40b-4d32-8c2b-826a90c03b15")
+			(uuid "aad962e8-9ace-477b-af3e-19578a2c44eb")
 		)
 		(instances
 			(project "gamma-spectrometer"
@@ -4256,7 +5176,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "161b9a5d-8729-48f9-9c55-f572b68c4793")
+			(uuid "f1a2690d-4d34-49e7-8f19-28e9d88a2666")
 		)
 		(instances
 			(project "gamma-spectrometer"
@@ -4386,10 +5306,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a42b4185-fda3-41df-862c-ef9871813134")
+			(uuid "c1ed85f2-b684-42f7-b2e7-d2853d493ee4")
 		)
 		(pin "1"
-			(uuid "186cfb09-531e-420a-9ea8-01c586dd3f2f")
+			(uuid "afd58076-203d-41f4-aeeb-6ca45dc71074")
 		)
 		(instances
 			(project "gamma-spectrometer"
@@ -4519,10 +5439,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "60556d4a-e0d4-4a6f-afd3-6984a103e400")
+			(uuid "fab48d7f-b630-4dbb-a4a4-8e0cb162854e")
 		)
 		(pin "1"
-			(uuid "9ae499d7-0ad3-4015-82c2-06299a1ba2ad")
+			(uuid "edc3c3b2-d63f-4102-b2c4-65c5d363c15c")
 		)
 		(instances
 			(project "gamma-spectrometer"
@@ -4542,7 +5462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "836bf2a8-ddf3-41e2-a6e6-7053d3886a0f")
-		(property "Reference" "U7"
+		(property "Reference" "U10"
 			(at 210.566 72.136 90)
 			(effects
 				(font
@@ -4747,24 +5667,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "512b8108-ebf0-4325-8e69-bf356bba293e")
+			(uuid "5f2986d6-21b2-4309-9059-864588de8e2b")
 		)
 		(pin "1"
-			(uuid "7a1bc25c-6c9d-448d-a71e-e45d676519e4")
+			(uuid "c06dfa1f-4d1e-4236-a531-654431b16c02")
 		)
 		(pin "2"
-			(uuid "66ae8ebc-f7b9-47f5-b355-1b0f719b9015")
+			(uuid "b59f16bc-5cd7-4493-bd00-632cb0d2fc41")
 		)
 		(pin "5"
-			(uuid "fc200bca-efe6-4af8-a822-ee669f3d9507")
-		)
-		(instances
-			(project ""
-				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
-					(reference "U7")
-					(unit 1)
-				)
-			)
+			(uuid "b98d82d6-6f7d-4c7a-a5d2-802a8ea28a3b")
 		)
 	)
 	(symbol
@@ -4886,10 +5798,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b740d5b5-e5b6-4892-9d73-36b84df1c4b8")
+			(uuid "5a95db60-6d33-4b3b-813a-7edb15603670")
 		)
 		(pin "1"
-			(uuid "a15428ce-cdac-431b-974b-587cd0fe199b")
+			(uuid "01423589-33fd-4923-96d8-23f77b50da54")
 		)
 		(instances
 			(project "gamma-spectrometer"
@@ -4955,7 +5867,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "abd922c1-a5a5-4ef4-81c4-50c419300786")
+			(uuid "def44cc4-b612-41e9-901b-7e1e69ee7663")
 		)
 		(instances
 			(project "gamma-spectrometer"
@@ -4967,6 +5879,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CL10B104KC8NNNC_1")
 		(lib_id "CL10B104KC8NNNC:CL10B104KC8NNNC")
 		(at 170.18 99.06 90)
 		(unit 1)
@@ -5191,10 +6104,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "c67d23f1-8389-4612-956c-32eed76b79a3")
+			(uuid "c66fc7f3-f6d8-4a8d-b938-b57fb9779116")
 		)
 		(pin "1"
-			(uuid "2dc39250-5baa-4025-a105-c30aa6c450fe")
+			(uuid "f3631ee7-1515-4895-a10f-d45af1f19ed9")
 		)
 		(instances
 			(project "gamma-spectrometer"
@@ -5214,7 +6127,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de577036-7dd5-4ff9-9ccb-bb2e84118092")
-		(property "Reference" "U5"
+		(property "Reference" "U9"
 			(at 121.92 85.852 0)
 			(effects
 				(font
@@ -5427,27 +6340,19 @@
 			)
 		)
 		(pin "3"
-			(uuid "0b02e06d-d8e0-4c99-8541-ace37d41abb1")
+			(uuid "ea60fd3f-b3a5-4854-aa9c-689763c51946")
 		)
 		(pin "2"
-			(uuid "424cc0ee-3238-4843-96d8-4cf090c89ec8")
+			(uuid "8bd6260e-f952-4805-8aaf-21b8db845c3f")
 		)
 		(pin "1"
-			(uuid "48a026a5-56fe-4bce-ab06-275b142ef168")
+			(uuid "80ea7680-c97f-416b-b459-61688dfb4416")
 		)
 		(pin "4"
-			(uuid "8b27752a-811f-43f6-90f3-4a0a97d88bed")
+			(uuid "0df5d544-3293-46fa-a768-cf0e14740a26")
 		)
 		(pin "5"
-			(uuid "b895f61e-8c1a-42a3-8028-7eb5aad60f99")
-		)
-		(instances
-			(project ""
-				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
-					(reference "U5")
-					(unit 1)
-				)
-			)
+			(uuid "c8f77737-e4e5-416c-931a-c28d7268b697")
 		)
 	)
 	(symbol
@@ -5505,7 +6410,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6ed23cb4-4ea5-4931-92e1-494001d84377")
+			(uuid "cdca9471-b3f0-4b48-8db9-afac0e12393f")
 		)
 		(instances
 			(project "gamma-spectrometer"
@@ -5571,7 +6476,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ae84f16-75e9-4165-9fec-ea35d289f246")
+			(uuid "b850d83e-9e0a-41cd-83a4-26284b1171cd")
 		)
 		(instances
 			(project "gamma-spectrometer"
@@ -5701,10 +6606,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a51ef026-8ddb-4736-a1c9-ac4e0282eafa")
+			(uuid "83814c9d-f2bb-4b3b-8d83-4f03f2966de8")
 		)
 		(pin "1"
-			(uuid "e1d3bbb3-ddb8-4f4f-a6fb-41b9e035bf6e")
+			(uuid "4a43f520-4010-4934-b45a-20de43baa306")
 		)
 		(instances
 			(project "gamma-spectrometer"
@@ -5716,6 +6621,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CL10B104KC8NNNC_2")
 		(lib_id "CL10B104KC8NNNC:CL10B104KC8NNNC")
 		(at 185.42 99.06 90)
 		(unit 1)
@@ -5940,10 +6846,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e20b57b8-3e87-4b03-91d4-fe3779c85254")
+			(uuid "c03a5ef5-6d8c-478f-8f6f-8dc3c74b8a1b")
 		)
 		(pin "1"
-			(uuid "49590cb5-a38d-4e66-a4af-4a582447b19a")
+			(uuid "99ebe2d5-8993-46a1-a743-64cfd388a14f")
 		)
 		(instances
 			(project "gamma-spectrometer"
