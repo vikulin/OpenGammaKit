@@ -217,6 +217,9 @@
 	(net 87 "unconnected-(U1-GPIO15-Pad20)")
 	(net 88 "unconnected-(U1-GPIO15-Pad20)_1")
 	(net 89 "unconnected-(U1-GPIO20-Pad26)_1")
+	(net 90 "unconnected-(U9-NC-Pad2)")
+	(net 91 "unconnected-(U10-EP-Pad5)")
+	(net 92 "unconnected-(U10-Pad2)")
 	(footprint "MMBT5088LT1G:SOT95P237X111-3N"
 		(layer "F.Cu")
 		(uuid "1250408f-8d40-4f71-979d-84e39f33c66d")
@@ -2479,9 +2482,9 @@
 		(uuid "53f259bf-f283-4c4d-a66c-4ed53ae135d2")
 		(at 149.725 72.225 90)
 		(property "Reference" "T1"
-			(at -0.885 -9.505 90)
+			(at 4.975 0.075 180)
 			(layer "F.SilkS")
-			(uuid "3687bfc6-fcdd-4855-b6bd-f2f131fd0291")
+			(uuid "727169f4-1eba-414c-a50b-1397f95e6b24")
 			(effects
 				(font
 					(size 1 1)
@@ -2493,7 +2496,7 @@
 			(at 6.1 10.775 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bd9f9f5a-563c-4001-897c-77e1d5718820")
+			(uuid "7e6fc8c1-402d-4fac-bc1a-4ec7fc94ec69")
 			(effects
 				(font
 					(size 1 1)
@@ -2505,7 +2508,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "223f8ee3-fca5-4211-88e6-fa101235ba15")
+			(uuid "81aeb014-1f8b-4107-9adc-faf70cac046a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2520,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0a3a7b77-0d2d-4a3c-b510-0bed10c964b4")
+			(uuid "ff0eaed2-74e6-46e9-803e-4b4bda64dca8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,6 +2999,17 @@
 			(uuid "a267e2d0-ae2c-4278-8c76-92112be35b7f")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-libraries/T1-1T-KK81/T1-1T-KK81.STEP"
+			(offset
+				(xyz 3.85 -3.5 0.75)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -3372,7 +3386,7 @@
 		(uuid "5f1c01fb-15e0-4191-a1e8-4aa2c701c5ca")
 		(at 192.5 83.75 90)
 		(tags "NTCS0603E3103FLT ")
-		(property "Reference" "TH2"
+		(property "Reference" "TH1"
 			(at 4.25 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -10028,6 +10042,9 @@
 			(size 1.21 0.59)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.125)
+			(net 90 "unconnected-(U9-NC-Pad2)")
+			(pinfunction "NC")
+			(pintype "input+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "8cfa5538-631a-4c1e-b7b9-be934d4340b9")
 		)
@@ -12701,12 +12718,12 @@
 		(uuid "e5d5ac8f-1ae1-4cd2-b2f0-6018802b4b52")
 		(at 159.475 76.2 180)
 		(property "Reference" "R1"
-			(at 1.9 0.1 0)
+			(at 0.025 1.35 0)
 			(layer "F.SilkS")
 			(uuid "0834b779-8fda-4ab0-a6b2-6b3e18c9a662")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -12988,6 +13005,17 @@
 			(uuid "4edd4a1c-c732-43b3-8b91-4c244db78301")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-libraries/ERJ3EKF1000V/ERJ3EKF1000V.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "ERJ3EKF49R9V:RES_ERJ3EKF49R9V"
 		(layer "F.Cu")
@@ -13947,7 +13975,7 @@
 			(uuid "9cdcf17f-8cd3-4fef-b083-186c645b189d")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -14228,6 +14256,17 @@
 			(uuid "d8875d54-20e3-4bd7-991b-6aca2857f940")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-libraries/ERJ3EKF1000V/ERJ3EKF1000V.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "C1608JB1H224K080AB:CAPC1608X90N"
 		(layer "B.Cu")
@@ -14516,12 +14555,12 @@
 		(uuid "0b329a28-012a-4b19-9d33-9dda493e1196")
 		(at 148.1 71.1 90)
 		(property "Reference" "C34"
-			(at 1.925 -0.05 0)
+			(at 1.95 0 0)
 			(layer "B.SilkS")
 			(uuid "5be58b0b-8907-4267-8335-d9efb4a30fd7")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -14923,6 +14962,17 @@
 			(uuid "95a313b0-ee1c-4adb-a8dd-2de04570f5c9")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-libraries/CL10B104KC8NNNC/CL10B104KC8NNNC.step"
+			(offset
+				(xyz 0 0 0.38)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "ERJ3EKF2103V:RES_ERJ3EKF2103V"
 		(layer "B.Cu")
@@ -17703,6 +17753,8 @@
 			(size 1.1 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
+			(net 92 "unconnected-(U10-Pad2)")
+			(pintype "passive+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "2072b1dc-6267-4939-b77f-bc855fe9e490")
 		)
@@ -17728,6 +17780,9 @@
 			(at 0 0)
 			(size 2.9 2.9)
 			(layers "B.Cu")
+			(net 91 "unconnected-(U10-EP-Pad5)")
+			(pinfunction "EP")
+			(pintype "power_in+no_connect")
 			(options
 				(clearance outline)
 				(anchor rect)
@@ -17804,7 +17859,7 @@
 		(uuid "30dfff9b-53aa-416a-9687-b8281786049f")
 		(at 156.1592 79.3496 90)
 		(property "Reference" "C32"
-			(at 2.032 0.1016 180)
+			(at -0.0004 -1.8592 180)
 			(layer "B.SilkS")
 			(uuid "a661ab3b-7e39-4a17-8bbb-3a53c82e1af2")
 			(effects
@@ -18086,7 +18141,7 @@
 		(uuid "362b3653-4127-44c9-be9b-44367c4a6ae1")
 		(at 148.971 86.995 90)
 		(property "Reference" "C29"
-			(at 1.9558 -0.0254 180)
+			(at 0.095 1.979 180)
 			(layer "B.SilkS")
 			(uuid "7bd0f13b-1ae2-4745-a558-7c6fcad2b4f5")
 			(effects
@@ -18510,12 +18565,12 @@
 		(uuid "49068f9e-f223-416f-ae59-e60db8c1586a")
 		(at 158.2 72.8)
 		(property "Reference" "R6"
-			(at 1.9 0.1 180)
+			(at 2.1 0.05 180)
 			(layer "B.SilkS")
 			(uuid "d41e17d0-1398-4239-ac83-37da1fd50bcb")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -18852,18 +18907,29 @@
 			(uuid "b2d9cc4e-2ed6-401c-8a28-958e5e8d84d6")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-libraries/ERJ3EKF2103V/ERJ3EKF2103V.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "ERJ3EKF2103V:RES_ERJ3EKF2103V"
 		(layer "B.Cu")
 		(uuid "4c49c3f8-fe86-49aa-a745-3b6cf70bface")
 		(at 125.85 70.355 180)
 		(property "Reference" "R7"
-			(at -1.9 0.105 0)
+			(at 0 -1.445 0)
 			(layer "B.SilkS")
 			(uuid "bd9bf709-bd61-44cb-9ce0-8f961d20b57c")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -19144,6 +19210,17 @@
 			(uuid "3116778c-f894-4010-8b89-1aa7da3f3457")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-libraries/ERJ3EKF2103V/ERJ3EKF2103V.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "CL10A226MP8NUNE:CAPC1608X90N"
 		(layer "B.Cu")
@@ -20763,7 +20840,7 @@
 		(uuid "59f020b4-3c93-4adf-a1ec-8fccde9cc2a7")
 		(at 129.9 71.4 180)
 		(property "Reference" "U11"
-			(at -3.4 0.1 0)
+			(at -3.35 0 0)
 			(layer "B.SilkS")
 			(uuid "ca98b205-ddc5-483f-bfd1-899aa3f63bae")
 			(effects
@@ -21252,13 +21329,24 @@
 			(uuid "df0938e5-7ff5-42b1-92d4-0ee2ff5b55c5")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-libraries/LM4040AIM3-3_0-T/LM4040AIM3-3_0-T.step"
+			(offset
+				(xyz 0 0 -0.02)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "C1608JB1H224K080AB:CAPC1608X90N"
 		(layer "B.Cu")
 		(uuid "5be82806-379d-47fc-999b-bc3c38843780")
 		(at 156.8958 81.6864)
 		(property "Reference" "C31"
-			(at 1.8542 -1.4364 180)
+			(at 1.2042 -1.5364 180)
 			(layer "B.SilkS")
 			(uuid "8eb1b468-0e0e-4af4-aefd-fe8e09b3b47d")
 			(effects
@@ -21540,7 +21628,7 @@
 		(uuid "66f48da3-f6ff-4351-abf0-885422c3ad07")
 		(at 152.0444 82.8294)
 		(property "Reference" "C6"
-			(at 0.6096 -1.2192 180)
+			(at 0.0056 1.5206 180)
 			(layer "B.SilkS")
 			(uuid "7f48fd6e-3cfd-4599-9d8e-e87426ddcc0a")
 			(effects
@@ -22388,12 +22476,12 @@
 		(uuid "8279b148-9746-440c-957a-0dafdcceefcf")
 		(at 151.425 75.725 180)
 		(property "Reference" "C20"
-			(at 0 -1.6 0)
+			(at 0 -1.525 0)
 			(layer "B.SilkS")
 			(uuid "6a8837e0-c6de-419a-8282-f36d8c195402")
 			(effects
 				(font
-					(size 0.7 0.7)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -22407,7 +22495,7 @@
 			(effects
 				(font
 					(size 0.393701 0.393701)
-					(thickness 0.15)
+					(thickness 0.098425)
 				)
 				(justify mirror)
 			)
@@ -22793,18 +22881,29 @@
 			(uuid "edd1ada9-0ee2-4203-ac6e-4d94657a05fd")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-libraries/ECHU1C471JX5/ECHU1C471JX5.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "ERJ3EKF25R5V:RES_ERJ3EKF25R5V"
 		(layer "B.Cu")
 		(uuid "82d8f056-6b1f-41bc-b16e-805c6a430826")
 		(at 148.925 74.425 -90)
 		(property "Reference" "R22"
-			(at 0 1.775 180)
+			(at 0.025 1.825 0)
 			(layer "B.SilkS")
 			(uuid "008c9c1b-c469-4bad-992b-99cb0ec72939")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -23085,13 +23184,24 @@
 			(uuid "4676bbf6-d3a2-46e7-9179-da38d1e2cdd2")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-libraries/ERJ3EKF25R5V/ERJ3EKF25R5V.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "CL10B104KC8NNNC:CAPC1608X90N"
 		(layer "B.Cu")
 		(uuid "8cd192e6-c705-42d2-a903-8b765d56180e")
 		(at 145.05 83.325 180)
 		(property "Reference" "C13"
-			(at -0.05 1.25 0)
+			(at -2.7 -0.025 0)
 			(layer "B.SilkS")
 			(uuid "332ecbb8-8bae-40d7-a8fc-16e47ac089da")
 			(effects
@@ -23515,7 +23625,7 @@
 		(uuid "92be5142-bc00-44f3-adc5-aba5c672b07a")
 		(at 151.249999 79.950001 90)
 		(property "Reference" "C4"
-			(at 1.450001 1.550001 180)
+			(at 0.000001 -1.599999 180)
 			(layer "B.SilkS")
 			(uuid "a6518578-6b22-4753-bd0f-5eaec1f777c4")
 			(effects
@@ -24374,6 +24484,17 @@
 			(uuid "db365ff7-fa1e-43dd-8244-75f2500ca16a")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-libraries/OPA357AIDBVR/OPA357AIDBVR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MCP41050-I_SN:SOIC127P600X175-8N"
 		(layer "B.Cu")
@@ -25347,6 +25468,17 @@
 			(uuid "5f2320c4-3a26-4655-ab14-b86d49cd92e6")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-libraries/LM4040AIM3-3_0-T/LM4040AIM3-3_0-T.step"
+			(offset
+				(xyz 0 0 -0.02)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "CL10B104KC8NNNC:CAPC1608X90N"
 		(layer "B.Cu")
@@ -25358,7 +25490,7 @@
 			(uuid "7ba690c5-07be-4f5c-9212-552d7e092330")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -25760,6 +25892,17 @@
 			(uuid "1cbb0dc5-9d9d-4afa-aca8-1fe3aba24372")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-libraries/CL10B104KC8NNNC/CL10B104KC8NNNC.step"
+			(offset
+				(xyz 0 0 0.38)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "CL10A226MP8NUNE:CAPC1608X90N"
 		(layer "B.Cu")
@@ -26049,7 +26192,7 @@
 		(uuid "a5015083-e538-4284-8055-cd38e9d34be8")
 		(at 145.649999 80.050001 90)
 		(property "Reference" "C7"
-			(at 2.050001 0.050001 180)
+			(at 2.100001 -0.049999 180)
 			(layer "B.SilkS")
 			(uuid "0cdfbf41-c152-4c1b-8923-77ea179f5ddc")
 			(effects
@@ -26776,12 +26919,12 @@
 		(uuid "ab0db1c9-7daa-49ef-a42b-d3d6f95e702a")
 		(at 143 76.6)
 		(property "Reference" "C21"
-			(at -2.7 0 180)
+			(at 0 1.45 180)
 			(layer "B.SilkS")
 			(uuid "8cbc89f9-ef7d-4204-9b14-97175f897dcb")
 			(effects
 				(font
-					(size 0.7 0.7)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -26795,7 +26938,7 @@
 			(effects
 				(font
 					(size 0.393701 0.393701)
-					(thickness 0.15)
+					(thickness 0.098425)
 				)
 				(justify mirror)
 			)
@@ -27181,6 +27324,17 @@
 			(uuid "d89feca9-4271-43b7-bc7e-ee80da7f6e23")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-libraries/ECHU1C471JX5/ECHU1C471JX5.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "ERJ3EKF1001V:RES_ERJ3EKF1001V"
 		(layer "B.Cu")
@@ -27192,7 +27346,7 @@
 			(uuid "a4735aff-bc2b-4d06-bcf4-336418d9cad4")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -27487,6 +27641,17 @@
 			(uuid "71a279f8-c14e-46be-a198-0b0b58245224")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-libraries/ERJ3EKF1001V/ERJ3EKF1001V.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MCP41050-I_SN:SOIC127P600X175-8N"
 		(layer "B.Cu")
@@ -28807,12 +28972,12 @@
 		(uuid "c6ab5758-261b-4fb5-b9c2-9422d92ec16a")
 		(at 144.5 74.8)
 		(property "Reference" "R23"
-			(at -0.275 -1.175 180)
+			(at 0 -1.3 180)
 			(layer "B.SilkS")
 			(uuid "7cd7dc67-fb26-44a0-aaa4-f286ac689216")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -29093,6 +29258,17 @@
 			(uuid "6dda0d67-1e40-4819-9895-3fd15e4b5289")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-libraries/ERJ3EKF25R5V/ERJ3EKF25R5V.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "B.Cu")
@@ -29101,7 +29277,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "D3"
-			(at -0.575 2.7 180)
+			(at 2.05 1.275 180)
 			(layer "B.SilkS")
 			(uuid "4dae64e0-b722-4fe6-87a7-f55bc0b53a60")
 			(effects
@@ -29782,12 +29958,12 @@
 		(uuid "d16dbe49-975f-4f51-96e5-289086632d83")
 		(at 158.2 74.5)
 		(property "Reference" "R5"
-			(at 1.9 0 180)
+			(at 2.15 0 180)
 			(layer "B.SilkS")
 			(uuid "1d005fb5-90b3-4485-be4d-3f244fd72be5")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -30124,18 +30300,29 @@
 			(uuid "fec82e73-2b0c-4078-a4c7-a63ae7f9db22")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-libraries/ERJ3EKF2103V/ERJ3EKF2103V.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "CL10B104KC8NNNC:CAPC1608X90N"
 		(layer "B.Cu")
 		(uuid "d5bc6460-abb4-418e-97b3-af2f0759b9ab")
 		(at 155.5 68.2)
 		(property "Reference" "C33"
-			(at -0.1 -1.225 180)
+			(at 0 -1.25 180)
 			(layer "B.SilkS")
 			(uuid "49482c2b-455d-43dd-a1fa-bec1a34a5f3f")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -30537,6 +30724,17 @@
 			(uuid "43aa1788-a3bd-4471-a11c-d399fb6cd967")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-libraries/CL10B104KC8NNNC/CL10B104KC8NNNC.step"
+			(offset
+				(xyz 0 0 0.38)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "ERJ3EKF1001V:RES_ERJ3EKF1001V"
 		(layer "B.Cu")
@@ -30548,7 +30746,7 @@
 			(uuid "bf43fdab-e5f1-4c53-b231-24e88f8fb3d3")
 			(effects
 				(font
-					(size 0.7 0.7)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -30843,6 +31041,17 @@
 			(uuid "1020437d-417c-4345-8a33-a125c3d111a6")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-libraries/ERJ3EKF1001V/ERJ3EKF1001V.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "CL10A226MP8NUNE:CAPC1608X90N"
 		(layer "B.Cu")
@@ -31556,7 +31765,7 @@
 		(uuid "e08f571d-151d-478e-9a67-199b88256d1a")
 		(at 145.796 86.995 90)
 		(property "Reference" "C12"
-			(at 1.95 0.01 180)
+			(at -0.055 -1.996 180)
 			(layer "B.SilkS")
 			(uuid "a514c368-03fb-4b18-aebf-1a1c19cee7a7")
 			(effects
@@ -31980,12 +32189,12 @@
 		(uuid "e1046857-4465-4e9f-962c-8dd0d01849de")
 		(at 150.25 69.15 90)
 		(property "Reference" "R3"
-			(at 1.775 -0.1 180)
+			(at 1.9 0 180)
 			(layer "B.SilkS")
 			(uuid "daedb620-d840-4fe9-92df-cf7f35108342")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -32280,6 +32489,17 @@
 			(uuid "38893e2e-795a-43c1-9833-6345f6b36cea")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-libraries/ERJ3EKF1001V/ERJ3EKF1001V.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "CL21A475KBQNNNE:CAPC2012X140N"
 		(layer "B.Cu")
@@ -32994,7 +33214,7 @@
 			(uuid "9f058afd-9a1b-4d8c-b352-4ab4f287da1e")
 			(effects
 				(font
-					(size 0.7 0.7)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -33275,6 +33495,17 @@
 			(uuid "11a31d56-e393-4df4-8828-367f683f155a")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-libraries/ERJ3EKF2103V/ERJ3EKF2103V.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "CL21A475KBQNNNE:CAPC2012X140N"
 		(layer "B.Cu")

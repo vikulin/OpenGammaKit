@@ -11,7 +11,7 @@
   (lib (name "B4B-PH-K-S_LF__SN_")(type "Altium Designer")(uri "${KIPRJMOD}/kicad-libraries/B4B-PH-K-S_LF__SN_.IntLib")(options "")(descr ""))
   (lib (name "B6B-PH-K-S_LF__SN_")(type "Altium Designer")(uri "${KIPRJMOD}/kicad-libraries/B6B-PH-K-S_LF__SN_.IntLib")(options "")(descr ""))
   (lib (name "B2B-PH-K-S_LF__SN_")(type "Altium Designer")(uri "${KIPRJMOD}/kicad-libraries/B2B-PH-K-S_LF__SN_.IntLib")(options "")(descr ""))
-  (lib (name "LM4040AIM3-3_0-T")(type "Altium Designer")(uri "${KIPRJMOD}/kicad-libraries/LM4040AIM3-3_0-T.IntLib")(options "")(descr ""))
+  (lib (name "LM4040AIM3-3_0-T")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/LM4040AIM3-3_0-T")(options "")(descr ""))
   (lib (name "SW_TL3305AF160QG")(type "Altium Designer")(uri "${KIPRJMOD}/kicad-libraries/TL3305AF160QG.IntLib")(options "")(descr ""))
   (lib (name "3296W-1-503LF")(type "Altium Designer")(uri "${KIPRJMOD}/kicad-libraries/3296W-1-503LF.IntLib")(options "")(descr ""))
   (lib (name "AST0760MCTRQ")(type "Altium Designer")(uri "${KIPRJMOD}/kicad-libraries/ul_AST0760MCTRQ/AltiumDesigner/Project Outputs for AST0760MCTRQ/AST0760MCTRQ.IntLib")(options "")(descr ""))
