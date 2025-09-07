@@ -7,7 +7,7 @@
 	(title_block
 		(title "Gamma Spectrometer")
 		(date "2025-09-06")
-		(rev "0.2.1")
+		(rev "0.2.2")
 		(company "Vadym Vikulin")
 	)
 	(lib_symbols
