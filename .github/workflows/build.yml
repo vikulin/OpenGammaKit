@@ -89,7 +89,7 @@ jobs:
           echo "| \`open-gamma-kit-gerber-files-${{ github.ref_name }}.zip\`  | 🟢 Complete Gerber and Drill files (Gerber X2 format) for PCB fabrication.  |" >> RELEASE_BODY.md
           echo "| \`open-gamma-kit-centroid-file-${{ github.ref_name }}.csv\` | 📍 Centroid (Pick-and-Place) file in mils for automated assembly.           |" >> RELEASE_BODY.md
           echo "| \`open-gamma-kit-${{ github.ref_name }}.pdf\`               | 📄 PDF documentation                                                        |" >> RELEASE_BODY.md
-          echo "| \`BOM.csv\`                                                 | 📋 Bill of Materials (not archived — listed separately).                    |" >> RELEASE_BODY.md
+          echo "| \`BOM.csv\`                                                 | 📋 Bill of Materials                    |" >> RELEASE_BODY.md
           echo "" >> RELEASE_BODY.md
           echo "📁 **Location**: All files are available in the [Assets](#assets) section at the bottom of this release page." >> RELEASE_BODY.md
           echo "" >> RELEASE_BODY.md
@@ -111,5 +111,7 @@ jobs:
             docs/open-gamma-kit-${{ github.ref_name }}.pdf
             build/pcb-3dview-latest-f.png
             build/pcb-3dview-latest-b.png
+          prerelease: ${{ github.head_ref != 'main' }}
         env:
           GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
+
