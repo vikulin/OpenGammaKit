@@ -5,9 +5,9 @@
 	(uuid "0dc1b1d8-2551-4cbf-9f60-95861558c962")
 	(paper "A4")
 	(title_block
-		(title "SiPM Board")
-		(date "2025-09-06")
-		(rev "0.2.1")
+		(title "Amplifier")
+		(date "2025-09-07")
+		(rev "0.2.3")
 		(company "Vadym Vikulin")
 		(comment 7 "Temperature Correction (~21 mV/K)")
 	)
@@ -2456,7 +2456,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right top)
+			(justify left top)
 		)
 		(uuid "17f23156-660b-41a3-a8d7-c6bf13d45bbf")
 	)
@@ -4599,7 +4599,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ERJ3EKF49R9V"
+		(property "MP" "ERJ3EKF25R5V"
 			(at 193.04 74.93 0)
 			(effects
 				(font
@@ -5132,6 +5132,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "933976380215"
+			(at 86.36 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "472a6750-3169-44a7-97c7-fd1496e1803e")
 		)
@@ -5440,7 +5449,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ERJ3EKF49R9V"
+		(property "MP" "ERJ3EKF25R5V"
 			(at 193.04 101.6 0)
 			(effects
 				(font

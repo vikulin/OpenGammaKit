@@ -7,7 +7,6 @@
   (lib (name "LTST-C190KGKT")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/LTST-C190KGKT/LTST-C190KGKT.kicad_sym")(options "")(descr ""))
   (lib (name "ECHU1C471JX5")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/ECHU1C471JX5/ECHU1C471JX5.kicad_sym")(options "")(descr ""))
   (lib (name "AST0760MCTRQ")(type "Altium")(uri "${KIPRJMOD}/kicad-libraries/ul_AST0760MCTRQ/AltiumDesigner/AST0760MCTRQ.SchLib")(options "")(descr ""))
-  (lib (name "LM4040AIM3-3_0-T")(type "Altium")(uri "${KIPRJMOD}/kicad-libraries/LM4040AIM3-3_0-T.IntLib")(options "")(descr ""))
   (lib (name "B6B-PH-K-S_LF__SN_")(type "Altium")(uri "${KIPRJMOD}/kicad-libraries/B6B-PH-K-S_LF__SN_.IntLib")(options "")(descr ""))
   (lib (name "B4B-PH-K-S_LF__SN_")(type "Altium")(uri "${KIPRJMOD}/kicad-libraries/B4B-PH-K-S_LF__SN_.IntLib")(options "")(descr ""))
   (lib (name "B2B-PH-K-S_LF__SN_")(type "Altium")(uri "${KIPRJMOD}/kicad-libraries/B2B-PH-K-S_LF__SN_.IntLib")(options "")(descr ""))
@@ -31,4 +30,5 @@
   (lib (name "TLV3201AIDBVR")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/TLV3201AIDBVR/TLV3201AIDBVR.kicad_sym")(options "")(descr ""))
   (lib (name "MCP41050-I_SN")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/MCP41050-I_SN/MCP41050-I_SN.kicad_sym")(options "")(descr ""))
   (lib (name "C1608JB1H224K080AB")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/C1608JB1H224K080AB/C1608JB1H224K080AB.kicad_sym")(options "")(descr ""))
+  (lib (name "LM4040AIM3-3_0-T")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/LM4040AIM3-3_0-T/LM4040AIM3-3_0-T.kicad_sym")(options "")(descr ""))
 )

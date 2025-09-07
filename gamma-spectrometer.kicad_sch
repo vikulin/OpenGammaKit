@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Gamma Spectrometer")
-		(date "2025-09-06")
-		(rev "0.2.1")
+		(date "2025-09-07")
+		(rev "0.2.3")
 		(company "Vadym Vikulin")
 	)
 	(lib_symbols
@@ -10278,7 +10278,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right top)
+			(justify left top)
 		)
 		(uuid "36e8e825-0c44-4dee-91e5-c67352cf842b")
 	)
@@ -10289,7 +10289,7 @@
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -10298,7 +10298,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right top)
+			(justify left top)
 		)
 		(uuid "c828a1b6-80c3-49d8-bedb-76d60994c5b0")
 	)
