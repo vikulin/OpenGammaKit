@@ -3621,6 +3621,12 @@
 			(uuid "f7daf110-a9a9-4574-b558-30bc4a058cfe")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "#PWR066")
@@ -3820,6 +3826,12 @@
 			(uuid "4df0af99-e7c1-4642-b315-1b85843276d7")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "C25")
@@ -3986,6 +3998,12 @@
 			(uuid "6a22c5e0-dc2d-4856-8bdb-779d742c0bb1")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "Q3")
@@ -4052,6 +4070,12 @@
 			(uuid "cdd714a0-0a2e-4f6f-b3ce-9801763770ef")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "#PWR025")
@@ -4118,6 +4142,12 @@
 			(uuid "23ad5e1d-5af9-4c57-8d25-7426e9ce8463")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "#PWR067")
@@ -4254,6 +4284,12 @@
 			(uuid "85c57d08-602b-4e3d-90c8-4c1343791379")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "TH1")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "TH1")
@@ -4493,6 +4529,12 @@
 			(uuid "78951200-cf1b-4b03-a63c-7636ffd5ce7d")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "C28")
@@ -4658,6 +4700,12 @@
 			(uuid "4b845a26-7661-459c-b030-49dd0733e709")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "Q2")
@@ -4724,6 +4772,12 @@
 			(uuid "79c537e0-1883-48ab-8772-bff2cc610f88")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "#PWR065")
@@ -4857,6 +4911,12 @@
 			(uuid "76eaf3ad-c185-4644-b327-0f062429eefe")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "R18")
@@ -4923,6 +4983,12 @@
 			(uuid "304d18fe-1c0f-44a0-9428-18ea60090d34")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "#FLG0101")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "#FLG02")
@@ -5121,6 +5187,12 @@
 			(uuid "aad962e8-9ace-477b-af3e-19578a2c44eb")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "C24")
@@ -5187,6 +5259,12 @@
 			(uuid "f1a2690d-4d34-49e7-8f19-28e9d88a2666")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "#PWR069")
@@ -5320,6 +5398,12 @@
 			(uuid "afd58076-203d-41f4-aeeb-6ca45dc71074")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "R21")
@@ -5453,6 +5537,12 @@
 			(uuid "edc3c3b2-d63f-4102-b2c4-65c5d363c15c")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "R19")
@@ -5687,6 +5777,12 @@
 			(uuid "b98d82d6-6f7d-4c7a-a5d2-802a8ea28a3b")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "U10")
@@ -5820,6 +5916,12 @@
 			(uuid "01423589-33fd-4923-96d8-23f77b50da54")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "R20")
@@ -5886,6 +5988,12 @@
 			(uuid "def44cc4-b612-41e9-901b-7e1e69ee7663")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "#PWR071")
@@ -6126,6 +6234,12 @@
 			(uuid "f3631ee7-1515-4895-a10f-d45af1f19ed9")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "C26")
@@ -6371,6 +6485,12 @@
 			(uuid "c8f77737-e4e5-416c-931a-c28d7268b697")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "U9")
@@ -6437,6 +6557,12 @@
 			(uuid "cdca9471-b3f0-4b48-8db9-afac0e12393f")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "#PWR068")
@@ -6503,6 +6629,12 @@
 			(uuid "b850d83e-9e0a-41cd-83a4-26284b1171cd")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "#PWR070")
@@ -6636,6 +6768,12 @@
 			(uuid "4a43f520-4010-4934-b45a-20de43baa306")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "R17")
@@ -6876,6 +7014,12 @@
 			(uuid "99ebe2d5-8993-46a1-a743-64cfd388a14f")
 		)
 		(instances
+			(project "sipm_board"
+				(path "/0dc1b1d8-2551-4cbf-9f60-95861558c962"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "gamma-spectrometer"
 				(path "/1fc9c372-472b-46ca-8d3b-f4aefe31a8be/1929b78d-718a-49ce-a44a-01f5c50b8f35"
 					(reference "C27")
@@ -6884,4 +7028,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

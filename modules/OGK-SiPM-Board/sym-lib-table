@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPS7B6950QDCYRQ1")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/TPS7B6950QDCYRQ1/TPS7B6950QDCYRQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "MICROFC-60035-SMT-TR1")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/MICROFC-60035-SMT-TR1/MICROFC-60035-SMT-TR1.kicad_sym")(options "")(descr ""))
+  (lib (name "NTCS0603E3103FLT")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/NTCS0603E3103FLT/NTCS0603E3103FLT.kicad_sym")(options "")(descr ""))
+  (lib (name "ERJ3EKF49R9V")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/ERJ3EKF49R9V/ERJ3EKF49R9V.kicad_sym")(options "")(descr ""))
+  (lib (name "CL10B104KC8NNNC")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/CL10B104KC8NNNC/CL10B104KC8NNNC.kicad_sym")(options "")(descr ""))
+  (lib (name "ERJ3EKF4992V")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/ERJ3EKF4992V/ERJ3EKF4992V.kicad_sym")(options "")(descr ""))
+)
