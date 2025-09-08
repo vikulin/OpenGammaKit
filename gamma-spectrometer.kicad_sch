@@ -10315,16 +10315,22 @@
 		(uuid "037984ae-5757-4055-8b4f-6db54e9d8739")
 	)
 	(junction
-		(at 40.64 105.41)
+		(at 40.64 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07ee9a53-21e1-4766-a6e3-c522c7d5c5b7")
 	)
 	(junction
-		(at 78.74 105.41)
+		(at 78.74 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09aa7e03-a340-405a-8fa4-b691b7e2a200")
+	)
+	(junction
+		(at 93.98 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0df28248-da0c-4d63-ad72-3e4c6fb7cefe")
 	)
 	(junction
 		(at 186.69 137.16)
@@ -10357,7 +10363,7 @@
 		(uuid "35ee26be-8471-44b0-b58d-bc4c221bbd04")
 	)
 	(junction
-		(at 157.48 130.81)
+		(at 157.48 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "367fb202-6881-4d35-bc7c-f5c2df1a5e0f")
@@ -10381,13 +10387,13 @@
 		(uuid "4af804a2-2c67-42cd-a241-770468ccb2da")
 	)
 	(junction
-		(at 63.5 105.41)
+		(at 63.5 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f165b45-aa97-47e1-bbe0-a50e0904dbc8")
 	)
 	(junction
-		(at 49.53 105.41)
+		(at 49.53 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f45868b-3063-4396-9715-ac34321e6b4f")
@@ -10405,7 +10411,7 @@
 		(uuid "508fcde2-85b8-4775-88bc-4fa1b055c4da")
 	)
 	(junction
-		(at 138.43 156.21)
+		(at 138.43 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50be5599-d56d-47ca-ac5c-b1c3c3b173d4")
@@ -10423,7 +10429,7 @@
 		(uuid "5ac5d5be-33a2-40b6-bc25-ed0d9f219548")
 	)
 	(junction
-		(at 127 139.7)
+		(at 127 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bcdf7a7-5c2f-4201-900e-2648435e63e0")
@@ -10453,7 +10459,7 @@
 		(uuid "7cd9f54d-6d50-4533-bf16-0d77fdb21034")
 	)
 	(junction
-		(at 93.98 156.21)
+		(at 93.98 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d0c22b7-8680-4d3d-989c-0786852dd8d3")
@@ -10465,13 +10471,7 @@
 		(uuid "83779e80-4cc4-4a09-a1fa-73c71f2c3746")
 	)
 	(junction
-		(at 86.36 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "914bb997-e101-4e1b-89c6-5b4ba6768125")
-	)
-	(junction
-		(at 138.43 130.81)
+		(at 138.43 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96f49ddf-e98c-4941-8660-0a8c71c2e36f")
@@ -10495,7 +10495,7 @@
 		(uuid "a1aa8e7b-01ce-4df1-8fc5-454b0ee7969b")
 	)
 	(junction
-		(at 44.45 157.48)
+		(at 44.45 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a99323b1-bf3e-4485-abb7-b93639d6ce00")
@@ -10513,7 +10513,7 @@
 		(uuid "c28430b3-740a-43a4-890e-6d0f5af16b0b")
 	)
 	(junction
-		(at 130.81 148.59)
+		(at 130.81 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5dc2972-9ad6-476b-90f5-c497d12971a6")
@@ -10531,13 +10531,13 @@
 		(uuid "cd731f39-3e34-435e-936b-dcbe636398c3")
 	)
 	(junction
-		(at 133.35 105.41)
+		(at 133.35 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d342e1fe-4434-409d-ab47-f5a0f68aa73c")
 	)
 	(junction
-		(at 130.81 166.37)
+		(at 130.81 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8ee9696-1e1f-42f1-90b1-8bfc7b8e0f4f")
@@ -10555,7 +10555,7 @@
 		(uuid "e59e3879-fb41-4b40-848b-214b7f89e5f5")
 	)
 	(junction
-		(at 31.75 105.41)
+		(at 31.75 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec93cb7b-0774-4aec-9eb6-9757ac2b41af")
@@ -10922,16 +10922,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 105.41) (xy 109.22 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "036b6c6c-0079-4d91-b1a4-21cc5bcd5416")
-	)
-	(wire
-		(pts
 			(xy 33.02 29.21) (xy 39.37 29.21)
 		)
 		(stroke
@@ -10942,7 +10932,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 105.41) (xy 40.64 105.41)
+			(xy 31.75 110.49) (xy 40.64 110.49)
 		)
 		(stroke
 			(width 0)
@@ -10952,7 +10942,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 156.21) (xy 138.43 156.21)
+			(xy 130.81 161.29) (xy 138.43 161.29)
 		)
 		(stroke
 			(width 0)
@@ -10972,7 +10962,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 105.41) (xy 116.84 105.41)
+			(xy 133.35 110.49) (xy 116.84 110.49)
 		)
 		(stroke
 			(width 0)
@@ -11032,7 +11022,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 105.41) (xy 52.07 105.41)
+			(xy 49.53 110.49) (xy 52.07 110.49)
 		)
 		(stroke
 			(width 0)
@@ -11052,7 +11042,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 130.81) (xy 86.36 130.81)
+			(xy 44.45 135.89) (xy 93.98 135.89)
 		)
 		(stroke
 			(width 0)
@@ -11092,7 +11082,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 156.21) (xy 93.98 158.75)
+			(xy 93.98 161.29) (xy 93.98 163.83)
 		)
 		(stroke
 			(width 0)
@@ -11112,7 +11102,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 166.37) (xy 93.98 167.64)
+			(xy 93.98 171.45) (xy 93.98 172.72)
 		)
 		(stroke
 			(width 0)
@@ -11162,7 +11152,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 157.48) (xy 44.45 167.64)
+			(xy 44.45 162.56) (xy 44.45 172.72)
 		)
 		(stroke
 			(width 0)
@@ -11182,7 +11172,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 120.65) (xy 40.64 116.84)
+			(xy 40.64 125.73) (xy 40.64 121.92)
 		)
 		(stroke
 			(width 0)
@@ -11212,7 +11202,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 180.34) (xy 90.17 156.21)
+			(xy 90.17 185.42) (xy 90.17 161.29)
 		)
 		(stroke
 			(width 0)
@@ -11222,7 +11212,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 120.65) (xy 49.53 116.84)
+			(xy 49.53 125.73) (xy 49.53 121.92)
 		)
 		(stroke
 			(width 0)
@@ -11352,7 +11342,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 116.84) (xy 31.75 120.65)
+			(xy 31.75 121.92) (xy 31.75 125.73)
 		)
 		(stroke
 			(width 0)
@@ -11392,7 +11382,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 109.22) (xy 31.75 105.41)
+			(xy 31.75 114.3) (xy 31.75 110.49)
 		)
 		(stroke
 			(width 0)
@@ -11432,7 +11422,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 162.56) (xy 49.53 162.56)
+			(xy 52.07 167.64) (xy 49.53 167.64)
 		)
 		(stroke
 			(width 0)
@@ -11442,7 +11432,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 139.7) (xy 127 139.7)
+			(xy 95.25 144.78) (xy 127 144.78)
 		)
 		(stroke
 			(width 0)
@@ -11482,7 +11472,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 130.81) (xy 157.48 133.35)
+			(xy 157.48 135.89) (xy 157.48 138.43)
 		)
 		(stroke
 			(width 0)
@@ -11502,7 +11492,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 167.64) (xy 130.81 166.37)
+			(xy 130.81 172.72) (xy 130.81 171.45)
 		)
 		(stroke
 			(width 0)
@@ -11572,7 +11562,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 156.21) (xy 138.43 130.81)
+			(xy 138.43 161.29) (xy 138.43 135.89)
 		)
 		(stroke
 			(width 0)
@@ -11582,7 +11572,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 105.41) (xy 49.53 109.22)
+			(xy 49.53 110.49) (xy 49.53 114.3)
 		)
 		(stroke
 			(width 0)
@@ -11602,7 +11592,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 167.64) (xy 52.07 167.64)
+			(xy 44.45 172.72) (xy 52.07 172.72)
 		)
 		(stroke
 			(width 0)
@@ -11672,7 +11662,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 109.22) (xy 78.74 105.41)
+			(xy 78.74 114.3) (xy 78.74 110.49)
 		)
 		(stroke
 			(width 0)
@@ -11732,7 +11722,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 105.41) (xy 40.64 109.22)
+			(xy 40.64 110.49) (xy 40.64 114.3)
 		)
 		(stroke
 			(width 0)
@@ -11792,7 +11782,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 130.81) (xy 138.43 130.81)
+			(xy 140.97 135.89) (xy 138.43 135.89)
 		)
 		(stroke
 			(width 0)
@@ -11802,7 +11792,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 163.83) (xy 130.81 166.37)
+			(xy 130.81 168.91) (xy 130.81 171.45)
 		)
 		(stroke
 			(width 0)
@@ -11812,7 +11802,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 105.41) (xy 133.35 153.67)
+			(xy 133.35 110.49) (xy 133.35 158.75)
 		)
 		(stroke
 			(width 0)
@@ -11832,7 +11822,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 157.48) (xy 44.45 130.81)
+			(xy 44.45 162.56) (xy 44.45 135.89)
 		)
 		(stroke
 			(width 0)
@@ -11852,7 +11842,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 107.95) (xy 86.36 105.41)
+			(xy 93.98 113.03) (xy 93.98 110.49)
 		)
 		(stroke
 			(width 0)
@@ -11882,7 +11872,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 156.21) (xy 93.98 156.21)
+			(xy 90.17 161.29) (xy 93.98 161.29)
 		)
 		(stroke
 			(width 0)
@@ -11892,7 +11882,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 105.41) (xy 31.75 105.41)
+			(xy 27.94 110.49) (xy 31.75 110.49)
 		)
 		(stroke
 			(width 0)
@@ -11902,7 +11892,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 139.7) (xy 130.81 139.7)
+			(xy 127 144.78) (xy 130.81 144.78)
 		)
 		(stroke
 			(width 0)
@@ -11982,7 +11972,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 166.37) (xy 138.43 167.64)
+			(xy 138.43 171.45) (xy 138.43 172.72)
 		)
 		(stroke
 			(width 0)
@@ -11992,7 +11982,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 105.41) (xy 63.5 105.41)
+			(xy 59.69 110.49) (xy 63.5 110.49)
 		)
 		(stroke
 			(width 0)
@@ -12012,6 +12002,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 110.49) (xy 109.22 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "848fc979-9e1f-463b-8b03-5ed2ce949afc")
+	)
+	(wire
+		(pts
 			(xy 100.33 74.93) (xy 109.22 74.93)
 		)
 		(stroke
@@ -12022,7 +12022,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 105.41) (xy 86.36 105.41)
+			(xy 78.74 110.49) (xy 93.98 110.49)
 		)
 		(stroke
 			(width 0)
@@ -12032,7 +12032,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 140.97) (xy 157.48 142.24)
+			(xy 157.48 146.05) (xy 157.48 147.32)
 		)
 		(stroke
 			(width 0)
@@ -12042,7 +12042,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 120.65) (xy 78.74 116.84)
+			(xy 78.74 125.73) (xy 78.74 121.92)
 		)
 		(stroke
 			(width 0)
@@ -12052,7 +12052,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 107.95) (xy 157.48 130.81)
+			(xy 157.48 113.03) (xy 157.48 135.89)
 		)
 		(stroke
 			(width 0)
@@ -12142,7 +12142,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 148.59) (xy 130.81 156.21)
+			(xy 130.81 153.67) (xy 130.81 161.29)
 		)
 		(stroke
 			(width 0)
@@ -12222,7 +12222,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 157.48) (xy 44.45 157.48)
+			(xy 52.07 162.56) (xy 44.45 162.56)
 		)
 		(stroke
 			(width 0)
@@ -12272,7 +12272,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 153.67) (xy 95.25 139.7)
+			(xy 95.25 158.75) (xy 95.25 144.78)
 		)
 		(stroke
 			(width 0)
@@ -12292,7 +12292,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 130.81) (xy 156.21 130.81)
+			(xy 157.48 135.89) (xy 156.21 135.89)
 		)
 		(stroke
 			(width 0)
@@ -12392,7 +12392,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 115.57) (xy 86.36 130.81)
+			(xy 93.98 120.65) (xy 93.98 135.89)
 		)
 		(stroke
 			(width 0)
@@ -12402,7 +12402,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 105.41) (xy 138.43 105.41)
+			(xy 133.35 110.49) (xy 138.43 110.49)
 		)
 		(stroke
 			(width 0)
@@ -12432,7 +12432,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 120.65) (xy 63.5 116.84)
+			(xy 63.5 125.73) (xy 63.5 121.92)
 		)
 		(stroke
 			(width 0)
@@ -12562,7 +12562,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 105.41) (xy 63.5 109.22)
+			(xy 63.5 110.49) (xy 63.5 114.3)
 		)
 		(stroke
 			(width 0)
@@ -12572,7 +12572,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 139.7) (xy 130.81 148.59)
+			(xy 130.81 144.78) (xy 130.81 153.67)
 		)
 		(stroke
 			(width 0)
@@ -12632,7 +12632,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 162.56) (xy 49.53 180.34)
+			(xy 49.53 167.64) (xy 49.53 185.42)
 		)
 		(stroke
 			(width 0)
@@ -12692,7 +12692,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 180.34) (xy 49.53 180.34)
+			(xy 90.17 185.42) (xy 49.53 185.42)
 		)
 		(stroke
 			(width 0)
@@ -12752,7 +12752,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 156.21) (xy 95.25 156.21)
+			(xy 93.98 161.29) (xy 95.25 161.29)
 		)
 		(stroke
 			(width 0)
@@ -12842,7 +12842,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 156.21) (xy 138.43 158.75)
+			(xy 138.43 161.29) (xy 138.43 163.83)
 		)
 		(stroke
 			(width 0)
@@ -12862,7 +12862,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 153.67) (xy 130.81 153.67)
+			(xy 133.35 158.75) (xy 130.81 158.75)
 		)
 		(stroke
 			(width 0)
@@ -12902,7 +12902,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 105.41) (xy 49.53 105.41)
+			(xy 40.64 110.49) (xy 49.53 110.49)
 		)
 		(stroke
 			(width 0)
@@ -13322,7 +13322,7 @@
 	)
 	(global_label "CS1"
 		(shape input)
-		(at 52.07 147.32 180)
+		(at 52.07 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13332,7 +13332,7 @@
 		)
 		(uuid "0066ff3e-aaa8-4504-b98e-b04b6d810727")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.3958 147.32 0)
+			(at 45.3958 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13388,7 +13388,7 @@
 	)
 	(global_label "PS_OUT"
 		(shape input)
-		(at 27.94 105.41 180)
+		(at 27.94 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13398,7 +13398,7 @@
 		)
 		(uuid "36c400ae-e373-4272-a7d6-34c2f6e54350")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.8791 105.41 0)
+			(at 17.8791 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13498,7 +13498,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 52.07 149.86 180)
+		(at 52.07 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13508,7 +13508,7 @@
 		)
 		(uuid "740b35be-9f18-4913-b79e-852fe84e4e57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.3353 149.86 0)
+			(at 45.3353 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13586,7 +13586,7 @@
 	)
 	(global_label "SI"
 		(shape input)
-		(at 52.07 152.4 180)
+		(at 52.07 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13596,7 +13596,7 @@
 		)
 		(uuid "9777b1cb-713f-4594-9042-117ef31693e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.2705 152.4 0)
+			(at 47.2705 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14029,7 +14029,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 172.72 0)
+		(at 87.63 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14038,7 +14038,7 @@
 		(fields_autoplaced yes)
 		(uuid "0485f61e-ede6-492e-94f9-776438dc24a2")
 		(property "Reference" "#PWR082"
-			(at 87.63 179.07 0)
+			(at 87.63 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14047,7 +14047,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 177.8 0)
+			(at 87.63 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14055,7 +14055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 172.72 0)
+			(at 87.63 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14064,7 +14064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 172.72 0)
+			(at 87.63 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14073,7 +14073,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 172.72 0)
+			(at 87.63 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15561,7 +15561,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 120.65 0)
+		(at 78.74 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15570,7 +15570,7 @@
 		(fields_autoplaced yes)
 		(uuid "1de0be6d-e0c3-4098-90d1-df5de1a9c94a")
 		(property "Reference" "#PWR056"
-			(at 78.74 127 0)
+			(at 78.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15579,7 +15579,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 125.73 0)
+			(at 78.74 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15587,7 +15587,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 120.65 0)
+			(at 78.74 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15596,7 +15596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 120.65 0)
+			(at 78.74 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15605,7 +15605,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 120.65 0)
+			(at 78.74 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15831,7 +15831,7 @@
 	(symbol
 		(lib_name "CL21A475KBQNNNE_1")
 		(lib_id "CL21A475KBQNNNE:CL21A475KBQNNNE")
-		(at 78.74 114.3 90)
+		(at 78.74 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15839,7 +15839,7 @@
 		(dnp no)
 		(uuid "24f29b36-633d-4144-80a6-a82e821ce5c3")
 		(property "Reference" "C18"
-			(at 72.39 111.506 90)
+			(at 72.39 116.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15848,7 +15848,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 72.39 114.046 90)
+			(at 72.39 119.126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15857,7 +15857,7 @@
 			)
 		)
 		(property "Footprint" "CL21A475KBQNNNE:CAPC2012X140N"
-			(at 78.74 114.3 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15867,7 +15867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 114.3 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15876,7 +15876,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 114.3 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15885,7 +15885,7 @@
 			)
 		)
 		(property "MF" "Samsung Electro-Mechanics"
-			(at 78.74 114.3 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15895,7 +15895,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            CL21 Series 4.7 uF 50 V ±10 % Tolerance X5R SMT Multilayer Ceramic Capacitor\n                        \n"
-			(at 78.74 114.3 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15905,7 +15905,7 @@
 			)
 		)
 		(property "Package" "0805 Samsung"
-			(at 78.74 114.3 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15915,7 +15915,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 78.74 114.3 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15925,7 +15925,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL21A475KBQNNNE/Samsung/view-part/?ref=snap"
-			(at 78.74 114.3 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15935,7 +15935,7 @@
 			)
 		)
 		(property "MP" "CL21A475KBQNNNE"
-			(at 78.74 114.3 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15945,7 +15945,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 78.74 114.3 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15955,7 +15955,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CL21A475KBQNNNE/Samsung/view-part/?ref=eda"
-			(at 78.74 114.3 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15965,7 +15965,7 @@
 			)
 		)
 		(property "Arrow_Asia-Purchase-URL" ""
-			(at 78.74 114.3 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15973,7 +15973,7 @@
 			)
 		)
 		(property "Arrow_Electronics-Purchase-URL" ""
-			(at 78.74 114.3 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15981,7 +15981,7 @@
 			)
 		)
 		(property "DigiKey-Purchase-URL" ""
-			(at 78.74 114.3 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15989,7 +15989,7 @@
 			)
 		)
 		(property "Mouser-Purchase-URL" ""
-			(at 78.74 114.3 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15997,7 +15997,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 78.74 114.3 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16005,7 +16005,7 @@
 			)
 		)
 		(property "Texas_Instruments-Purchase-URL" ""
-			(at 78.74 114.3 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16029,7 +16029,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 55.88 105.41 90)
+		(at 55.88 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16037,7 +16037,7 @@
 		(dnp no)
 		(uuid "27fc7090-0178-4141-bb2e-70fed530cc53")
 		(property "Reference" "R16"
-			(at 56.134 107.696 90)
+			(at 56.134 112.776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16045,7 +16045,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 56.134 110.49 90)
+			(at 56.134 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16053,7 +16053,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF1000V:RES_ERJ3EKF1000V"
-			(at 55.88 107.188 90)
+			(at 55.88 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16062,7 +16062,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 105.41 0)
+			(at 55.88 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16071,7 +16071,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 55.88 105.41 0)
+			(at 55.88 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16080,7 +16080,7 @@
 			)
 		)
 		(property "MP" "ERJ3EKF1000V"
-			(at 55.88 105.41 0)
+			(at 55.88 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16089,7 +16089,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 55.88 105.41 0)
+			(at 55.88 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16098,7 +16098,7 @@
 			)
 		)
 		(property "Arrow_Asia-Purchase-URL" ""
-			(at 55.88 105.41 0)
+			(at 55.88 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16106,7 +16106,7 @@
 			)
 		)
 		(property "Arrow_Electronics-Purchase-URL" ""
-			(at 55.88 105.41 0)
+			(at 55.88 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16114,7 +16114,7 @@
 			)
 		)
 		(property "DigiKey-Purchase-URL" ""
-			(at 55.88 105.41 0)
+			(at 55.88 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16122,7 +16122,7 @@
 			)
 		)
 		(property "Mouser-Purchase-URL" ""
-			(at 55.88 105.41 0)
+			(at 55.88 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16130,7 +16130,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 55.88 105.41 0)
+			(at 55.88 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16138,7 +16138,7 @@
 			)
 		)
 		(property "Texas_Instruments-Purchase-URL" ""
-			(at 55.88 105.41 0)
+			(at 55.88 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17746,7 +17746,7 @@
 	(symbol
 		(lib_name "CL21A475KBQNNNE_2")
 		(lib_id "CL21A475KBQNNNE:CL21A475KBQNNNE")
-		(at 49.53 114.3 90)
+		(at 49.53 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17754,7 +17754,7 @@
 		(dnp no)
 		(uuid "551303bc-ed0e-4be5-b309-33e6087f765d")
 		(property "Reference" "C16"
-			(at 43.18 111.252 90)
+			(at 43.18 116.332 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17763,7 +17763,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 43.18 113.792 90)
+			(at 43.18 118.872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17772,7 +17772,7 @@
 			)
 		)
 		(property "Footprint" "CL21A475KBQNNNE:CAPC2012X140N"
-			(at 49.53 114.3 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17782,7 +17782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 114.3 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17791,7 +17791,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 114.3 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17800,7 +17800,7 @@
 			)
 		)
 		(property "MF" "Samsung Electro-Mechanics"
-			(at 49.53 114.3 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17810,7 +17810,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            CL21 Series 4.7 uF 50 V ±10 % Tolerance X5R SMT Multilayer Ceramic Capacitor\n                        \n"
-			(at 49.53 114.3 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17820,7 +17820,7 @@
 			)
 		)
 		(property "Package" "0805 Samsung"
-			(at 49.53 114.3 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17830,7 +17830,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 49.53 114.3 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17840,7 +17840,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL21A475KBQNNNE/Samsung/view-part/?ref=snap"
-			(at 49.53 114.3 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17850,7 +17850,7 @@
 			)
 		)
 		(property "MP" "CL21A475KBQNNNE"
-			(at 49.53 114.3 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17860,7 +17860,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 49.53 114.3 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17870,7 +17870,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CL21A475KBQNNNE/Samsung/view-part/?ref=eda"
-			(at 49.53 114.3 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17880,7 +17880,7 @@
 			)
 		)
 		(property "Arrow_Asia-Purchase-URL" ""
-			(at 49.53 114.3 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17888,7 +17888,7 @@
 			)
 		)
 		(property "Arrow_Electronics-Purchase-URL" ""
-			(at 49.53 114.3 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17896,7 +17896,7 @@
 			)
 		)
 		(property "DigiKey-Purchase-URL" ""
-			(at 49.53 114.3 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17904,7 +17904,7 @@
 			)
 		)
 		(property "Mouser-Purchase-URL" ""
-			(at 49.53 114.3 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17912,7 +17912,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 49.53 114.3 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17920,7 +17920,7 @@
 			)
 		)
 		(property "Texas_Instruments-Purchase-URL" ""
-			(at 49.53 114.3 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18152,7 +18152,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 120.65 0)
+		(at 40.64 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18161,7 +18161,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c5cf315-eb4f-4382-aa97-68b9db12d015")
 		(property "Reference" "#PWR059"
-			(at 40.64 127 0)
+			(at 40.64 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18170,7 +18170,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 125.73 0)
+			(at 40.64 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18178,7 +18178,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 120.65 0)
+			(at 40.64 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18187,7 +18187,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 120.65 0)
+			(at 40.64 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18196,7 +18196,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 120.65 0)
+			(at 40.64 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19289,7 +19289,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 167.64 0)
+		(at 93.98 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19298,7 +19298,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c634a66-1f77-4897-a16d-7b6a069f2e56")
 		(property "Reference" "#PWR047"
-			(at 93.98 173.99 0)
+			(at 93.98 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19307,7 +19307,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 172.72 0)
+			(at 93.98 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19315,7 +19315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 167.64 0)
+			(at 93.98 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19324,7 +19324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 167.64 0)
+			(at 93.98 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19333,7 +19333,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 167.64 0)
+			(at 93.98 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19355,7 +19355,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 142.24 0)
+		(at 157.48 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19364,7 +19364,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f37932c-9689-4cf0-b5cf-895c738ffba1")
 		(property "Reference" "#PWR062"
-			(at 157.48 148.59 0)
+			(at 157.48 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19373,7 +19373,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 147.32 0)
+			(at 157.48 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19381,7 +19381,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 142.24 0)
+			(at 157.48 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19390,7 +19390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 142.24 0)
+			(at 157.48 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19399,7 +19399,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 142.24 0)
+			(at 157.48 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19726,7 +19726,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 167.64 0)
+		(at 138.43 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19735,7 +19735,7 @@
 		(fields_autoplaced yes)
 		(uuid "749cb560-a6c1-46f5-b0d6-0ced3009a669")
 		(property "Reference" "#PWR055"
-			(at 138.43 173.99 0)
+			(at 138.43 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19744,7 +19744,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 172.72 0)
+			(at 138.43 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19752,7 +19752,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 167.64 0)
+			(at 138.43 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19761,7 +19761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 167.64 0)
+			(at 138.43 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19770,7 +19770,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 167.64 0)
+			(at 138.43 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20208,7 +20208,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 113.03 105.41 0)
+		(at 113.03 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20216,7 +20216,7 @@
 		(dnp no)
 		(uuid "7f19f116-a5a7-4d36-b0f1-1a22c42e230d")
 		(property "Reference" "D1"
-			(at 112.776 102.108 0)
+			(at 112.776 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20224,7 +20224,7 @@
 			)
 		)
 		(property "Value" "PMEG4010BEA"
-			(at 113.284 109.22 0)
+			(at 113.284 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20232,7 +20232,7 @@
 			)
 		)
 		(property "Footprint" "PMEG4010BEA_115:DIO_BZX384-C30_115"
-			(at 113.03 105.41 0)
+			(at 113.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20241,7 +20241,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 105.41 0)
+			(at 113.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20250,7 +20250,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 113.03 105.41 0)
+			(at 113.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20259,7 +20259,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 113.03 105.41 0)
+			(at 113.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20268,7 +20268,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 113.03 105.41 0)
+			(at 113.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20277,7 +20277,7 @@
 			)
 		)
 		(property "MP" "PMEG4010BEA,115"
-			(at 113.03 105.41 0)
+			(at 113.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20286,7 +20286,7 @@
 			)
 		)
 		(property "Package" "SOD323"
-			(at 113.03 105.41 0)
+			(at 113.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20295,7 +20295,7 @@
 			)
 		)
 		(property "Arrow_Asia-Purchase-URL" ""
-			(at 113.03 105.41 0)
+			(at 113.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20303,7 +20303,7 @@
 			)
 		)
 		(property "Arrow_Electronics-Purchase-URL" ""
-			(at 113.03 105.41 0)
+			(at 113.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20311,7 +20311,7 @@
 			)
 		)
 		(property "DigiKey-Purchase-URL" ""
-			(at 113.03 105.41 0)
+			(at 113.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20319,7 +20319,7 @@
 			)
 		)
 		(property "Mouser-Purchase-URL" ""
-			(at 113.03 105.41 0)
+			(at 113.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20327,7 +20327,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 113.03 105.41 0)
+			(at 113.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20335,7 +20335,7 @@
 			)
 		)
 		(property "Texas_Instruments-Purchase-URL" ""
-			(at 113.03 105.41 0)
+			(at 113.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20359,7 +20359,7 @@
 	)
 	(symbol
 		(lib_id "ACML-0402HC-301-T:ACML-0402HC-301-T")
-		(at 71.12 105.41 0)
+		(at 71.12 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20367,7 +20367,7 @@
 		(dnp no)
 		(uuid "830614bc-118b-4d75-a339-81cf121028c4")
 		(property "Reference" "FB2"
-			(at 72.39 99.822 0)
+			(at 72.39 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20375,7 +20375,7 @@
 			)
 		)
 		(property "Value" "BLM18KG102SN1D"
-			(at 85.852 102.108 0)
+			(at 85.852 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20383,7 +20383,7 @@
 			)
 		)
 		(property "Footprint" "BLM18KG102SN1D:BEADC1608X95N"
-			(at 71.12 105.41 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20393,7 +20393,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.snapeda.com/parts/BLM18KG102SN1D/Murata/datasheet/"
-			(at 71.12 105.41 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20402,7 +20402,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 105.41 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20411,7 +20411,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 71.12 105.41 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20421,7 +20421,7 @@
 			)
 		)
 		(property "Description_1" "1 kOhms @ 100 MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 1A 200mOhm "
-			(at 71.12 105.41 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20431,7 +20431,7 @@
 			)
 		)
 		(property "PACKAGE" "0603"
-			(at 71.12 105.41 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20441,7 +20441,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 71.12 105.41 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20451,7 +20451,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 71.12 105.41 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20461,7 +20461,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 71.12 105.41 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20471,7 +20471,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BLM18KG102SN1D/Murata/datasheet/"
-			(at 71.12 105.41 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20481,7 +20481,7 @@
 			)
 		)
 		(property "MP" "BLM18KG102SN1D"
-			(at 71.12 105.41 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20491,7 +20491,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 71.12 105.41 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20501,7 +20501,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BLM18KG102SN1D/Murata/datasheet/"
-			(at 71.12 105.41 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20511,7 +20511,7 @@
 			)
 		)
 		(property "Arrow_Asia-Purchase-URL" ""
-			(at 71.12 105.41 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20519,7 +20519,7 @@
 			)
 		)
 		(property "Arrow_Electronics-Purchase-URL" ""
-			(at 71.12 105.41 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20527,7 +20527,7 @@
 			)
 		)
 		(property "DigiKey-Purchase-URL" ""
-			(at 71.12 105.41 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20535,7 +20535,7 @@
 			)
 		)
 		(property "Mouser-Purchase-URL" ""
-			(at 71.12 105.41 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20543,7 +20543,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 71.12 105.41 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20551,7 +20551,7 @@
 			)
 		)
 		(property "Texas_Instruments-Purchase-URL" ""
-			(at 71.12 105.41 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20575,7 +20575,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 157.48 107.95 0)
+		(at 157.48 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20584,7 +20584,7 @@
 		(fields_autoplaced yes)
 		(uuid "8417a11a-0c46-48e5-bf82-81702a742914")
 		(property "Reference" "#PWR063"
-			(at 157.48 111.76 0)
+			(at 157.48 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20593,7 +20593,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 157.48 102.87 0)
+			(at 157.48 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20601,7 +20601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 107.95 0)
+			(at 157.48 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20610,7 +20610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 107.95 0)
+			(at 157.48 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20619,7 +20619,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 157.48 107.95 0)
+			(at 157.48 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20641,7 +20641,7 @@
 	)
 	(symbol
 		(lib_id "power:Vdrive")
-		(at 127 139.7 0)
+		(at 127 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20650,7 +20650,7 @@
 		(fields_autoplaced yes)
 		(uuid "85c86587-8a7a-4c03-9ad6-2673d4386228")
 		(property "Reference" "#PWR061"
-			(at 127 143.51 0)
+			(at 127 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20659,7 +20659,7 @@
 			)
 		)
 		(property "Value" "Vdrive"
-			(at 127 134.62 0)
+			(at 127 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20667,7 +20667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 139.7 0)
+			(at 127 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20676,7 +20676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 139.7 0)
+			(at 127 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20685,7 +20685,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
-			(at 127 139.7 0)
+			(at 127 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21415,7 +21415,7 @@
 	)
 	(symbol
 		(lib_id "NRS4018T470MDGJ:NRS4018T470MDGJ")
-		(at 138.43 118.11 270)
+		(at 138.43 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21424,7 +21424,7 @@
 		(fields_autoplaced yes)
 		(uuid "95d4d152-2b6a-4365-b968-a9699ddff782")
 		(property "Reference" "L1"
-			(at 140.97 116.8399 90)
+			(at 140.97 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21433,7 +21433,7 @@
 			)
 		)
 		(property "Value" "47uH"
-			(at 140.97 119.3799 90)
+			(at 140.97 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21442,7 +21442,7 @@
 			)
 		)
 		(property "Footprint" "NRS4018T470MDGJ:IND_NRS4018T470MDGJ"
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21452,7 +21452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21461,7 +21461,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21470,7 +21470,7 @@
 			)
 		)
 		(property "MF" "Taiyo Yuden"
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21480,7 +21480,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.8 mm"
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21490,7 +21490,7 @@
 			)
 		)
 		(property "Package" "Nonstandard Taiyo Yuden"
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21500,7 +21500,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21510,7 +21510,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/NRS4018T470MDGJ/Taiyo+Yuden/view-part/?ref=eda"
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21520,7 +21520,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21530,7 +21530,7 @@
 			)
 		)
 		(property "PARTREV" "2021.10.25"
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21540,7 +21540,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NRS4018T470MDGJ/Taiyo+Yuden/view-part/?ref=snap"
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21550,7 +21550,7 @@
 			)
 		)
 		(property "MP" "NRS4018T470MDGJ"
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21560,7 +21560,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            47 µH Shielded Drum Core, Wirewound Inductor 440 mA 780mOhm Max Nonstandard\n                        \n"
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21570,7 +21570,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21580,7 +21580,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Taiyo Yuden"
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21590,7 +21590,7 @@
 			)
 		)
 		(property "Arrow_Asia-Purchase-URL" ""
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21598,7 +21598,7 @@
 			)
 		)
 		(property "Arrow_Electronics-Purchase-URL" ""
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21606,7 +21606,7 @@
 			)
 		)
 		(property "DigiKey-Purchase-URL" ""
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21614,7 +21614,7 @@
 			)
 		)
 		(property "Mouser-Purchase-URL" ""
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21622,7 +21622,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21630,7 +21630,7 @@
 			)
 		)
 		(property "Texas_Instruments-Purchase-URL" ""
-			(at 138.43 118.11 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21655,7 +21655,7 @@
 	(symbol
 		(lib_name "ACML-0402HC-301-T_3")
 		(lib_id "ACML-0402HC-301-T:ACML-0402HC-301-T")
-		(at 148.59 130.81 0)
+		(at 148.59 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21663,7 +21663,7 @@
 		(dnp no)
 		(uuid "96f683c1-343f-4643-b5f5-5021c9e4bfd2")
 		(property "Reference" "FB3"
-			(at 148.59 122.174 0)
+			(at 148.59 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21671,7 +21671,7 @@
 			)
 		)
 		(property "Value" "BLM18KG102SN1D"
-			(at 148.336 125.476 0)
+			(at 148.336 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21679,7 +21679,7 @@
 			)
 		)
 		(property "Footprint" "BLM18KG102SN1D:BEADC1608X95N"
-			(at 148.59 130.81 0)
+			(at 148.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21689,7 +21689,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.snapeda.com/parts/BLM18KG102SN1D/Murata/datasheet/"
-			(at 148.59 130.81 0)
+			(at 148.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21698,7 +21698,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 130.81 0)
+			(at 148.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21707,7 +21707,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 148.59 130.81 0)
+			(at 148.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21717,7 +21717,7 @@
 			)
 		)
 		(property "Description_1" "1 kOhms @ 100 MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 1A 200mOhm "
-			(at 148.59 130.81 0)
+			(at 148.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21727,7 +21727,7 @@
 			)
 		)
 		(property "PACKAGE" "0603"
-			(at 148.59 130.81 0)
+			(at 148.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21737,7 +21737,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 148.59 130.81 0)
+			(at 148.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21747,7 +21747,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 148.59 130.81 0)
+			(at 148.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21757,7 +21757,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 148.59 130.81 0)
+			(at 148.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21767,7 +21767,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BLM18KG102SN1D/Murata/datasheet/"
-			(at 148.59 130.81 0)
+			(at 148.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21777,7 +21777,7 @@
 			)
 		)
 		(property "MP" "BLM18KG102SN1D"
-			(at 148.59 130.81 0)
+			(at 148.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21787,7 +21787,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 148.59 130.81 0)
+			(at 148.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21797,7 +21797,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BLM18KG102SN1D/Murata/datasheet/"
-			(at 148.59 130.81 0)
+			(at 148.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21807,7 +21807,7 @@
 			)
 		)
 		(property "Arrow_Asia-Purchase-URL" ""
-			(at 148.59 130.81 0)
+			(at 148.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21815,7 +21815,7 @@
 			)
 		)
 		(property "Arrow_Electronics-Purchase-URL" ""
-			(at 148.59 130.81 0)
+			(at 148.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21823,7 +21823,7 @@
 			)
 		)
 		(property "DigiKey-Purchase-URL" ""
-			(at 148.59 130.81 0)
+			(at 148.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21831,7 +21831,7 @@
 			)
 		)
 		(property "Mouser-Purchase-URL" ""
-			(at 148.59 130.81 0)
+			(at 148.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21839,7 +21839,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 148.59 130.81 0)
+			(at 148.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21847,7 +21847,7 @@
 			)
 		)
 		(property "Texas_Instruments-Purchase-URL" ""
-			(at 148.59 130.81 0)
+			(at 148.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22349,7 +22349,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 87.63 142.24 0)
+		(at 87.63 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22358,7 +22358,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cea1ab2-750b-4b6f-a689-a03e10002cd9")
 		(property "Reference" "#PWR048"
-			(at 87.63 146.05 0)
+			(at 87.63 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22367,7 +22367,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 87.63 137.16 0)
+			(at 87.63 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22375,7 +22375,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 142.24 0)
+			(at 87.63 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22384,7 +22384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 142.24 0)
+			(at 87.63 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22393,7 +22393,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 87.63 142.24 0)
+			(at 87.63 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22892,7 +22892,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 86.36 111.76 180)
+		(at 93.98 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22900,7 +22900,7 @@
 		(dnp no)
 		(uuid "a3a61f41-4917-4ef8-8422-012665999554")
 		(property "Reference" "R15"
-			(at 88.392 109.982 0)
+			(at 96.012 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22909,7 +22909,7 @@
 			)
 		)
 		(property "Value" "210k"
-			(at 88.392 113.03 0)
+			(at 96.012 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22918,7 +22918,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF2103V:RES_ERJ3EKF2103V"
-			(at 88.138 111.76 90)
+			(at 95.758 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22927,7 +22927,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 111.76 0)
+			(at 93.98 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22936,7 +22936,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 86.36 111.76 0)
+			(at 93.98 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22945,7 +22945,7 @@
 			)
 		)
 		(property "MP" "ERJ3EKF2103V"
-			(at 86.36 111.76 0)
+			(at 93.98 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22954,7 +22954,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 86.36 111.76 0)
+			(at 93.98 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22963,7 +22963,7 @@
 			)
 		)
 		(property "Arrow_Asia-Purchase-URL" ""
-			(at 86.36 111.76 0)
+			(at 93.98 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22971,7 +22971,7 @@
 			)
 		)
 		(property "Arrow_Electronics-Purchase-URL" ""
-			(at 86.36 111.76 0)
+			(at 93.98 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22979,7 +22979,7 @@
 			)
 		)
 		(property "DigiKey-Purchase-URL" ""
-			(at 86.36 111.76 0)
+			(at 93.98 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22987,7 +22987,7 @@
 			)
 		)
 		(property "Mouser-Purchase-URL" ""
-			(at 86.36 111.76 0)
+			(at 93.98 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22995,7 +22995,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 86.36 111.76 0)
+			(at 93.98 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23003,7 +23003,7 @@
 			)
 		)
 		(property "Texas_Instruments-Purchase-URL" ""
-			(at 86.36 111.76 0)
+			(at 93.98 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23027,7 +23027,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 120.65 0)
+		(at 31.75 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23036,7 +23036,7 @@
 		(fields_autoplaced yes)
 		(uuid "a45e380a-fdee-41a9-a4da-9c6c99717e49")
 		(property "Reference" "#PWR060"
-			(at 31.75 127 0)
+			(at 31.75 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23045,7 +23045,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 125.73 0)
+			(at 31.75 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23053,7 +23053,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 120.65 0)
+			(at 31.75 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23062,7 +23062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 120.65 0)
+			(at 31.75 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23071,7 +23071,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 120.65 0)
+			(at 31.75 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23093,7 +23093,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 167.64 0)
+		(at 130.81 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23102,7 +23102,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7dea66b-b4a0-4f29-bbd0-739f88db81b6")
 		(property "Reference" "#PWR054"
-			(at 130.81 173.99 0)
+			(at 130.81 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23111,7 +23111,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 172.72 0)
+			(at 130.81 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23119,7 +23119,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 167.64 0)
+			(at 130.81 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23128,7 +23128,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 167.64 0)
+			(at 130.81 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23137,7 +23137,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 167.64 0)
+			(at 130.81 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23160,7 +23160,7 @@
 	(symbol
 		(lib_name "CL21A475KBQNNNE_4")
 		(lib_id "CL21A475KBQNNNE:CL21A475KBQNNNE")
-		(at 63.5 114.3 90)
+		(at 63.5 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23168,7 +23168,7 @@
 		(dnp no)
 		(uuid "a8b08803-9f03-4184-9be5-fbc5af9d3911")
 		(property "Reference" "C17"
-			(at 57.15 111.506 90)
+			(at 57.15 116.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23177,7 +23177,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 57.15 114.046 90)
+			(at 57.15 119.126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23186,7 +23186,7 @@
 			)
 		)
 		(property "Footprint" "CL21A475KBQNNNE:CAPC2012X140N"
-			(at 63.5 114.3 0)
+			(at 63.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23196,7 +23196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 114.3 0)
+			(at 63.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23205,7 +23205,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 114.3 0)
+			(at 63.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23214,7 +23214,7 @@
 			)
 		)
 		(property "MF" "Samsung Electro-Mechanics"
-			(at 63.5 114.3 0)
+			(at 63.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23224,7 +23224,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            CL21 Series 4.7 uF 50 V ±10 % Tolerance X5R SMT Multilayer Ceramic Capacitor\n                        \n"
-			(at 63.5 114.3 0)
+			(at 63.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23234,7 +23234,7 @@
 			)
 		)
 		(property "Package" "0805 Samsung"
-			(at 63.5 114.3 0)
+			(at 63.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23244,7 +23244,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 63.5 114.3 0)
+			(at 63.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23254,7 +23254,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL21A475KBQNNNE/Samsung/view-part/?ref=snap"
-			(at 63.5 114.3 0)
+			(at 63.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23264,7 +23264,7 @@
 			)
 		)
 		(property "MP" "CL21A475KBQNNNE"
-			(at 63.5 114.3 0)
+			(at 63.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23274,7 +23274,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 63.5 114.3 0)
+			(at 63.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23284,7 +23284,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CL21A475KBQNNNE/Samsung/view-part/?ref=eda"
-			(at 63.5 114.3 0)
+			(at 63.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23294,7 +23294,7 @@
 			)
 		)
 		(property "Arrow_Asia-Purchase-URL" ""
-			(at 63.5 114.3 0)
+			(at 63.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23302,7 +23302,7 @@
 			)
 		)
 		(property "Arrow_Electronics-Purchase-URL" ""
-			(at 63.5 114.3 0)
+			(at 63.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23310,7 +23310,7 @@
 			)
 		)
 		(property "DigiKey-Purchase-URL" ""
-			(at 63.5 114.3 0)
+			(at 63.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23318,7 +23318,7 @@
 			)
 		)
 		(property "Mouser-Purchase-URL" ""
-			(at 63.5 114.3 0)
+			(at 63.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23326,7 +23326,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 63.5 114.3 0)
+			(at 63.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23334,7 +23334,7 @@
 			)
 		)
 		(property "Texas_Instruments-Purchase-URL" ""
-			(at 63.5 114.3 0)
+			(at 63.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24946,7 +24946,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 120.65 0)
+		(at 49.53 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24955,7 +24955,7 @@
 		(fields_autoplaced yes)
 		(uuid "d20330d4-1807-4727-bbd3-1ff4e8b8a6cb")
 		(property "Reference" "#PWR058"
-			(at 49.53 127 0)
+			(at 49.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24964,7 +24964,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 125.73 0)
+			(at 49.53 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24972,7 +24972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 120.65 0)
+			(at 49.53 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24981,7 +24981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 120.65 0)
+			(at 49.53 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24990,7 +24990,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 120.65 0)
+			(at 49.53 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25012,7 +25012,7 @@
 	)
 	(symbol
 		(lib_id "MCP41050-I_SN:MCP41050-I_SN")
-		(at 69.85 157.48 0)
+		(at 69.85 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25021,7 +25021,7 @@
 		(fields_autoplaced yes)
 		(uuid "d20f8bef-4ec5-47d8-8dd2-96669074cc6e")
 		(property "Reference" "U6"
-			(at 69.85 134.62 0)
+			(at 69.85 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25029,7 +25029,7 @@
 			)
 		)
 		(property "Value" "MCP41050-I_SN"
-			(at 69.85 137.16 0)
+			(at 69.85 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25037,7 +25037,7 @@
 			)
 		)
 		(property "Footprint" "MCP41050-I_SN:SOIC127P600X175-8N"
-			(at 69.85 157.48 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25047,7 +25047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 157.48 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25056,7 +25056,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 157.48 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25065,7 +25065,7 @@
 			)
 		)
 		(property "MF" "Microchip Technology"
-			(at 69.85 157.48 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25075,7 +25075,7 @@
 			)
 		)
 		(property "Description_1" "MCP41050-I/SN,Digital Potentiometer 50kOhms 256-Pos Linear Serial-SPI 8-Pin SOIC | Microchip Technology Inc. MCP41050-I/SN"
-			(at 69.85 157.48 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25085,7 +25085,7 @@
 			)
 		)
 		(property "Package" "SOIC-8 Microchip Technology"
-			(at 69.85 157.48 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25095,7 +25095,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 69.85 157.48 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25105,7 +25105,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MCP41050-I/SN/Microchip/view-part/?ref=snap"
-			(at 69.85 157.48 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25115,7 +25115,7 @@
 			)
 		)
 		(property "MP" "MCP41050-I/SN"
-			(at 69.85 157.48 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25125,7 +25125,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 69.85 157.48 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25135,7 +25135,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MCP41050-I/SN/Microchip/view-part/?ref=eda"
-			(at 69.85 157.48 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25145,7 +25145,7 @@
 			)
 		)
 		(property "Arrow_Asia-Purchase-URL" ""
-			(at 69.85 157.48 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25153,7 +25153,7 @@
 			)
 		)
 		(property "Arrow_Electronics-Purchase-URL" ""
-			(at 69.85 157.48 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25161,7 +25161,7 @@
 			)
 		)
 		(property "DigiKey-Purchase-URL" ""
-			(at 69.85 157.48 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25169,7 +25169,7 @@
 			)
 		)
 		(property "Mouser-Purchase-URL" ""
-			(at 69.85 157.48 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25177,7 +25177,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 69.85 157.48 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25185,7 +25185,7 @@
 			)
 		)
 		(property "Texas_Instruments-Purchase-URL" ""
-			(at 69.85 157.48 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26163,7 +26163,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 157.48 137.16 0)
+		(at 157.48 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26171,7 +26171,7 @@
 		(dnp no)
 		(uuid "dc982cf1-8206-4c29-97dc-f6f71e351619")
 		(property "Reference" "C19"
-			(at 150.622 135.89 0)
+			(at 150.622 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26180,7 +26180,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 150.622 138.43 0)
+			(at 150.622 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26189,7 +26189,7 @@
 			)
 		)
 		(property "Footprint" "CL10A226MP8NUNE:CAPC1608X90N"
-			(at 158.4452 140.97 0)
+			(at 158.4452 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26198,7 +26198,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 137.16 0)
+			(at 157.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26207,7 +26207,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 157.48 137.16 0)
+			(at 157.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26216,7 +26216,7 @@
 			)
 		)
 		(property "MP" "CL10A226MP8NUNE"
-			(at 157.48 137.16 0)
+			(at 157.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26225,7 +26225,7 @@
 			)
 		)
 		(property "Package" "0603 Samsung"
-			(at 157.48 137.16 0)
+			(at 157.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26234,7 +26234,7 @@
 			)
 		)
 		(property "Arrow_Asia-Purchase-URL" ""
-			(at 157.48 137.16 0)
+			(at 157.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26242,7 +26242,7 @@
 			)
 		)
 		(property "Arrow_Electronics-Purchase-URL" ""
-			(at 157.48 137.16 0)
+			(at 157.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26250,7 +26250,7 @@
 			)
 		)
 		(property "DigiKey-Purchase-URL" ""
-			(at 157.48 137.16 0)
+			(at 157.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26258,7 +26258,7 @@
 			)
 		)
 		(property "Mouser-Purchase-URL" ""
-			(at 157.48 137.16 0)
+			(at 157.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26266,7 +26266,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 157.48 137.16 0)
+			(at 157.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26274,7 +26274,7 @@
 			)
 		)
 		(property "Texas_Instruments-Purchase-URL" ""
-			(at 157.48 137.16 0)
+			(at 157.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26943,7 +26943,7 @@
 	(symbol
 		(lib_name "CL21A475KBQNNNE_3")
 		(lib_id "CL21A475KBQNNNE:CL21A475KBQNNNE")
-		(at 40.64 114.3 90)
+		(at 40.64 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26951,7 +26951,7 @@
 		(dnp no)
 		(uuid "ea5aba0b-969e-4afe-9c39-a2387fb56e2c")
 		(property "Reference" "C15"
-			(at 34.29 111.506 90)
+			(at 34.29 116.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26960,7 +26960,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 34.29 114.046 90)
+			(at 34.29 119.126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26969,7 +26969,7 @@
 			)
 		)
 		(property "Footprint" "CL21A475KBQNNNE:CAPC2012X140N"
-			(at 40.64 114.3 0)
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26979,7 +26979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 114.3 0)
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26988,7 +26988,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 114.3 0)
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26997,7 +26997,7 @@
 			)
 		)
 		(property "MF" "Samsung Electro-Mechanics"
-			(at 40.64 114.3 0)
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27007,7 +27007,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            CL21 Series 4.7 uF 50 V ±10 % Tolerance X5R SMT Multilayer Ceramic Capacitor\n                        \n"
-			(at 40.64 114.3 0)
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27017,7 +27017,7 @@
 			)
 		)
 		(property "Package" "0805 Samsung"
-			(at 40.64 114.3 0)
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27027,7 +27027,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 40.64 114.3 0)
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27037,7 +27037,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL21A475KBQNNNE/Samsung/view-part/?ref=snap"
-			(at 40.64 114.3 0)
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27047,7 +27047,7 @@
 			)
 		)
 		(property "MP" "CL21A475KBQNNNE"
-			(at 40.64 114.3 0)
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27057,7 +27057,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 40.64 114.3 0)
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27067,7 +27067,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CL21A475KBQNNNE/Samsung/view-part/?ref=eda"
-			(at 40.64 114.3 0)
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27077,7 +27077,7 @@
 			)
 		)
 		(property "Arrow_Asia-Purchase-URL" ""
-			(at 40.64 114.3 0)
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27085,7 +27085,7 @@
 			)
 		)
 		(property "Arrow_Electronics-Purchase-URL" ""
-			(at 40.64 114.3 0)
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27093,7 +27093,7 @@
 			)
 		)
 		(property "DigiKey-Purchase-URL" ""
-			(at 40.64 114.3 0)
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27101,7 +27101,7 @@
 			)
 		)
 		(property "Mouser-Purchase-URL" ""
-			(at 40.64 114.3 0)
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27109,7 +27109,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 40.64 114.3 0)
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27117,7 +27117,7 @@
 			)
 		)
 		(property "Texas_Instruments-Purchase-URL" ""
-			(at 40.64 114.3 0)
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27283,7 +27283,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 138.43 162.56 0)
+		(at 138.43 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27291,7 +27291,7 @@
 		(dnp no)
 		(uuid "eb9123a7-6d1d-4fb8-9839-ae041df240dc")
 		(property "Reference" "C23"
-			(at 131.318 161.036 0)
+			(at 131.318 166.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27300,7 +27300,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 131.318 163.576 0)
+			(at 131.318 168.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27309,7 +27309,7 @@
 			)
 		)
 		(property "Footprint" "CL10A226MP8NUNE:CAPC1608X90N"
-			(at 139.3952 166.37 0)
+			(at 139.3952 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27318,7 +27318,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 162.56 0)
+			(at 138.43 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27327,7 +27327,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 138.43 162.56 0)
+			(at 138.43 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27336,7 +27336,7 @@
 			)
 		)
 		(property "MP" "CL10A226MP8NUNE"
-			(at 138.43 162.56 0)
+			(at 138.43 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27345,7 +27345,7 @@
 			)
 		)
 		(property "Package" "0603 Samsung"
-			(at 138.43 162.56 0)
+			(at 138.43 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27354,7 +27354,7 @@
 			)
 		)
 		(property "Arrow_Asia-Purchase-URL" ""
-			(at 138.43 162.56 0)
+			(at 138.43 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27362,7 +27362,7 @@
 			)
 		)
 		(property "Arrow_Electronics-Purchase-URL" ""
-			(at 138.43 162.56 0)
+			(at 138.43 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27370,7 +27370,7 @@
 			)
 		)
 		(property "DigiKey-Purchase-URL" ""
-			(at 138.43 162.56 0)
+			(at 138.43 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27378,7 +27378,7 @@
 			)
 		)
 		(property "Mouser-Purchase-URL" ""
-			(at 138.43 162.56 0)
+			(at 138.43 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27386,7 +27386,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 138.43 162.56 0)
+			(at 138.43 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27394,7 +27394,7 @@
 			)
 		)
 		(property "Texas_Instruments-Purchase-URL" ""
-			(at 138.43 162.56 0)
+			(at 138.43 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27419,7 +27419,7 @@
 	(symbol
 		(lib_name "CL10B104KC8NNNC_11")
 		(lib_id "CL10B104KC8NNNC:CL10B104KC8NNNC")
-		(at 31.75 114.3 90)
+		(at 31.75 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27427,7 +27427,7 @@
 		(dnp no)
 		(uuid "ebadf473-0370-47e2-bb1c-05bfadb38f9a")
 		(property "Reference" "C14"
-			(at 24.892 111.506 90)
+			(at 24.892 116.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27436,7 +27436,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 24.892 114.046 90)
+			(at 24.892 119.126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27445,7 +27445,7 @@
 			)
 		)
 		(property "Footprint" "CL10B104KC8NNNC:CAPC1608X90N"
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27455,7 +27455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27464,7 +27464,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27473,7 +27473,7 @@
 			)
 		)
 		(property "MF" "Samsung"
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27483,7 +27483,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.9 mm"
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27493,7 +27493,7 @@
 			)
 		)
 		(property "Package" "0603 Samsung"
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27503,7 +27503,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27513,7 +27513,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CL10B104KC8NNNC/Samsung/view-part/?ref=eda"
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27523,7 +27523,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27533,7 +27533,7 @@
 			)
 		)
 		(property "PARTREV" "NA"
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27543,7 +27543,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL10B104KC8NNNC/Samsung/view-part/?ref=snap"
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27553,7 +27553,7 @@
 			)
 		)
 		(property "MP" "CL10B104KC8NNNC"
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27563,7 +27563,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)\n                        \n"
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27573,7 +27573,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27583,7 +27583,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samsung"
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27593,7 +27593,7 @@
 			)
 		)
 		(property "Arrow_Asia-Purchase-URL" ""
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27601,7 +27601,7 @@
 			)
 		)
 		(property "Arrow_Electronics-Purchase-URL" ""
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27609,7 +27609,7 @@
 			)
 		)
 		(property "DigiKey-Purchase-URL" ""
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27617,7 +27617,7 @@
 			)
 		)
 		(property "Mouser-Purchase-URL" ""
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27625,7 +27625,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27633,7 +27633,7 @@
 			)
 		)
 		(property "Texas_Instruments-Purchase-URL" ""
-			(at 31.75 114.3 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27657,7 +27657,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 93.98 162.56 180)
+		(at 93.98 167.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27665,7 +27665,7 @@
 		(dnp no)
 		(uuid "ec031cec-0fb7-4112-9f36-a2ca46b38f98")
 		(property "Reference" "R14"
-			(at 97.79 161.29 0)
+			(at 97.79 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27673,7 +27673,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 97.536 163.576 0)
+			(at 97.536 168.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27681,7 +27681,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF1002V:RES_ERJ3EKF1002V"
-			(at 95.758 162.56 90)
+			(at 95.758 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27690,7 +27690,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 162.56 0)
+			(at 93.98 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27699,7 +27699,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 93.98 162.56 0)
+			(at 93.98 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27708,7 +27708,7 @@
 			)
 		)
 		(property "MP" "ERJ3EKF1002V"
-			(at 93.98 162.56 0)
+			(at 93.98 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27717,7 +27717,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 93.98 162.56 0)
+			(at 93.98 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27726,7 +27726,7 @@
 			)
 		)
 		(property "Arrow_Asia-Purchase-URL" ""
-			(at 93.98 162.56 0)
+			(at 93.98 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27734,7 +27734,7 @@
 			)
 		)
 		(property "Arrow_Electronics-Purchase-URL" ""
-			(at 93.98 162.56 0)
+			(at 93.98 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27742,7 +27742,7 @@
 			)
 		)
 		(property "DigiKey-Purchase-URL" ""
-			(at 93.98 162.56 0)
+			(at 93.98 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27750,7 +27750,7 @@
 			)
 		)
 		(property "Mouser-Purchase-URL" ""
-			(at 93.98 162.56 0)
+			(at 93.98 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27758,7 +27758,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 93.98 162.56 0)
+			(at 93.98 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27766,7 +27766,7 @@
 			)
 		)
 		(property "Texas_Instruments-Purchase-URL" ""
-			(at 93.98 162.56 0)
+			(at 93.98 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28058,7 +28058,7 @@
 	)
 	(symbol
 		(lib_id "MAX5026EUT_T:MAX5026EUT_T")
-		(at 113.03 158.75 0)
+		(at 113.03 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28067,7 +28067,7 @@
 		(fields_autoplaced yes)
 		(uuid "f94c0d0c-91d5-4ca4-971e-044304e55770")
 		(property "Reference" "U4"
-			(at 113.03 140.97 0)
+			(at 113.03 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28075,7 +28075,7 @@
 			)
 		)
 		(property "Value" "MAX5026EUT_T"
-			(at 113.03 143.51 0)
+			(at 113.03 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28083,7 +28083,7 @@
 			)
 		)
 		(property "Footprint" "MAX5026EUT_T:SOT95P280X145-6N"
-			(at 113.03 158.75 0)
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28093,7 +28093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 158.75 0)
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28102,7 +28102,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 158.75 0)
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28111,7 +28111,7 @@
 			)
 		)
 		(property "MF" "Analog Devices"
-			(at 113.03 158.75 0)
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28121,7 +28121,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            500kHz, 36V Output, SOT23, PWM Step-Up DC-DC Converters\n                        \n"
-			(at 113.03 158.75 0)
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28131,7 +28131,7 @@
 			)
 		)
 		(property "Package" "SOT-23-6 Maxim Integrated"
-			(at 113.03 158.75 0)
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28141,7 +28141,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 113.03 158.75 0)
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28151,7 +28151,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX5026EUT+T/Analog+Devices/view-part/?ref=snap"
-			(at 113.03 158.75 0)
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28161,7 +28161,7 @@
 			)
 		)
 		(property "MP" "MAX5026EUT+T"
-			(at 113.03 158.75 0)
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28171,7 +28171,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 113.03 158.75 0)
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28181,7 +28181,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MAX5026EUT+T/Analog+Devices/view-part/?ref=eda"
-			(at 113.03 158.75 0)
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28191,7 +28191,7 @@
 			)
 		)
 		(property "Arrow_Asia-Purchase-URL" ""
-			(at 113.03 158.75 0)
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28199,7 +28199,7 @@
 			)
 		)
 		(property "Arrow_Electronics-Purchase-URL" ""
-			(at 113.03 158.75 0)
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28207,7 +28207,7 @@
 			)
 		)
 		(property "DigiKey-Purchase-URL" ""
-			(at 113.03 158.75 0)
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28215,7 +28215,7 @@
 			)
 		)
 		(property "Mouser-Purchase-URL" ""
-			(at 113.03 158.75 0)
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28223,7 +28223,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 113.03 158.75 0)
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28231,7 +28231,7 @@
 			)
 		)
 		(property "Texas_Instruments-Purchase-URL" ""
-			(at 113.03 158.75 0)
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28335,7 +28335,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 120.65 0)
+		(at 63.5 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28344,7 +28344,7 @@
 		(fields_autoplaced yes)
 		(uuid "fce561ad-a622-4b69-9cdb-2141814b2ae9")
 		(property "Reference" "#PWR057"
-			(at 63.5 127 0)
+			(at 63.5 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28353,7 +28353,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 125.73 0)
+			(at 63.5 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28361,7 +28361,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 120.65 0)
+			(at 63.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28370,7 +28370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 120.65 0)
+			(at 63.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28379,7 +28379,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 120.65 0)
+			(at 63.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28415,7 +28415,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "1929b78d-718a-49ce-a44a-01f5c50b8f35")
-		(property "Sheetname" "SiPM board"
+		(property "Sheetname" "SiPM Board"
 			(at 212.09 86.9184 0)
 			(effects
 				(font
@@ -28424,7 +28424,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sipm_board.kicad_sch"
+		(property "Sheetfile" "modules/SiPM-Board/sipm_board.kicad_sch"
 			(at 212.09 94.5646 0)
 			(effects
 				(font
