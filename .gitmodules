@@ -1,3 +1,6 @@
 [submodule "kicad-libraries/RP_Silicon_KiCad"]
 	path = kicad-libraries/RP_Silicon_KiCad
 	url = https://github.com/HeadBoffin/RP_Silicon_KiCad.git
+[submodule "modules/OGK-SiPM-Board"]
+	path = modules/OGK-SiPM-Board
+	url = https://github.com/vikulin/OGK-SiPM-Board.git
