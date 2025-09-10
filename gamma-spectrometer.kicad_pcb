@@ -8083,7 +8083,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1929b78d-718a-49ce-a44a-01f5c50b8f35/7d9beb71-9c3e-4d46-8b23-e85c0c000d19")
 		(sheetname "/SiPM Board/")
-		(sheetfile "modules/SiPM-Board/sipm_board.kicad_sch")
+		(sheetfile "modules/OGK-SiPM-Board/sipm_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.08 -0.4)
@@ -8807,7 +8807,7 @@
 		)
 		(path "/1929b78d-718a-49ce-a44a-01f5c50b8f35/1acb8ddb-9b94-4fb9-81f7-83879f2c5efc")
 		(sheetname "/SiPM Board/")
-		(sheetfile "modules/SiPM-Board/sipm_board.kicad_sch")
+		(sheetfile "modules/OGK-SiPM-Board/sipm_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.465 0.715)
@@ -9080,7 +9080,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1929b78d-718a-49ce-a44a-01f5c50b8f35/f82fe279-48d7-49db-abcf-f2eb298c130b")
 		(sheetname "/SiPM Board/")
-		(sheetfile "modules/SiPM-Board/sipm_board.kicad_sch")
+		(sheetfile "modules/OGK-SiPM-Board/sipm_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.08 -0.4)
@@ -9500,7 +9500,7 @@
 		)
 		(path "/1929b78d-718a-49ce-a44a-01f5c50b8f35/d5a3c69c-11a0-4669-8765-d8ba780d3ab6")
 		(sheetname "/SiPM Board/")
-		(sheetfile "modules/SiPM-Board/sipm_board.kicad_sch")
+		(sheetfile "modules/OGK-SiPM-Board/sipm_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.465 0.715)
@@ -9902,7 +9902,7 @@
 		)
 		(path "/1929b78d-718a-49ce-a44a-01f5c50b8f35/de577036-7dd5-4ff9-9ccb-bb2e84118092")
 		(sheetname "/SiPM Board/")
-		(sheetfile "modules/SiPM-Board/sipm_board.kicad_sch")
+		(sheetfile "modules/OGK-SiPM-Board/sipm_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.3 1.45)
@@ -13175,7 +13175,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1929b78d-718a-49ce-a44a-01f5c50b8f35/75a1a93e-3610-4585-a18c-d09209c91cca")
 		(sheetname "/SiPM Board/")
-		(sheetfile "modules/SiPM-Board/sipm_board.kicad_sch")
+		(sheetfile "modules/OGK-SiPM-Board/sipm_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.08 -0.4)
@@ -13504,7 +13504,7 @@
 		)
 		(path "/1929b78d-718a-49ce-a44a-01f5c50b8f35/08ccc99a-8517-4e41-909c-e29a4f166495")
 		(sheetname "/SiPM Board/")
-		(sheetfile "modules/SiPM-Board/sipm_board.kicad_sch")
+		(sheetfile "modules/OGK-SiPM-Board/sipm_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.125 -1.45)
@@ -17480,7 +17480,7 @@
 		)
 		(path "/1929b78d-718a-49ce-a44a-01f5c50b8f35/836bf2a8-ddf3-41e2-a6e6-7053d3886a0f")
 		(sheetname "/SiPM Board/")
-		(sheetfile "modules/SiPM-Board/sipm_board.kicad_sch")
+		(sheetfile "modules/OGK-SiPM-Board/sipm_board.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts

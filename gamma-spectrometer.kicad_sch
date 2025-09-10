@@ -28424,7 +28424,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "modules/SiPM-Board/sipm_board.kicad_sch"
+		(property "Sheetfile" "modules/OGK-SiPM-Board/sipm_board.kicad_sch"
 			(at 212.09 94.5646 0)
 			(effects
 				(font

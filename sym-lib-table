@@ -25,5 +25,5 @@
   (lib (name "MCP41050-I_SN")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/MCP41050-I_SN/MCP41050-I_SN.kicad_sym")(options "")(descr ""))
   (lib (name "C1608JB1H224K080AB")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/C1608JB1H224K080AB/C1608JB1H224K080AB.kicad_sym")(options "")(descr ""))
   (lib (name "LM4040AIM3-3_0-T")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/LM4040AIM3-3_0-T/LM4040AIM3-3_0-T.kicad_sym")(options "")(descr ""))
-  (lib (name "MICROFC-60035-SMT-TR1")(type "KiCad")(uri "${KIPRJMOD}/modules/SiPM-Board/kicad-libraries/MICROFC-60035-SMT-TR1/MICROFC-60035-SMT-TR1.kicad_sym")(options "")(descr ""))
+  (lib (name "MICROFC-60035-SMT-TR1")(type "KiCad")(uri "${KIPRJMOD}/modules/OGK-SiPM-Board/kicad-libraries/MICROFC-60035-SMT-TR1/MICROFC-60035-SMT-TR1.kicad_sym")(options "")(descr ""))
 )
