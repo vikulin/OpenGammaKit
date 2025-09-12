@@ -1,0 +1,15 @@
+# Ignore all .lck files
+*.lck
+
+# Ignore all .zip files
+/*.zip
+
+# Ignore autosave files
+/_autosave*
+
+# Ignore cache file
+fp-info-cache
+
+# Exclude backup files
+/*-backup*
+\#auto_saved_files\#
