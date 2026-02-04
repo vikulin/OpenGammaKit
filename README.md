@@ -45,6 +45,12 @@ This helps support the project and ensures high-quality manufacturing.
 
 ---
 
+## 📘Assembly guide, 3D models for enclosure
+
+https://github.com/vikulin/OGK-3D-Models
+
+---
+
 ## 📂 Repository Contents
 
 - `/docs/` – Spectrum([OGK Inspector](https://github.com/vikulin/OGK-Inspector))
